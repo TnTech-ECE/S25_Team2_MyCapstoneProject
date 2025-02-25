@@ -1,16 +1,16 @@
-Formula SAE Electric Car  
+<h1> Formula SAE Electric Car </h1> 
 
-Project Proposal 
+<h2> Project Proposal </h2>
 
  Maddox Cagle, Dylan Caten, Jordan Davis, Marisol Miranda, Mackenzie Raleigh 
 
  
 
-Introduction:  
+<h3>Introduction: </h3> 
 
 This proposal outlines the design and implementation of a new Battery Management System (BMS) for a Formula SAE Electric Car. The BMS shall be a critical component for ensuring performance, safety, and longevity in electric vehicles, particularly in a competitive racing environment. An optimally designed BMS shall manage the state of charge, state of health, temperature control, and cell balancing of the battery pack. This system will significantly enhance the efficiency and safety of the electric car, rendering it a viable contender in the Formula SAE race in the upcoming year. This report shall present the design methodology, specifications, success criteria, resources required, and project schedule. In addition, it will also examine ethical and social concerns involving the design and deployment of the BMS and its impact on the broader customer- Tennessee Technological University’s Electrical and Computer Engineering (ECE) Department.  
 
-Problem Formulation:  
+<h3>Problem Formulation: </h3> 
 
 The Formula SAE Electric Competition requires teams to design and build an electric race car that meets high standards of performance, endurance, and safety specifications. A critical component of this system is the battery pack, which must supply energy for high-speed operation while maintaining durability throughout the competition. Safety shall be paramount to protect the driver, team, and university facilities from risks such as overheating, short circuits, battery failure, or electric fires.  
 
@@ -18,7 +18,7 @@ Off-the-shelf batteries solutions are either too expensive, too heavy, or lack t
 
 Achieving this objective requires a multi-disciplinary engineering effort that optimizes performance, minimizes weight, ensures economic feasibility, and meets safety requirements. The team shall develop innovative solutions to replicate, improve, or replace the current battery system.  By overcoming these challenges, the team aims to develop a custom battery solution that maximizes the car's competitive edge while ensuring safety and economic feasibility, ultimately enabling a successful entry in the SAE Electric Competition. 
 
-Background 
+<h3>Background </h3>
 
 Electric vehicles (EVs) face significant challenges related to battery performance and safety. The large battery packs used in these vehicles have inherent limitations, including the potential risk of combustion, which can result in fires that are difficult to extinguish. 
 
@@ -26,9 +26,9 @@ A key requirement in the Formula SAE Electric competition is the battery dischar
 
 The Spring 2025 capstone team is currently working on adapting Zero Motorcycle components for use in a Formula SAE race car. However, they are encountering significant challenges, particularly with the battery and BMS. As a result, this document primarily focuses on an alternative to this preexisting solution. 
 
-Specifications and Constraints  
+<h3>Specifications and Constraints  </h3>
 
-Specifications 
+<h4>Specifications </h4>
 
 The project specifications shall be defined by stakeholder requirements to ensure optimal performance and competitiveness. If any specification proves unattainable, discussions and negotiations with stakeholders shall be necessary to identify viable alternatives. The primary requirements include: 
 
@@ -42,7 +42,7 @@ The battery shall have a total cost not exceeding $10,000.
 
 All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure. 
 
-Constraints 
+<h4>Constraints </h4>
 
 The project shall adhere to external constraints, including: 
 
@@ -56,7 +56,7 @@ The constraints explicitly model specific degradation mechanisms, such as lithiu
 
  
 
-Survey of Existing Solutions: 
+<h3>Survey of Existing Solutions: </h3>
 
 Currently, various methods exist for implementing a battery management system. The Zero Motorcycle battery includes a proprietary BMS but integrating it into the current vehicle shall require modifications. Additionally, much of the motorcycle’s original system is no longer available, complicating the adaptation process.  
 
@@ -66,7 +66,7 @@ Alternative options include purchasing pre-built batteries from major manufactur
 
  
 
-Measure of Success:  
+<h3>Measure of Success:</h3>  
 
 The project’s success shall be evaluated based on the following criteria: 
 
@@ -78,31 +78,31 @@ Compliance with all safety regulations and successful mitigation of potential ha
 
 Completion of a fully functional and testable BMS for the Formula SAE Car.  
 
-Resources:  
+<h3>Resources:  </h3>
 
-Budget 
+<h4>Budget </h4>
 
 The estimated cost to build the battery is approximately $8,550, while the E-bike itself cost around $10,000. However, due to the resource constraints, the project team shall adhere to a strict budget, minimizing excess material costs and maximizing the use of available resources. The team shall track expenditures carefully to maintain cost efficiency. 
 
-Item/Material 
+<h4>Item/Material </h4>
 
-Quantity 
+<h4>Quantity </h4>
 
-Cost(USD) 
+<h4>Cost(USD) </h4> 
 
-Battery Construction Components  
+<h4>Battery Construction Components </h4> 
 
 <1 
 
 >~$7,050 
 
-BMS Components 
+<h4>BMS Components </h4>
 
 1 
 
 >~$1,000 
 
-Wire and Connectors 
+<h4>Wire and Connectors </h4>
 
 <1 
 
@@ -110,7 +110,7 @@ Wire and Connectors
 
  
 
-Personnel 
+<h3>Personnel </h3>
 
 The team comprises five dedicated members who shall work extensively to bring the project as close to completion as possible: 
 
@@ -134,7 +134,7 @@ Dr. Andy Pardue – Supervisor of the collaborating Mechanical Engineering Team
 
  
 
-Timeline 
+<h3>Timeline </h3> 
 
 The project shall run until December 2025. The primary objectives include recreating the E-bike battery from scratch, improving upon the existing system, and developing a functional BMS. If the team can achieve a working BMS and prepare the car for operation, the project goals shall be considered accomplished.   
 
@@ -166,7 +166,7 @@ December: Project is finished. Car is ready to drive. BMS is constructed. Final 
 
  
 
-Specific implication:  
+<h3>Specific implication: </h3>  
 
 The implementation of a BMS will provide significant benefits to the Formula SAE Electric Car team, directly enhancing performance, safety, and efficiency to improve race results. By optimizing energy distribution and balancing battery cells, the BMS will ensure that each cell operates within its optimal parameters, meeting both efficiency and regulatory requirements. This leads to better energy utilization, allowing the car to maximize power output and driving range. Additionally, the vehicle shall maintain consistent performance throughout the race, even under varying power demands such as acceleration and cornering. 
 
@@ -182,7 +182,7 @@ To address these concerns, engineers shall work with policymakers to enforce str
 
 Engineers have a responsibility to develop sustainable solutions that prioritize ethical sourcing, minimize environmental harm, and advocate for fair labor practices. The team shall ensure safe handling, storage, and disposal of battery components while remaining aware of broader sustainability issues. 
 
-References 
+<h3>References</h3> 
 
 [1]“2025 Formula SAE Rules V.1 are now available,” Fsaeonline.com, 2024. https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=379e4a8a-80a2-4a74-87c2-6f2de4212270 
 
@@ -206,7 +206,7 @@ References
 
 [11] Formula SAE Rules 2025, Formula SAE, 2025 
 
-‌Statement of Contributions 
+<h3>‌Statement of Contributions </h3>
 
 Each team member will document their individual contributions to the project proposal. This ensures transparency and accountability, certifying that all team members have made meaningful contributions to the report and project development.  
 
