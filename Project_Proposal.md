@@ -122,7 +122,7 @@ Jordan Davis – AutoCAD, SolidWorks, LTSpice, Soldering, Digital Logic
 
 Marisol Miranda – C++, C, LTSpice, MATLAB, VHDL, Assembly, AutoCAD 
 
-Mackenzie Raleigh 
+Mackenzie Raleigh – C++, Python, C, LTSpice
 
 The team shall collaborate with the ECE Capstone II group which has been working on this project since Fall 2024 and a newly assigned ME Team. This collaboration shall facilitate knowledge transfer and enhance project efficiency.  Additionally, having a defined customer, supervisors, and instructor shall allow the team to focus on the project’s objectives from the outset. 
 
