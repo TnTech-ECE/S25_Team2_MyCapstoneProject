@@ -32,23 +32,23 @@ The Spring 2025 capstone team is currently working on adapting Zero Motorcycle c
 
 The project specifications shall be defined by stakeholder requirements to ensure optimal performance and competitiveness. If any specification proves unattainable, discussions and negotiations with stakeholders shall be necessary to identify viable alternatives. The primary requirements include: 
 
-[1] The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing. 
+* The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing. 
 
-[2] The battery shall safely discharge and recharge under appropriate operating conditions without the risk of combustion. 
+* The battery shall safely discharge and recharge under appropriate operating conditions without the risk of combustion. 
 
-[3] This project shall employ a strategic engineering approach that optimally balances performance, weight, safety, and cost efficiency. 
+* This project shall employ a strategic engineering approach that optimally balances performance, weight, safety, and cost efficiency. 
 
-[4] The battery shall have a total cost not exceeding $10,000. 
+* The battery shall have a total cost not exceeding $10,000. 
 
-[5] All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure. 
+* All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure. 
 
 <h4>Constraints </h4>
 
-[1] The project shall adhere to external constraints, including: 
+* The project shall adhere to external constraints, including: 
 
-[2] The battery management system shall display the voltage levels and other relevant information as given by the Formula SAE rulebook and shut down the operation of the battery to prevent fires when those conditions are not met.[11] 
+* The battery management system shall display the voltage levels and other relevant information as given by the Formula SAE rulebook and shut down the operation of the battery to prevent fires when those conditions are not met.[11] 
 
-[3] The battery must be covered in non-flammable material.[11] 
+* The battery must be covered in non-flammable material.[11] 
 
 <h4> Economic feasibility and resource limitations.</h4>  
 
@@ -70,13 +70,13 @@ Alternative options include purchasing pre-built batteries from major manufactur
 
 The project’s success shall be evaluated based on the following criteria: 
 
-[1] Development of a BMS that effectively monitors and regulates battery performance. 
+* Development of a BMS that effectively monitors and regulates battery performance. 
 
-[2] Achievement of a power-to-weight ratio that meets or exceeds competition requirements. 
+* Achievement of a power-to-weight ratio that meets or exceeds competition requirements. 
 
-[3] Compliance with all safety regulations and successful mitigation of potential hazards. 
+* Compliance with all safety regulations and successful mitigation of potential hazards. 
 
-[4] Completion of a fully functional and testable BMS for the Formula SAE Car.  
+* Completion of a fully functional and testable BMS for the Formula SAE Car.  
 
 <h3>Resources:  </h3>
 
