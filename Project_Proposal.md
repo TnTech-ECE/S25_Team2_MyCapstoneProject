@@ -89,7 +89,7 @@ The estimated cost to build the battery is approximately $8,550, while the E-bik
 |Battery Construction Components| <1 | >~$7,050 |
 |BMS Components| 1 | >~$1,000| 
 |Wire and Connectors| <1 |~$500|
-|Total|------|~$8,550|
+|Total| |~$8,550|
 
  
 
