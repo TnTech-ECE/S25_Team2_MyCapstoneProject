@@ -32,25 +32,25 @@ The Spring 2025 capstone team is currently working on adapting Zero Motorcycle c
 
 The project specifications shall be defined by stakeholder requirements to ensure optimal performance and competitiveness. If any specification proves unattainable, discussions and negotiations with stakeholders shall be necessary to identify viable alternatives. The primary requirements include: 
 
-The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing. 
+[1] The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing. 
 
-The battery shall safely discharge and recharge under appropriate operating conditions without the risk of combustion. 
+[2] The battery shall safely discharge and recharge under appropriate operating conditions without the risk of combustion. 
 
-This project shall employ a strategic engineering approach that optimally balances performance, weight, safety, and cost efficiency. 
+[3] This project shall employ a strategic engineering approach that optimally balances performance, weight, safety, and cost efficiency. 
 
-The battery shall have a total cost not exceeding $10,000. 
+[4] The battery shall have a total cost not exceeding $10,000. 
 
-All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure. 
+[5] All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure. 
 
 <h4>Constraints </h4>
 
-The project shall adhere to external constraints, including: 
+[1] The project shall adhere to external constraints, including: 
 
-The battery management system shall display the voltage levels and other relevant information as given by the Formula SAE rulebook and shut down the operation of the battery to prevent fires when those conditions are not met.[11] 
+[2] The battery management system shall display the voltage levels and other relevant information as given by the Formula SAE rulebook and shut down the operation of the battery to prevent fires when those conditions are not met.[11] 
 
-The battery must be covered in non-flammable material.[11] 
+[3] The battery must be covered in non-flammable material.[11] 
 
-Economic feasibility and resource limitations.  
+<h4> Economic feasibility and resource limitations.</h4>  
 
 The constraints explicitly model specific degradation mechanisms, such as lithium plating, lithium depletion, overheating, and stress fracture. A critical challenge is that these states evolve according to a systems of nonlinear partial differential equations and are not physically measurable [10]. This project shall address this challenge by utilizing the reference governor concept, demonstrating how electrochemical model state information can be leveraged to ensure safe operation while enhancing energy capacity, power, and charge times in Li-ion batteries [10]. 
 
@@ -70,13 +70,13 @@ Alternative options include purchasing pre-built batteries from major manufactur
 
 The project’s success shall be evaluated based on the following criteria: 
 
-Development of a BMS that effectively monitors and regulates battery performance. 
+[1] Development of a BMS that effectively monitors and regulates battery performance. 
 
-Achievement of a power-to-weight ratio that meets or exceeds competition requirements. 
+[2] Achievement of a power-to-weight ratio that meets or exceeds competition requirements. 
 
-Compliance with all safety regulations and successful mitigation of potential hazards. 
+[3] Compliance with all safety regulations and successful mitigation of potential hazards. 
 
-Completion of a fully functional and testable BMS for the Formula SAE Car.  
+[4] Completion of a fully functional and testable BMS for the Formula SAE Car.  
 
 <h3>Resources:  </h3>
 
