@@ -84,30 +84,12 @@ Completion of a fully functional and testable BMS for the Formula SAE Car.
 
 The estimated cost to build the battery is approximately $8,550, while the E-bike itself cost around $10,000. However, due to the resource constraints, the project team shall adhere to a strict budget, minimizing excess material costs and maximizing the use of available resources. The team shall track expenditures carefully to maintain cost efficiency. 
 
-<h4>Item/Material </h4>
-
-<h4>Quantity </h4>
-
-<h4>Cost(USD) </h4> 
-
-<h4>Battery Construction Components </h4> 
-
-<1 
-
->~$7,050 
-
-<h4>BMS Components </h4>
-
-1 
-
->~$1,000 
-
-<h4>Wire and Connectors </h4>
-
-<1 
-
-~$500 
-
+|Item/Material | Quantity | Cost(USD) | 
+|--------------|----------|-----------|
+|Battery Construction Components| <1 | >~$7,050 |
+|BMS Components| 1 | >~$1,000| 
+|Wire and Connectors| <1 |~$500|
+|Total| |~$8,550|
  
 
 <h3>Personnel </h3>
