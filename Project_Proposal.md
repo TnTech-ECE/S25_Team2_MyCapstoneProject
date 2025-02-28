@@ -157,7 +157,7 @@ Safety is a critical factor in a competitive racing environment. The BMS will co
 
 The BMS shall also enhance energy efficiency by actively managing charge and discharge cycles, ensuring that the car maintains peak power throughout the race. Furthermore, it will extend the battery pack’s lifespan, reducing the frequency and cost of replacements-an important financial consideration for the team. Real-time telemetry provided by the BMS will enable the team to analyze battery performance, optimize energy consumption, and make data-driven adjustments for improved efficiency. The system’s ability to fine-tune performance settings and conserve battery power when necessary   
 
-Broader Implications, Ethics, and Responsibility as Engineers:  
+<h3>Broader Implications, Ethics, and Responsibility as Engineers:  </h3>
 
 The project shall consider the broader ethical and environmental implications of battery-powered electric vehicles. While EVs reduce greenhouse gas emissions, battery production and disposal raise ethical concerns, including environmental degradation, labor exploitation, and improper waste management. 
 
