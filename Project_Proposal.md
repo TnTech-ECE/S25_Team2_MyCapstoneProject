@@ -82,14 +82,15 @@ The project’s success shall be evaluated based on the following criteria:
 
 <h4>Budget </h4>
 
-The estimated cost to build the battery is approximately $8,550, while the E-bike itself cost around $10,000. However, due to the resource constraints, the project team shall adhere to a strict budget, minimizing excess material costs and maximizing the use of available resources. The team shall track expenditures carefully to maintain cost efficiency. 
+The estimated cost to build the battery is approximately $4,676, while the E-bike itself cost around $10,000. However, due to the resource constraints, the project team shall adhere to a strict budget, minimizing excess material costs and maximizing the use of available resources. The team shall track expenditures carefully to maintain cost efficiency. 
 
 |Item/Material | Quantity | Cost(USD) | 
 |--------------|----------|-----------|
-|Battery Construction Components| <1 | >~$7,050 |
+|Lithium Battery Total| 361 | >~$2,176|
+|Battery Construction Components| ~ |>~1,000|
 |BMS Components| 1 | >~$1,000| 
 |Wire and Connectors| <1 |~$500|
-|Total| |~$8,550|
+|Total| |~$4,676|
  
 
 <h3>Personnel </h3>
@@ -136,7 +137,7 @@ March: Design of project continues. Timeline begins to be put in place for next 
 
 April: Begin to work thoroughly along side graduating group to pick up where they left off. 
 
-May: Documentation and project design is put completely in place. Everything is developed as much as possible for manufacturing in the fall. A jump start on buying parts for the fall is a goal for our team. We want to use our time as efficiently as possible. 
+May: Documentation and project design is put completely in place. Everything is developed as much as possible for manufacturing in the fall. A jump start on buying parts for the fall is a goal for our team. Time will need used as efficiently as possible. 
 
 August: Project is picked up for build to begin. Components are ordered as much in advance as possible. 
 
