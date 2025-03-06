@@ -145,7 +145,7 @@ September – December: Build and design come together to create our project.
 
 December: Project is finished. Car is ready to drive. BMS is constructed. Final presentation is given. 
 
-<img src= "/images/projectproposalgantt2.PNG" witdth="4500" height="700">
+<img src= "/images/projectproposalgantt3.PNG" witdth="4500" height="700">
  
 
  
