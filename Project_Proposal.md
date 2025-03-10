@@ -39,14 +39,14 @@ The project specifications shall be defined by stakeholder requirements to ensur
 
 * This project shall employ a strategic engineering approach that optimally balances performance, weight, safety, and cost efficiency. 
 
-* The battery shall have a total cost not exceeding $10,000. 
+* The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
 
 * All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure.
 * ----All electrical components, including accumulator cells, shall be sheilded from exposure to water.
 
 <h4>Constraints </h4>
 
-* The project shall adhere to external constraints, including: 
+The project shall adhere to external constraints, including: 
 
 * The battery management system shall display the voltage levels and other relevant information as given by the Formula SAE rulebook and shut down the operation of the battery to prevent fires when those conditions are not met.[11] 
 
