@@ -128,7 +128,12 @@ You have already estimated the resources needed to complete the solution. Now, l
 
 Develop a budget proposal with justifications for expenses associated with each subsystem. Note that the total of this budget proposal can also serve as a specification for each subsystem. After creating the budgets for individual subsystems, merge them to create a comprehensive budget for the entire solution. 
 
- 
+ |Item/Material | Quantity | Cost(USD) | 
+|--------------|----------|-----------|
+|Battery Construction Components| <1 | >~$7,050 |
+|BMS Components| 1 | >~$1,000| 
+|Wire and Connectors| <1 |~$500|
+|Total| |~$8,550|
 
 <h2>Division of Labor </h2>
 
