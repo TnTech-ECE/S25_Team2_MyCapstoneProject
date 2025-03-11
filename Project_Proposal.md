@@ -33,24 +33,21 @@ The Spring 2025 capstone team is currently working on adapting Zero Motorcycle c
 The project specifications shall be defined by stakeholder requirements to ensure optimal performance and competitiveness. If any specification proves unattainable, discussions and negotiations with stakeholders shall be necessary to identify viable alternatives. The primary requirements include: 
 
 * The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing. 
-
-* The battery shall safely discharge and recharge under appropriate operating conditions without the risk of combustion.
   
 * The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion.
 
 * The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
-
-* All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure.
   
 * All electrical components, including accumulator cells, shall be sheilded from exposure to water.
+
+* The battery management system shall display the voltage levels and other relevant information as given by the Formula SAE rulebook and shut down the operation of the battery to prevent fires when those conditions are not met.[11] 
+
+* The battery must be covered in non-flammable material.[11] 
 
 <h4>Constraints </h4>
 
 The project shall adhere to external constraints, including: 
 
-* The battery management system shall display the voltage levels and other relevant information as given by the Formula SAE rulebook and shut down the operation of the battery to prevent fires when those conditions are not met.[11] 
-
-* The battery must be covered in non-flammable material.[11] 
 
 <h4> Economic feasibility and resource limitations.</h4>  
 
