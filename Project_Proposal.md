@@ -46,9 +46,41 @@ The project specifications shall be defined by stakeholder requirements to ensur
 
 <h4>Constraints </h4>
 
-The project shall adhere to external constraints, including: 
+Electric vehicles (EVs) and their battery systems are subject to various regulatory, technical, and safety constraints. These constraints are designed to ensure the safety, reliability, and environmental sustainability of EVs. Key constraints include: 
 
-
+1. Safety Regulations
+ * Thermal Runaway Protection: Regulations require that EV battery management systems (BMS) prevent overheating and 
+   thermal runaway (e.g., UN 38.3, SAE J2929).
+ * Crash Safety: Batteries must withstand impact forces without causing fires or leaks (e.g., FMVSS 305, UNECE R100).
+ * Ingress Protection (IP Rating): Ensures resistance to dust and water exposure, especially for off-road and harsh 
+   environmental conditions (e.g., IEC 60529).
+ * Overcurrent and Overvoltage Protection: Prevents dangerous conditions caused by short circuits or voltage spikes.
+   
+2. Performance Standards
+ * State of Charge (SoC) & State of Health (SoH) Monitoring: Mandated by organizations like the Society of Automotive 
+   Engineers (SAE J1939, ISO 15118).
+ * Cycle Life & Aging Constraints: Batteries must maintain a certain percentage of capacity over a specified number of 
+   charge/discharge cycles.
+ * Charging Time Requirements: Regulations push for fast-charging capabilities while ensuring thermal and electrical 
+   safety.
+   
+3. Environmental & Recycling Regulations
+ * Battery Disposal & Recycling: Compliance with laws like the EU Battery Directive (2006/66/EC) and the U.S. Battery Act 
+   (42 U.S.C. § 14301).
+ * Toxic Material Restrictions: Limits on heavy metals such as lead, cadmium, and mercury in battery production.
+ * Carbon Footprint & Lifecycle Assessment: Regulations to minimize CO₂ emissions associated with battery production 
+   (e.g., EU's CO₂ emission standards for cars).
+   
+4. Energy Efficiency & Range Constraints
+ * Minimum Energy Density Requirements: Ensures that EV batteries provide sufficient range per charge.
+ * Efficiency Standards: EVs must meet minimum energy consumption limits per kilometer driven (e.g., U.S. EPA fuel economy 
+   ratings for EVs).
+   
+5. Charging & Grid Integration
+ * Charging Standardization: Regulations mandate the use of standardized connectors and protocols (e.g., CCS, CHAdeMO, 
+   GB/T, ISO 15118).
+ * Grid Compatibility: Vehicle-to-grid (V2G) compliance ensures EVs can safely interact with power grids.
+  
 <h4> Economic feasibility and resource limitations.</h4>  
 
 The constraints explicitly model specific degradation mechanisms, such as lithium plating, lithium depletion, overheating, and stress fracture. A critical challenge is that these states evolve according to a systems of nonlinear partial differential equations and are not physically measurable [10]. This project shall address this challenge by utilizing the reference governor concept, demonstrating how electrochemical model state information can be leveraged to ensure safe operation while enhancing energy capacity, power, and charge times in Li-ion batteries [10]. 
