@@ -34,55 +34,53 @@ The project specifications shall be defined by stakeholder requirements to ensur
 
 * The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing namely a maximum energy capacity of 7.2 kWh with a nominal energy capacity of 6.8 kWh, a nominal voltage of 102 V, a maximum cell discharge of 10 C, a maximum cell discharge temp of 60 degrees C, a maximum charge temperature of 50 degrees C, a minimum charge temperature of 0 degrees C, and a weight of 81 lbs. [12]
 
-Battery (accumulator) [11]
+Battery (accumulator) shall: [11]
 
--design of the battery shall be documented in the SES  F.10.1.2 [11]
+- design of the battery shall be documented in the SES  F.10.1.2 [11]
 
--shall attach to the vehicle. [11]
+- shall attach to the vehicle. [11]
 
--liquid coolant shall not touch the cells of the accumulator T.5.4.3 [11]
+- liquid coolant shall not touch the cells of the accumulator T.5.4.3 [11]
 
--the hot (ungrounded) terminal shall be insulated T.9.2.3 [11]
+- the hot (ungrounded) terminal shall be insulated T.9.2.3 [11]
 
--the battery pack shall be made out of sturdy, NON-Flammable material T.9.2.5 [11]
+- the battery pack shall be made out of sturdy, NON-Flammable material T.9.2.5 [11]
 
--shall have documentation proving it meets the rules requirements. T.9.2.6 [11]
+- shall have documentation proving it meets the rules requirements. T.9.2.6 [11]
 
--an energy meter will be provided at the event, the maximum power shall not exceed 80 kW  [11]
+- an energy meter will be provided at the event, the maximum power shall not exceed 80 kW EV 3.3.1 [11]
 
-EV 3.3.1 [11]
+- maximum voltage between any two points shall not exceed 600 V DC. EV 3.3.2 [11]
 
--maximum voltage between any two points shall not exceed 600 V DC. EV 3.3.2 [11]
+- shall be connected to a motor controller, no direct connections between the battery and motor is allowed. EV 4.2 [11]
 
--shall be connected to a motor controller, no direct connections between the battery and motor is allowed. EV 4.2 [11]
+- shall be removable from the vehicle while still being rules compliant. EV.4.3.2 [11]
 
--shall be removable from the vehicle while still being rules compliant. EV.4.3.2 [11]
-
--shall be closed at all times without the need to install additional protective covers. EV.4.3.3 [11]
+- shall be closed at all times without the need to install additional protective covers. EV.4.3.3 [11]
 
 The container may contain holes, but only the wiring harness, ventilation, fasteners, and coolant fluid may pass through those holes. EV.4.3.4 a [11]
 
--shall be transported on a handcart. EV.4.10.1 [11]
+- shall be transported on a handcart. EV.4.10.1 [11]
 
 Each segment of the accumulator may have [11]
 
--a maximum voltage of 120 V DC.  [11]
+- a maximum voltage of 120 V DC.  [11]
 
--energy of 6MJ maximum –figured by multiplying the maximum stack voltage with the nominal capacity of the cells used. [11]
+- energy of 6MJ maximum –figured by multiplying the maximum stack voltage with the nominal capacity of the cells used. [11]
 
--a mass of 12 kg maximum. [11]
+- a mass of 12 kg maximum. [11]
 
--the poles shall be insulated from the inner wall of the container with an insulating material rated for the maximum voltage of the tractive system voltage. EV.5.2.2 a [11]
+- the poles shall be insulated from the inner wall of the container with an insulating material rated for the maximum voltage of the tractive system voltage. EV.5.2.2 a [11]
 
--any penetrations of the container shall have protection against puncturing the insulating barrier. EV.5.2.2 c [11]
+- any penetrations of the container shall have protection against puncturing the insulating barrier. EV.5.2.2 c [11]
 
--the outer container shall be connected to ground through a low resistance. EV.5.2.2 b [11]
+- the outer container shall be connected to ground through a low resistance. EV.5.2.2 b [11]
 
--each accumulator segment shall be electrically isolated from each other and on top of the segments to prevent arcing. EV.5.2.3 [11]
+- each accumulator segment shall be electrically isolated from each other and on top of the segments to prevent arcing. EV.5.2.3 [11]
 
 EV.4.3.8 Each Accumulator Container shall be labelled with the: a. School Name and Vehicle Number b. Symbol specified in ISO 7010-W012 (triangle with black lightning bolt on yellow background) with: • Triangle side length of 100 mm minimum • Visibility from all angles, including when the lid is removed c. Text “Always Energized” d. Text “High Voltage” if the voltage meets T.9.1.1 [11]
 
--All wires in the accumulator shall be rated for the maximum voltage in the tractive system. EV.5.2.5 [11]
+- All wires in the accumulator shall be rated for the maximum voltage in the tractive system. EV.5.2.5 [11]
 
 EV.5.3.2 -Maintenance Plugs shall:  [11]
 
@@ -175,7 +173,7 @@ EV.6.1.3 Tractive System components and Accumulator Containers shall be protecte
 
 Battery management system BMS [11]
 
--Prevents the maximum current draw from accumulator T.9.2.2 [11]
+- Prevents the maximum current draw from accumulator T.9.2.2 [11]
 
 EV.7.3 Battery Management System - BMS  [11]
 
@@ -462,6 +460,7 @@ Engineers have a responsibility to develop sustainable solutions that prioritize
 [10] S. J. Moura, N. A. Chaturvedi, and M. Krstic, “Constraint management in Li-ion batteries: A modified reference governor approach,” American Control Conference, vol. 1, pp. 5332–5337, Jun. 2013, doi: https://doi.org/10.1109/acc.2013.6580670. 
 
 [11] Formula SAE Rules 2025, Formula SAE, 2025 
+
 [12] "Zero Motors Cypher 2 Powertrain Datasheet," Source.[Online] Available: https://zero-cms-disco.cdn.prismic.io/zero-cms-disco/372e4e04-53f3-4f30-9bf2-7e3e5fc1a901_powertrain-data-sheet.pdf
 
 <h3>‌Statement of Contributions </h3>
