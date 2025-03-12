@@ -81,10 +81,9 @@ The project specifications shall be defined by stakeholder requirements to ensur
 
 5.) EV.4.3.8 Each Accumulator Container shall be labelled with the: 
  - School Name and Vehicle Number
- - Symbol specified in ISO 7010-W012 (triangle with black lightning bolt on yellow background)
- - with:
-   a.) Triangle side length of 100 mm minimum
-   b.) Visibility from all angles, including when the lid is removed
+ - Symbol specified in ISO 7010-W012 (triangle with black lightning bolt on yellow background) with:
+    a.) Triangle side length of 100 mm minimum
+    b.) Visibility from all angles, including when the lid is removed
  - Text “Always Energized”
  - Text “High Voltage” if the voltage meets T.9.1.1 [11]
  - All wires in the accumulator shall be rated for the maximum voltage in the tractive system. EV.5.2.5 [11]
