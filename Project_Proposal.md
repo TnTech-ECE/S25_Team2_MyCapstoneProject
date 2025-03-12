@@ -33,17 +33,18 @@ The Spring 2025 capstone team is currently working on adapting Zero Motorcycle c
 The project specifications shall be defined by stakeholder requirements to ensure optimal performance and competitiveness. If any specification proves unattainable, discussions and negotiations with stakeholders shall be necessary to identify viable alternatives. The primary requirements include: 
 
 * The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing namely a maximum energy capacity of 7.2 kWh with a nominal energy capacity of 6.8 kWh, a nominal voltage of 102 V, a maximum cell discharge of 10 C, a maximum cell discharge temp of 60 degrees C, a maximum charge temperature of 50 degrees C, a minimum charge temperature of 0 degrees C, and a weight of 81 lbs. [12]
-* Battery(accumulator) [11]
+
+Battery (accumulator) [11]
 
 -design of the battery shall be documented in the SES  F.10.1.2 [11]
 
--shall attach to the bike. [11]
+-shall attach to the vehicle. [11]
 
 -liquid coolant shall not touch the cells of the accumulator T.5.4.3 [11]
 
 -the hot (ungrounded) terminal shall be insulated T.9.2.3 [11]
 
--The battery pack shall be made out of sturdy, NON-Flammable material T.9.2.5 [11]
+-the battery pack shall be made out of sturdy, NON-Flammable material T.9.2.5 [11]
 
 -shall have documentation proving it meets the rules requirements. T.9.2.6 [11]
 
@@ -55,13 +56,13 @@ EV 3.3.1 [11]
 
 -shall be connected to a motor controller, no direct connections between the battery and motor is allowed. EV 4.2 [11]
 
-Shall be removable from the vehicle while still being rules compliant. EV.4.3.2 [11]
+-shall be removable from the vehicle while still being rules compliant. EV.4.3.2 [11]
 
-Shall be closed at all times without the need to install additional protective covers. EV.4.3.3 [11]
+-shall be closed at all times without the need to install additional protective covers. EV.4.3.3 [11]
 
 The container may contain holes, but only the wiring harness, ventilation, fasteners, and coolant fluid may pass through those holes. EV.4.3.4 a [11]
 
-Shall be transported on a handcart. EV.4.10.1 [11]
+-shall be transported on a handcart. EV.4.10.1 [11]
 
 Each segment of the accumulator may have [11]
 
@@ -112,27 +113,11 @@ EV.5.4.4 The Isolation Relays and any fuses shall be separated from the rest of 
 
 EV.5.5 Manual Service Disconnect - MSD A Manual Service Disconnect (MSD) shall be included to quickly disconnect one or the two poles of the Accumulator EV.11.3.2 [11]
 
- EV.5.5.1 The Manual Service Disconnect (MSD) shall be:  [11]
-
-a. A directly accessible element, fuse or connector that will visually show disconnected  [11]
-
-b. More than 350 mm from the ground  [11]
-
-c. Easily visible when standing behind the vehicle  [11]
-
-d. Operable in 10 seconds or less by an untrained person  [11]
-
-e. Operable without removing any bodywork or obstruction or using tools . Directly operated. Remote operation through a long handle, rope or wire is not acceptable.  [11]
-
-g. Clearly marked with "MSD"  [11]
-
 EV.5.5.2 The Energy Meter shall not be used as the Manual Service Disconnect (MSD)  [11]
 
 EV.5.5.3 An Interlock EV.7.8 shall Open the Shutdown Circuit EV.7.2.2 when the MSD is removed [11] 
 
 EV.5.5.4 A dummy connector or similar may be used to restore isolation to meet EV.6.1. [11]
-
- 
 
 EV.5.6 Precharge and Discharge Circuits  [11]
 
@@ -292,7 +277,8 @@ EV.7.5.6 Multiple cells may be monitored with one temperature sensor, if EV.7.5 
 
  The isolation shall consider GLV/TS isolation as well as common mode voltages between sense locations. [11]
   
-* The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion. 
+* The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion and otherwise be disconnected.
+* The battery shall disconnect based on the means of abnormalities: high temperature, high current, high voltage. 
 
 * The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
   
