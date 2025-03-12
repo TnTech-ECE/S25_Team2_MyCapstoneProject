@@ -309,7 +309,6 @@ Electric vehicles (EVs) and their battery systems are subject to various regulat
   * The battery shall comply with EU Battery Directive (2006/66/EC) and the U.S. Battery Act (42 U.S.C. § 14301) for 
     disposal and recycling.
   * The battery shall not contain restricted heavy metals such as lead, cadmium, and mercury.
-  * The battery shall meet carbon footprint regulations by adhering to EU CO₂ emission standards for battery production.
 
 <h3>Survey of Existing Solutions: </h3>
 
