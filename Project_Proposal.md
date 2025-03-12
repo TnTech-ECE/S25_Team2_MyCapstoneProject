@@ -85,7 +85,7 @@ The project specifications shall be defined by stakeholder requirements to ensur
     a.) Triangle side length of 100 mm minimum
     b.) Visibility from all angles, including when the lid is removed
  - Text “Always Energized”
- - Text “High Voltage” if the voltage meets T.9.1.1 [11]
+ - Text “High Voltage” if the voltage meets T.9.1.1(Any voltage more than 60 V DC or 25 V AC RMS) [11]
  - All wires in the accumulator shall be rated for the maximum voltage in the tractive system. EV.5.2.5 [11]
 
 6.) EV.5.3.2 -Maintenance Plugs shall:  [11]
