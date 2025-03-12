@@ -70,11 +70,6 @@ Electric vehicles (EVs) and their battery systems are subject to various regulat
 4. Energy Efficiency & Range Constraints
  * The battery shall achieve a minimum energy density of X Wh/kg to ensure sufficient range per charge.
  * The battery shall meet U.S. EPA fuel economy standards for minimum energy consumption per kilometer driven.
-  
-<h4> Economic feasibility and resource limitations.</h4>  
-
-The constraints explicitly model specific degradation mechanisms, such as lithium plating, lithium depletion, overheating, and stress fracture. A critical challenge is that these states evolve according to a systems of nonlinear partial differential equations and are not physically measurable [10]. This project shall address this challenge by utilizing the reference governor concept, demonstrating how electrochemical model state information can be leveraged to ensure safe operation while enhancing energy capacity, power, and charge times in Li-ion batteries [10]. 
-
  
 
 <h3>Survey of Existing Solutions: </h3>
