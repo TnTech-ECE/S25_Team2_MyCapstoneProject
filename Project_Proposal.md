@@ -429,7 +429,7 @@ Safety is a critical factor in a competitive racing environment. The BMS will co
 
 The project shall consider the broader ethical and environmental implications of battery-powered electric vehicles. While EVs reduce greenhouse gas emissions, battery production and disposal raise ethical concerns, including environmental degradation, labor exploitation, and improper waste management. 
 
-To address these concerns, engineers shall work with policymakers to enforce stricter environmental and social standards in mining operations. Research into advanced battery recycling technologies shall be prioritized to improve lithium-ion battery reuse and reduce reliance on newly mined materials. Additionally, enhancing battery designs, enforcing regulations, and promoting fire prevention measures shall mitigate safety risks associated with lithium-ion batteries. 
+To address these concerns, engineers shall work with policy makers to enforce stricter environmental and social standards in mining operations. Research into advanced battery recycling technologies shall be prioritized to improve lithium-ion battery reuse and reduce reliance on newly mined materials. Additionally, enhancing battery designs, enforcing regulations, and promoting fire prevention measures shall mitigate safety risks associated with lithium-ion batteries. 
 
 Engineers have a responsibility to develop sustainable solutions that prioritize ethical sourcing, minimize environmental harm, and advocate for fair labor practices. The team shall ensure safe handling, storage, and disposal of battery components while remaining aware of broader sustainability issues. 
 
