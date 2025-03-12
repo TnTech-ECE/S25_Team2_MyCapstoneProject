@@ -49,28 +49,28 @@ The project specifications shall be defined by stakeholder requirements to ensur
 Electric vehicles (EVs) and their battery systems are subject to various regulatory, technical, and safety constraints. These constraints are designed to ensure the safety, reliability, and environmental sustainability of EVs. Key constraints include: 
 
 1. Safety Regulations
- * To prevent thermal runaway, the Battery Management System (BMS) shall monitor temperature in compliance 
-   with UN 38.3 and SAE J2929.
- * The battery shall withstand impact forces without causing fires or leaks, meeting the requirements of FMVSS 305 and 
-   UNECE R100.
- * To prevent dust and water exposure, the battery shall be encapsulated in accordance with IEC 60529 at an IP65 level.
- * The battery shall include overcurrent and overvoltage protection to prevent hazardous conditions caused by short 
-   circuits or voltage spikes.
- * The BMS shall have means to disconnect if abnormalities are detected.(high temperature, high current, high voltage).
+  * To prevent thermal runaway, the Battery Management System (BMS) shall monitor temperature in compliance 
+    with UN 38.3 and SAE J2929.
+  * The battery shall withstand impact forces without causing fires or leaks, meeting the requirements of FMVSS 305 and 
+    UNECE R100.
+  * To prevent dust and water exposure, the battery shall be encapsulated in accordance with IEC 60529 at an IP65 level.
+  * The battery shall include overcurrent and overvoltage protection to prevent hazardous conditions caused by short 
+    circuits or voltage spikes.
+  * The BMS shall have means to disconnect if abnormalities are detected.(high temperature, high current, high voltage).
 2. Performance Standards
- * The BMS shall continuously monitor the battery’s State of Charge (SoC) and State of Health (SoH) in compliance with SAE 
-   J1939 and ISO 15118.
- * The battery shall retain at least X% of its original capacity after Y charge/discharge cycles.
- * The battery shall support a fast-charging capability while maintaining compliance with thermal and electrical safety 
-   standards.
+  * The BMS shall continuously monitor the battery’s State of Charge (SoC) and State of Health (SoH) in compliance with 
+    SAE J1939 and ISO 15118.
+  * The battery shall retain at least X% of its original capacity after Y charge/discharge cycles.
+  * The battery shall support a fast-charging capability while maintaining compliance with thermal and electrical safety 
+    standards.
 3. Environmental & Recycling Regulations
- * The battery shall comply with EU Battery Directive (2006/66/EC) and the U.S. Battery Act (42 U.S.C. § 14301) for 
-   disposal and recycling.
- * The battery shall not contain restricted heavy metals such as lead, cadmium, and mercury.
- * The battery shall meet carbon footprint regulations by adhering to EU CO₂ emission standards for battery production.
+  * The battery shall comply with EU Battery Directive (2006/66/EC) and the U.S. Battery Act (42 U.S.C. § 14301) for 
+    disposal and recycling.
+  * The battery shall not contain restricted heavy metals such as lead, cadmium, and mercury.
+  * The battery shall meet carbon footprint regulations by adhering to EU CO₂ emission standards for battery production.
 4. Energy Efficiency & Range Constraints
- * The battery shall achieve a minimum energy density of X Wh/kg to ensure sufficient range per charge.
- * The battery shall meet U.S. EPA fuel economy standards for minimum energy consumption per kilometer driven.
+  * The battery shall achieve a minimum energy density of X Wh/kg to ensure sufficient range per charge.
+  * The battery shall meet U.S. EPA fuel economy standards for minimum energy consumption per kilometer driven.
  
 
 <h3>Survey of Existing Solutions: </h3>
