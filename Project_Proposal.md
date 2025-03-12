@@ -313,7 +313,7 @@ Electric vehicles (EVs) and their battery systems are subject to various regulat
 
 Currently, various methods exist for implementing a battery management system. The Zero Motorcycle battery includes a proprietary BMS but integrating it into the current vehicle shall require modifications. Additionally, much of the motorcycle’s original system is no longer available, complicating the adaptation process.  
 
-If the team decides to design a new battery, a custom BMS shall be required to prevent suboptimal operating conditions, overheating, and battery damage. A new battery costs ~$7,500-$10,000. Therefore, the team stands to not only own the design of their BMS and battery combination, but also save money in the process. 
+If the team decides to design a new battery, a custom BMS shall be required to prevent suboptimal operating conditions, overheating, and battery damage. A new battery costs ~$15,000 [13]. Therefore, the team stands to not only own the design of their BMS and battery combination, but also save money in the process. 
 
 Alternative options include purchasing pre-built batteries from major manufacturing companies supporting the Formula SAE competition. However, these batteries pose several challenges, including increased weight and integration complexities. Regardless of the battery selection, a dedicated BMS shall be necessary to mitigate fire risks and ensure compliance with Formula SAE regulations and tests.  
 
@@ -335,12 +335,12 @@ The project’s success shall be evaluated based on the following criteria:
 
 <h4>Budget </h4>
 
-The estimated cost to build the battery is approximately $5,182, while the E-bike itself cost around $10,000. However, due to the resource constraints, the project team shall adhere to a strict budget, minimizing excess material costs and maximizing the use of available resources. The team shall track expenditures carefully to maintain cost efficiency. 
+The estimated cost to build the battery is approximately $4,282, while the E-bike itself cost around $15,000 [13]. However, due to the resource constraints, the project team shall adhere to a strict budget, minimizing excess material costs and maximizing the use of available resources. The team shall track expenditures carefully to maintain cost efficiency. 
 
 |Item/Material | Quantity | Cost(USD) | 
 |--------------|----------|-----------|
-|Lithium Battery Total| 361 | >~$2,176|
-|Battery Construction Components| ~ |>~1,000|
+|Lithium Battery Total|361|>~$2,176|
+|Battery Case/Insulation|~1|~$100|
 |Contactor|1|~$100|
 |Temperature Sensor|1|$188|
 |Voltage Sensor|1|$133|
@@ -348,7 +348,7 @@ The estimated cost to build the battery is approximately $5,182, while the E-bik
 |Fuse|1|$45|
 |BMS Components| 1 | >~$1,000| 
 |Wire and Connectors| <1 |~$500|
-|Total| |~$5,182|
+|Total| |~$4,282|
 
 Battery Cost Calculation: 
 Power required for SAE Car: 64 Ah * 102 V = 6.5 kWh
@@ -458,6 +458,8 @@ Engineers have a responsibility to develop sustainable solutions that prioritize
 [11] Formula SAE Rules 2025, Formula SAE, 2025 
 
 [12] "Zero Motors Cypher 2 Powertrain Datasheet," Source.[Online] Available: https://zero-cms-disco.cdn.prismic.io/zero-cms-disco/372e4e04-53f3-4f30-9bf2-7e3e5fc1a901_powertrain-data-sheet.pdf
+[13] “Zero Motorcycles S - Electric Motorcycle Company,” Zeromotorcycles.com, 2025. https://zeromotorcycles.com/model/zero-s (accessed Mar. 12, 2025).
+‌
 
 <h3>‌Statement of Contributions </h3>
 
