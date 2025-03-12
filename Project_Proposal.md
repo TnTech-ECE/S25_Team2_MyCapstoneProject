@@ -34,11 +34,11 @@ The project specifications shall be defined by stakeholder requirements to ensur
 
 * The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing namely a maximum energy capacity of 7.2 kWh with a nominal energy capacity of 6.8 kWh, a nominal voltage of 102 V, a maximum cell discharge of 10 C, a maximum cell discharge temp of 60 degrees C, a maximum charge temperature of 50 degrees C, a minimum charge temperature of 0 degrees C, and a weight of 81 lbs. [12]
 
-Battery (accumulator) shall: [11]
+Battery (accumulator): [11]
 
 - design of the battery shall be documented in the SES  F.10.1.2 [11]
 
-- shall attach to the vehicle. [11]
+- the battery pack shall attach to the vehicle. [11]
 
 - liquid coolant shall not touch the cells of the accumulator T.5.4.3 [11]
 
@@ -46,21 +46,19 @@ Battery (accumulator) shall: [11]
 
 - the battery pack shall be made out of sturdy, NON-Flammable material T.9.2.5 [11]
 
-- shall have documentation proving it meets the rules requirements. T.9.2.6 [11]
+- the battery pack shall have documentation proving it meets the rules requirements. T.9.2.6 [11]
 
 - an energy meter will be provided at the event, the maximum power shall not exceed 80 kW EV 3.3.1 [11]
 
 - maximum voltage between any two points shall not exceed 600 V DC. EV 3.3.2 [11]
 
-- shall be connected to a motor controller, no direct connections between the battery and motor is allowed. EV 4.2 [11]
+- the battery pack shall be connected to a motor controller, no direct connections between the battery and motor is allowed. EV 4.2 [11]
 
-- shall be removable from the vehicle while still being rules compliant. EV.4.3.2 [11]
+- the battery pack shall be removable from the vehicle while still being rules compliant. EV.4.3.2 [11]
 
-- shall be closed at all times without the need to install additional protective covers. EV.4.3.3 [11]
+- the battery pack shall be closed at all times without the need to install additional protective covers. EV.4.3.3 [11]
 
 The container may contain holes, but only the wiring harness, ventilation, fasteners, and coolant fluid may pass through those holes. EV.4.3.4 a [11]
-
-- shall be transported on a handcart. EV.4.10.1 [11]
 
 Each segment of the accumulator may have [11]
 
