@@ -458,6 +458,7 @@ Engineers have a responsibility to develop sustainable solutions that prioritize
 [11] Formula SAE Rules 2025, Formula SAE, 2025 
 
 [12] "Zero Motors Cypher 2 Powertrain Datasheet," Source.[Online] Available: https://zero-cms-disco.cdn.prismic.io/zero-cms-disco/372e4e04-53f3-4f30-9bf2-7e3e5fc1a901_powertrain-data-sheet.pdf
+
 [13] “Zero Motorcycles S - Electric Motorcycle Company,” Zeromotorcycles.com, 2025. https://zeromotorcycles.com/model/zero-s (accessed Mar. 12, 2025).
 ‌
 
