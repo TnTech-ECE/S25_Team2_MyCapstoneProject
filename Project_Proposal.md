@@ -465,8 +465,6 @@ Engineers have a responsibility to develop sustainable solutions that prioritize
 
 <h3>‌Statement of Contributions </h3>
 
-Each team member will document their individual contributions to the project proposal. This ensures transparency and accountability, certifying that all team members have made meaningful contributions to the report and project development.  
-
 Jordan Davis: Problem Formulation section. 
 
 Dylan Caten: Survey of Existing Solutions section. 
