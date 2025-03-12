@@ -170,135 +170,133 @@ EV.5.7 Voltage Indicator [11]
 
  Each Accumulator Container shall have a prominent indicator when High Voltage T.9.1.1 is present at the vehicle side of the IRs  [11]
 
-EV.5.7.1 The Voltage Indicator shall always function, including when the Accumulator Container is disconnected or removed  
+EV.5.7.1 The Voltage Indicator shall always function, including when the Accumulator Container is disconnected or removed  [11]
 
-EV.5.7.2 The voltage being present at the connectors shall directly control the Voltage Indicator using hard wired electronics with no software control.  
+EV.5.7.2 The voltage being present at the connectors shall directly control the Voltage Indicator using hard wired electronics with no software control.  [11]
 
-EV.5.7.3 The control signal which closes the IRs shall not control the Voltage Indicator  
+EV.5.7.3 The control signal which closes the IRs shall not control the Voltage Indicator  [11]
 
-EV.5.7.4 The Voltage Indicator shall:  
+EV.5.7.4 The Voltage Indicator shall:  [11]
 
-a. Be located where it is clearly visible when connecting/disconnecting the Accumulator Tractive System connections  
+a. Be located where it is clearly visible when connecting/disconnecting the Accumulator Tractive System connections  [11]
 
-b. Be labeled “High Voltage Present” 
+b. Be labeled “High Voltage Present” [11]
 
-EV.6.1.3 Tractive System components and Accumulator Containers shall be protected from moisture, rain or puddles. A rating of IP65 is recommended 
-
- 
+EV.6.1.3 Tractive System components and Accumulator Containers shall be protected from moisture, rain or puddles. A rating of IP65 is recommended [11]
 
  
 
-Battery management system BMS 
+ 
 
--Prevents the maximum current draw from accumulator T.9.2.2 
+Battery management system BMS [11]
 
-EV.7.3 Battery Management System - BMS  
+-Prevents the maximum current draw from accumulator T.9.2.2 [11]
 
-EV.7.3.1 A Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the:  
+EV.7.3 Battery Management System - BMS  [11]
 
-a. Tractive System is Active EV.11.5  
+EV.7.3.1 A Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the:  [11]
 
-b. Accumulator is connected to a Charger EV.8.3  
+a. Tractive System is Active EV.11.5  [11]
 
-EV.7.3.2 The BMS shall have galvanic isolation at each segment to segment boundary, as approved in the ESF  
+b. Accumulator is connected to a Charger EV.8.3  [11]
 
-EV.7.3.3 Cell balancing is not permitted when the Shutdown Circuit is Open ( EV.7.2, EV.8.4 ) 
+EV.7.3.2 The BMS shall have galvanic isolation at each segment to segment boundary, as approved in the ESF  [11]
 
-EV.7.3.4 The BMS shall monitor for:  
+EV.7.3.3 Cell balancing is not permitted when the Shutdown Circuit is Open ( EV.7.2, EV.8.4 ) [11]
 
-a. Voltage values outside the allowable range EV.7.4.2  
+EV.7.3.4 The BMS shall monitor for:  [11]
 
-b. Voltage sense Overcurrent Protection device(s) blown or tripped  
+a. Voltage values outside the allowable range EV.7.4.2  [11]
 
-c. Temperature values outside the allowable range EV.7.5.2  
+b. Voltage sense Overcurrent Protection device(s) blown or tripped  [11]
 
-d. Missing or interrupted voltage or temperature measurements  
+c. Temperature values outside the allowable range EV.7.5.2  [11]
 
-e. A fault in the BMS  
+d. Missing or interrupted voltage or temperature measurements  [11]
 
-EV.7.3.5 If the BMS detects one or more of the conditions of EV.7.3.4 above, the BMS shall:  
+e. A fault in the BMS  [11]
 
-a. Open the Shutdown Circuit EV.7.2.2  
+EV.7.3.5 If the BMS detects one or more of the conditions of EV.7.3.4 above, the BMS shall:  [11]
 
-b. Turn on the BMS Indicator Light and the Tractive System Status Indicator EV.5.11.5 The two lights shall stay on until the BMS is manually reset EV.7.2.3  
+a. Open the Shutdown Circuit EV.7.2.2  [11]
 
-EV.7.3.6 The BMS Indicator Light shall be:  
+b. Turn on the BMS Indicator Light and the Tractive System Status Indicator EV.5.11.5 The two lights shall stay on until the BMS is manually reset EV.7.2.3  [11]
 
-a. Color: Red  
+EV.7.3.6 The BMS Indicator Light shall be:  [11]
 
-b. Clearly visible to the seated driver in bright sunlight  
+a. Color: Red  [11]
 
-c. Clearly marked with the lettering “BMS” 
+b. Clearly visible to the seated driver in bright sunlight  [11]
 
-EV.7.4 Accumulator Voltage  
+c. Clearly marked with the lettering “BMS” [11]
 
-EV.7.4.1 The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed 
+EV.7.4 Accumulator Voltage  [11]
 
- EV.7.4.2 Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data sheet. Measurement accuracy shall be considered.  
+EV.7.4.1 The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed [11]
 
-EV.7.4.3 All voltage sense wires to the BMS shall meet one of:  
+ EV.7.4.2 Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data sheet. Measurement accuracy shall be considered.  [11]
 
-a. Have Overcurrent Protection EV.7.4.4 below  
+EV.7.4.3 All voltage sense wires to the BMS shall meet one of:  [11]
 
-b. Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  
+a. Have Overcurrent Protection EV.7.4.4 below  [11]
 
-EV.7.4.4 When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two:  
+b. Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  [11]
 
-a. The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell tab.  
+EV.7.4.4 When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two:  [11]
 
-b. The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  
+a. The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell tab.  [11]
 
-EV.7.4.5 Overcurrent Protection is not required on a voltage sense wire if all three conditions are met:  
+b. The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  [11]
 
-• BMS is a distributed BMS system (one cell measurement per board) 
+EV.7.4.5 Overcurrent Protection is not required on a voltage sense wire if all three conditions are met:  [11]
 
- • Sense wire length is less than 25 mm  
+• BMS is a distributed BMS system (one cell measurement per board) [11]
 
-• BMS board has Overcurrent Protection 
+ • Sense wire length is less than 25 mm  [11]
 
-EV.7.5 Accumulator Temperature  
+• BMS board has Overcurrent Protection [11]
 
-EV.7.5.1 The BMS shall measure the temperatures of critical points of the Accumulator 
+EV.7.5 Accumulator Temperature  [11]
 
- EV.7.5.2 Temperatures (considering measurement accuracy) shall stay below the lower of the two:  
+EV.7.5.1 The BMS shall measure the temperatures of critical points of the Accumulator [11]
 
-• The maximum cell temperature limit stated in the cell data sheet  
+ EV.7.5.2 Temperatures (considering measurement accuracy) shall stay below the lower of the two:  [11]
 
-• 60°C 
+• The maximum cell temperature limit stated in the cell data sheet  [11]
 
-EV.7.5.3 Cell temperatures shall be measured at the negative terminal of the respective cell 
+• 60°C [11]
+
+EV.7.5.3 Cell temperatures shall be measured at the negative terminal of the respective cell [11]
 
  
 
-EV.7.5.4 The temperature sensor used shall be in direct contact with one of:  
+EV.7.5.4 The temperature sensor used shall be in direct contact with one of:  [11]
 
-• The negative terminal itself  
+• The negative terminal itself  [11]
 
-• The negative terminal busbar less than 10 mm away from the spot weld or clamping source on the negative cell terminal  
+• The negative terminal busbar less than 10 mm away from the spot weld or clamping source on the negative cell terminal  [11]
 
-EV.7.5.5 For lithium based cells,  
+EV.7.5.5 For lithium based cells,  [11]
 
-a. The temperature of a minimum of 20% of the cells shall be monitored by the BMS  
+a. The temperature of a minimum of 20% of the cells shall be monitored by the BMS  [11]
 
-b. The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored  
+b. The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [11] 
 
-EV.7.5.6 Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. 
+EV.7.5.6 Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. [11]
 
- EV.7.5.7 Temperature sensors shall have appropriate electrical isolation that meets one of the two:  
+ EV.7.5.7 Temperature sensors shall have appropriate electrical isolation that meets one of the two:  [11]
 
-• Between the sensor and cell  
+• Between the sensor and cell  [11]
 
-• In the sensing circuit 
+• In the sensing circuit [11]
 
- The isolation shall consider GLV/TS isolation as well as common mode voltages between sense locations. 
+ The isolation shall consider GLV/TS isolation as well as common mode voltages between sense locations. [11]
   
-* The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion.
+* The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion. 
 
 * The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
   
 * All electrical components, including accumulator cells, shall be sheilded from exposure to water.
-
-* The battery management system shall display the voltage levels and other relevant information as given by the Formula SAE rulebook and shut down the operation of the battery to prevent fires when those conditions are not met.[11] 
 
 * The battery must be covered in non-flammable material.[11] 
 
