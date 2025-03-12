@@ -357,20 +357,20 @@ The project’s success shall be evaluated based on the following criteria:
 
 <h4>Budget </h4>
 
-The estimated cost to build the battery is approximately $4,676, while the E-bike itself cost around $10,000. However, due to the resource constraints, the project team shall adhere to a strict budget, minimizing excess material costs and maximizing the use of available resources. The team shall track expenditures carefully to maintain cost efficiency. 
+The estimated cost to build the battery is approximately $5,182, while the E-bike itself cost around $10,000. However, due to the resource constraints, the project team shall adhere to a strict budget, minimizing excess material costs and maximizing the use of available resources. The team shall track expenditures carefully to maintain cost efficiency. 
 
 |Item/Material | Quantity | Cost(USD) | 
 |--------------|----------|-----------|
 |Lithium Battery Total| 361 | >~$2,176|
 |Battery Construction Components| ~ |>~1,000|
-|Contactor|    |
-|Temperature Sensor| 
-|Voltage Sensor|
-|Current Sensor|
-|Fuse|
+|Contactor|1|~$100|
+|Temperature Sensor|1|$188|
+|Voltage Sensor|1|$133|
+|Current Sensor|1|$40|
+|Fuse|1|$45|
 |BMS Components| 1 | >~$1,000| 
 |Wire and Connectors| <1 |~$500|
-|Total| |~$4,676|
+|Total| |~$5,182|
 
 Battery Cost Calculation: 
 Power required for SAE Car: 64 Ah * 102 V = 6.5 kWh
