@@ -32,255 +32,263 @@ The Spring 2025 capstone team is currently working on adapting Zero Motorcycle c
 
 The project specifications shall be defined by stakeholder requirements to ensure optimal performance and competitiveness. If any specification proves unattainable, discussions and negotiations with stakeholders shall be necessary to identify viable alternatives. The primary requirements include: 
 
-* The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing namely a maximum energy capacity of 7.2 kWh with a nominal energy capacity of 6.8 kWh, a nominal voltage of 102 V, a maximum cell discharge of 10 C, a maximum cell discharge temp of 60 degrees C, a maximum charge temperature of 50 degrees C, a minimum charge temperature of 0 degrees C, and a weight of 81 lbs. [12]
+1.) The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing namely a maximum energy capacity of 7.2 kWh with a nominal energy capacity of 6.8 kWh, a nominal voltage of 102 V, a maximum cell discharge of 10 C, a maximum cell discharge temp of 60 degrees C, a maximum charge temperature of 50 degrees C, a minimum charge temperature of 0 degrees C, and a weight of 81 lbs. [12]
 
-Battery (accumulator): [11]
+2.) Battery (accumulator): [11]
 
-- design of the battery shall be documented in the SES  F.10.1.2 [11]
+ - design of the battery shall be documented in the SES  F.10.1.2 [11]
 
-- the battery pack shall attach to the vehicle. [11]
+ - the battery pack shall attach to the vehicle. [11]
 
-- liquid coolant shall not touch the cells of the accumulator T.5.4.3 [11]
+ - liquid coolant shall not touch the cells of the accumulator T.5.4.3 [11]
 
-- the hot (ungrounded) terminal shall be insulated T.9.2.3 [11]
+ - the hot (ungrounded) terminal shall be insulated T.9.2.3 [11]
 
-- the battery pack shall be made out of sturdy, NON-Flammable material T.9.2.5 [11]
+ - the battery pack shall be made out of sturdy, NON-Flammable material T.9.2.5 [11]
 
-- the battery pack shall have documentation proving it meets the rules requirements. T.9.2.6 [11]
+ - the battery pack shall have documentation proving it meets the rules requirements. T.9.2.6 [11]
 
-- an energy meter will be provided at the event, the maximum power shall not exceed 80 kW EV 3.3.1 [11]
+ - an energy meter will be provided at the event, the maximum power shall not exceed 80 kW EV 3.3.1 [11]
 
-- maximum voltage between any two points shall not exceed 600 V DC. EV 3.3.2 [11]
+ - maximum voltage between any two points shall not exceed 600 V DC. EV 3.3.2 [11]
 
-- the battery pack shall be connected to a motor controller, no direct connections between the battery and motor is allowed. EV 4.2 [11]
+ - the battery pack shall be connected to a motor controller, no direct connections between the battery and motor is allowed. EV 4.2 [11]
 
-- the battery pack shall be removable from the vehicle while still being rules compliant. EV.4.3.2 [11]
+ - the battery pack shall be removable from the vehicle while still being rules compliant. EV.4.3.2 [11]
 
-- the battery pack shall be closed at all times without the need to install additional protective covers. EV.4.3.3 [11]
+ - the battery pack shall be closed at all times without the need to install additional protective covers. EV.4.3.3 [11]
 
-The container may contain holes, but only the wiring harness, ventilation, fasteners, and coolant fluid may pass through those holes. EV.4.3.4 a [11]
+3.) The container may contain holes, but only the wiring harness, ventilation, fasteners, and coolant fluid may pass through those holes. EV.4.3.4 a [11]
 
-Each segment of the accumulator may have [11]
+4.) Each segment of the accumulator may have: [11]
 
-- a maximum voltage of 120 V DC.  [11]
+ - a maximum voltage of 120 V DC.  [11]
 
-- energy of 6MJ maximum –figured by multiplying the maximum stack voltage with the nominal capacity of the cells used. [11]
+ - energy of 6MJ maximum –figured by multiplying the maximum stack voltage with the nominal capacity of the cells used. 
+   [11]
 
-- a mass of 12 kg maximum. [11]
+ - a mass of 12 kg maximum. [11]
 
-- the poles shall be insulated from the inner wall of the container with an insulating material rated for the maximum voltage of the tractive system voltage. EV.5.2.2 a [11]
+ - the poles shall be insulated from the inner wall of the container with an insulating material rated for the maximum 
+   voltage of the tractive system voltage. EV.5.2.2 a [11]
 
-- any penetrations of the container shall have protection against puncturing the insulating barrier. EV.5.2.2 c [11]
+ - any penetrations of the container shall have protection against puncturing the insulating barrier. EV.5.2.2 c [11]
 
-- the outer container shall be connected to ground through a low resistance. EV.5.2.2 b [11]
+ - the outer container shall be connected to ground through a low resistance. EV.5.2.2 b [11]
 
-- each accumulator segment shall be electrically isolated from each other and on top of the segments to prevent arcing. EV.5.2.3 [11]
+ - each accumulator segment shall be electrically isolated from each other and on top of the segments to prevent arcing. 
+   EV.5.2.3 [11]
 
-EV.4.3.8 Each Accumulator Container shall be labelled with the: a. School Name and Vehicle Number b. Symbol specified in ISO 7010-W012 (triangle with black lightning bolt on yellow background) with: • Triangle side length of 100 mm minimum • Visibility from all angles, including when the lid is removed c. Text “Always Energized” d. Text “High Voltage” if the voltage meets T.9.1.1 [11]
+5.) EV.4.3.8 Each Accumulator Container shall be labelled with the: 
+ - School Name and Vehicle Number
+ - Symbol specified in ISO 7010-W012 (triangle with black lightning bolt on yellow background)
+ - with:
+   • Triangle side length of 100 mm minimum
+   • Visibility from all angles, including when the lid is removed
+ - Text “Always Energized”
+ - Text “High Voltage” if the voltage meets T.9.1.1 [11]
+ - All wires in the accumulator shall be rated for the maximum voltage in the tractive system. EV.5.2.5 [11]
 
-- All wires in the accumulator shall be rated for the maximum voltage in the tractive system. EV.5.2.5 [11]
+6.) EV.5.3.2 -Maintenance Plugs shall:  [11]
 
-EV.5.3.2 -Maintenance Plugs shall:  [11]
+  - Require the physical removal or separation of a component. Contactors or switches are not acceptable Maintenance Plugs 
+   [11]
 
-a. Require the physical removal or separation of a component. Contactors or switches are not acceptable Maintenance Plugs  [11]
+  - Have access after opening the Accumulator Container and not necessary to move or remove any other components. [11]
 
-b. Have access after opening the Accumulator Container and not necessary to move or remove any other components. [11]
+  - Not be physically possible to make electrical connection in any configuration other than the design intended 
+    configuration. [11]
 
-c. Not be physically possible to make electrical connection in any configuration other than the design intended configuration. [11]
+  - Not require tools to install or remove. [11]
 
-d. Not require tools to install or remove. [11]
+  - Include a positive locking feature which prevents the plug from unintentionally becoming loose. [11]
+    
+  - Be nonconductive on surfaces that do not provide any electrical connection [11]
 
-e. Include a positive locking feature which prevents the plug from unintentionally becoming loose. [11]
-f. Be nonconductive on surfaces that do not provide any electrical connection [11]
+7.) EV.5.3.3 When the Accumulator Containers are opened or Segments are removed, the Accumulator Segments shall be separated by using the Maintenance Plugs. [11]
 
-EV.5.3.3 When the Accumulator Containers are opened or Segments are removed, the Accumulator Segments shall be separated by using the Maintenance Plugs. [11]
+8.) EV.5.4 Isolation Relays - IR EV.5.4.1 All Accumulator Containers shall contain minimum one fuse (EV.6.6) and two or more Isolation Relays (IR) [11]
 
- 
+9.) EV.5.4.2 The Isolation Relays shall: a. Be a Normally Open type b. Open the two poles of the Accumulator [11]
 
-EV.5.4 Isolation Relays - IR EV.5.4.1 All Accumulator Containers shall contain minimum one fuse (EV.6.6) and two or more Isolation Relays (IR) [11]
+10.) EV.5.4.3 When the IRs are open, High Voltage T.9.1.1 shall not be external of the Accumulator Container  [11]
 
- EV.5.4.2 The Isolation Relays shall: a. Be a Normally Open type b. Open the two poles of the Accumulator [11]
+11.) EV.5.4.4 The Isolation Relays and any fuses shall be separated from the rest of the Accumulator with an electrically insulated and Nonflammable Material (F.1.18). [11]
 
- EV.5.4.3 When the IRs are open, High Voltage T.9.1.1 shall not be external of the Accumulator Container  [11]
+12.) EV.5.4.5 A capacitor may be used to hold the IRs closed for up to 250 ms after the Shutdown Circuit Opens [11]
 
-EV.5.4.4 The Isolation Relays and any fuses shall be separated from the rest of the Accumulator with an electrically insulated and Nonflammable Material (F.1.18). [11]
+13.) EV.5.5 Manual Service Disconnect - MSD A Manual Service Disconnect (MSD) shall be included to quickly disconnect one or the two poles of the Accumulator EV.11.3.2 [11]
 
- EV.5.4.5 A capacitor may be used to hold the IRs closed for up to 250 ms after the Shutdown Circuit Opens [11]
+14.) EV.5.5.2 The Energy Meter shall not be used as the Manual Service Disconnect (MSD)  [11]
 
-EV.5.5 Manual Service Disconnect - MSD A Manual Service Disconnect (MSD) shall be included to quickly disconnect one or the two poles of the Accumulator EV.11.3.2 [11]
+15.) EV.5.5.3 An Interlock EV.7.8 shall Open the Shutdown Circuit EV.7.2.2 when the MSD is removed [11] 
 
-EV.5.5.2 The Energy Meter shall not be used as the Manual Service Disconnect (MSD)  [11]
+16.) EV.5.5.4 A dummy connector or similar may be used to restore isolation to meet EV.6.1. [11]
 
-EV.5.5.3 An Interlock EV.7.8 shall Open the Shutdown Circuit EV.7.2.2 when the MSD is removed [11] 
+17.) EV.5.6 Precharge and Discharge Circuits  [11]
 
-EV.5.5.4 A dummy connector or similar may be used to restore isolation to meet EV.6.1. [11]
+18.) EV.5.6.1 The Accumulator shall contain a Precharge Circuit.  [11]
 
-EV.5.6 Precharge and Discharge Circuits  [11]
+19.) The Precharge Circuit shall: [11]
 
-EV.5.6.1 The Accumulator shall contain a Precharge Circuit.  [11]
+ - Be able to charge the Intermediate Circuit to minimum 90% of the Accumulator voltage before closing the second IR [11]
 
-The Precharge Circuit shall: [11]
+ - Be supplied from the Shutdown Circuit EV.7.1 [11]
 
- a. Be able to charge the Intermediate Circuit to minimum 90% of the Accumulator voltage before closing the second IR [11]
+20.) EV.5.6.2 The Intermediate Circuit shall precharge before closing the second IR  [11]
 
- b. Be supplied from the Shutdown Circuit EV.7.1 [11]
+ - The end of precharge shall be controlled by feedback by monitoring the voltage in the Intermediate Circuit [11]
 
- EV.5.6.2 The Intermediate Circuit shall precharge before closing the second IR  [11]
+ - EV.5.6.3 The Tractive System shall contain a Discharge Circuit. [11]
 
-a. The end of precharge shall be controlled by feedback by monitoring the voltage in the Intermediate Circuit [11]
+21.) The Discharge Circuit shall be:  [11]
 
- EV.5.6.3 The Tractive System shall contain a Discharge Circuit. [11]
+ - Wired in a way that it is always active when the Shutdown Circuit is open  [11]
 
- The Discharge Circuit shall be:  [11]
+ - Able to discharge the Intermediate Circuit capacitors if the MSD has been opened  [11]
 
-a. Wired in a way that it is always active when the Shutdown Circuit is open  [11]
+ - Not be fused  [11]
 
-b. Able to discharge the Intermediate Circuit capacitors if the MSD has been opened  [11]
+ - Designed to handle the maximum Tractive System voltage for minimum 15 seconds  [11]
 
-c. Not be fused  [11]
+22.) EV.5.6.4 Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Precharge Circuit or Discharge Circuit  [11]
 
-d. Designed to handle the maximum Tractive System voltage for minimum 15 seconds  [11]
+23.) EV.5.6.5 The precharge relay shall be a mechanical type relay [11]
 
-EV.5.6.4 Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Precharge Circuit or Discharge Circuit  [11]
+24.) EV.5.7 Voltage Indicator [11]
 
-EV.5.6.5 The precharge relay shall be a mechanical type relay [11]
+25.) Each Accumulator Container shall have a prominent indicator when High Voltage T.9.1.1 is present at the vehicle side of the IRs  [11]
 
- 
+26.) EV.5.7.1 The Voltage Indicator shall always function, including when the Accumulator Container is disconnected or removed  [11]
 
-EV.5.7 Voltage Indicator [11]
+27.) EV.5.7.2 The voltage being present at the connectors shall directly control the Voltage Indicator using hard wired electronics with no software control.  [11]
 
- Each Accumulator Container shall have a prominent indicator when High Voltage T.9.1.1 is present at the vehicle side of the IRs  [11]
+28.) EV.5.7.3 The control signal which closes the IRs shall not control the Voltage Indicator  [11]
 
-EV.5.7.1 The Voltage Indicator shall always function, including when the Accumulator Container is disconnected or removed  [11]
+29.) EV.5.7.4 The Voltage Indicator shall:  [11]
 
-EV.5.7.2 The voltage being present at the connectors shall directly control the Voltage Indicator using hard wired electronics with no software control.  [11]
+  - Be located where it is clearly visible when connecting/disconnecting the Accumulator Tractive System connections  [11]
 
-EV.5.7.3 The control signal which closes the IRs shall not control the Voltage Indicator  [11]
+  - Be labeled “High Voltage Present” [11]
 
-EV.5.7.4 The Voltage Indicator shall:  [11]
+30.) EV.6.1.3 Tractive System components and Accumulator Containers shall be protected from moisture, rain or puddles. A rating of IP65 is recommended [11]
 
-a. Be located where it is clearly visible when connecting/disconnecting the Accumulator Tractive System connections  [11]
-
-b. Be labeled “High Voltage Present” [11]
-
-EV.6.1.3 Tractive System components and Accumulator Containers shall be protected from moisture, rain or puddles. A rating of IP65 is recommended [11]
-
- 
-
- 
-
-Battery management system BMS [11]
+31.) Battery management system BMS [11]
 
 - Prevents the maximum current draw from accumulator T.9.2.2 [11]
 
-EV.7.3 Battery Management System - BMS  [11]
+32.) EV.7.3 Battery Management System - BMS  [11]
 
-EV.7.3.1 A Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the:  [11]
+33.) EV.7.3.1 A Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the:  [11]
 
-a. Tractive System is Active EV.11.5  [11]
+ - Tractive System is Active EV.11.5  [11]
 
-b. Accumulator is connected to a Charger EV.8.3  [11]
+ - Accumulator is connected to a Charger EV.8.3  [11]
 
-EV.7.3.2 The BMS shall have galvanic isolation at each segment to segment boundary, as approved in the ESF  [11]
+34.) EV.7.3.2 The BMS shall have galvanic isolation at each segment to segment boundary, as approved in the ESF  [11]
 
-EV.7.3.3 Cell balancing is not permitted when the Shutdown Circuit is Open ( EV.7.2, EV.8.4 ) [11]
+35.) EV.7.3.3 Cell balancing is not permitted when the Shutdown Circuit is Open ( EV.7.2, EV.8.4 ) [11]
 
-EV.7.3.4 The BMS shall monitor for:  [11]
+36.) EV.7.3.4 The BMS shall monitor for:  [11]
 
-a. Voltage values outside the allowable range EV.7.4.2  [11]
+  - Voltage values outside the allowable range EV.7.4.2  [11]
 
-b. Voltage sense Overcurrent Protection device(s) blown or tripped  [11]
+  - Voltage sense Overcurrent Protection device(s) blown or tripped  [11]
 
-c. Temperature values outside the allowable range EV.7.5.2  [11]
+  - Temperature values outside the allowable range EV.7.5.2  [11]
 
-d. Missing or interrupted voltage or temperature measurements  [11]
+  - Missing or interrupted voltage or temperature measurements  [11]
 
-e. A fault in the BMS  [11]
+  - A fault in the BMS  [11]
 
-EV.7.3.5 If the BMS detects one or more of the conditions of EV.7.3.4 above, the BMS shall:  [11]
+37.) EV.7.3.5 If the BMS detects one or more of the conditions of EV.7.3.4 above, the BMS shall:  [11]
 
-a. Open the Shutdown Circuit EV.7.2.2  [11]
+  - Open the Shutdown Circuit EV.7.2.2  [11]
 
-b. Turn on the BMS Indicator Light and the Tractive System Status Indicator EV.5.11.5 The two lights shall stay on until the BMS is manually reset EV.7.2.3  [11]
+  - Turn on the BMS Indicator Light and the Tractive System Status Indicator EV.5.11.5 The two lights shall stay on until the BMS is manually reset EV.7.2.3  [11]
 
-EV.7.3.6 The BMS Indicator Light shall be:  [11]
+38.) EV.7.3.6 The BMS Indicator Light shall be:  [11]
 
-a. Color: Red  [11]
+  - Color: Red  [11]
 
-b. Clearly visible to the seated driver in bright sunlight  [11]
+  - Clearly visible to the seated driver in bright sunlight  [11]
 
-c. Clearly marked with the lettering “BMS” [11]
+  - Clearly marked with the lettering “BMS” [11]
 
-EV.7.4 Accumulator Voltage  [11]
+39.) EV.7.4 Accumulator Voltage  [11]
 
-EV.7.4.1 The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed [11]
+40.) EV.7.4.1 The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed [11]
 
- EV.7.4.2 Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data sheet. Measurement accuracy shall be considered.  [11]
+41.) EV.7.4.2 Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data sheet. Measurement accuracy shall be considered.  [11]
 
-EV.7.4.3 All voltage sense wires to the BMS shall meet one of:  [11]
+42.) EV.7.4.3 All voltage sense wires to the BMS shall meet one of:  [11]
 
-a. Have Overcurrent Protection EV.7.4.4 below  [11]
+  - Have Overcurrent Protection EV.7.4.4 below  [11]
 
-b. Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  [11]
+  - Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  [11]
 
-EV.7.4.4 When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two:  [11]
+43.) EV.7.4.4 When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two:  [11]
 
-a. The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell tab.  [11]
+  - The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell 
+    tab.  [11]
 
-b. The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  [11]
+  - The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  [11]
 
-EV.7.4.5 Overcurrent Protection is not required on a voltage sense wire if all three conditions are met:  [11]
+44.) EV.7.4.5 Overcurrent Protection is not required on a voltage sense wire if all three conditions are met:  [11]
 
-• BMS is a distributed BMS system (one cell measurement per board) [11]
+ - BMS is a distributed BMS system (one cell measurement per board) [11]
 
- • Sense wire length is less than 25 mm  [11]
+ - Sense wire length is less than 25 mm  [11]
 
-• BMS board has Overcurrent Protection [11]
+ - BMS board has Overcurrent Protection [11]
 
-EV.7.5 Accumulator Temperature  [11]
+45.) EV.7.5 Accumulator Temperature  [11]
 
-EV.7.5.1 The BMS shall measure the temperatures of critical points of the Accumulator [11]
+46.) EV.7.5.1 The BMS shall measure the temperatures of critical points of the Accumulator [11]
 
- EV.7.5.2 Temperatures (considering measurement accuracy) shall stay below the lower of the two:  [11]
+47.) EV.7.5.2 Temperatures (considering measurement accuracy) shall stay below the lower of the two:  [11]
 
-• The maximum cell temperature limit stated in the cell data sheet  [11]
+ - The maximum cell temperature limit stated in the cell data sheet  [11]
 
-• 60°C [11]
+ - 60°C [11]
 
-EV.7.5.3 Cell temperatures shall be measured at the negative terminal of the respective cell [11]
+48.) EV.7.5.3 Cell temperatures shall be measured at the negative terminal of the respective cell [11]
 
  
 
-EV.7.5.4 The temperature sensor used shall be in direct contact with one of:  [11]
+49.) EV.7.5.4 The temperature sensor used shall be in direct contact with one of:  [11]
 
-• The negative terminal itself  [11]
+  - The negative terminal itself  [11]
 
-• The negative terminal busbar less than 10 mm away from the spot weld or clamping source on the negative cell terminal  [11]
+  - The negative terminal busbar less than 10 mm away from the spot weld or clamping source on the negative cell terminal  
+    [11]
 
-EV.7.5.5 For lithium based cells,  [11]
+50.) EV.7.5.5 For lithium based cells,  [11]
 
-a. The temperature of a minimum of 20% of the cells shall be monitored by the BMS  [11]
+  - The temperature of a minimum of 20% of the cells shall be monitored by the BMS  [11]
 
-b. The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [11] 
+  - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell 
+    should be monitored [11] 
 
-EV.7.5.6 Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. [11]
+51.) EV.7.5.6 Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. [11]
 
- EV.7.5.7 Temperature sensors shall have appropriate electrical isolation that meets one of the two:  [11]
+52.) EV.7.5.7 Temperature sensors shall have appropriate electrical isolation that meets one of the two:  [11]
 
-• Between the sensor and cell  [11]
+  - Between the sensor and cell  [11]
 
-• In the sensing circuit [11]
+  - In the sensing circuit [11]
 
- The isolation shall consider GLV/TS isolation as well as common mode voltages between sense locations. [11]
+53.) The isolation shall consider GLV/TS isolation as well as common mode voltages between sense locations. [11]
   
-* The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion and otherwise be disconnected.
-* The battery shall disconnect based on the means of abnormalities: high temperature, high current, high voltage. 
+54.) The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion and otherwise be disconnected.
 
-* The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
+55.) The battery shall disconnect based on the means of abnormalities: high temperature, high current, high voltage. 
+
+56.) The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
   
-* All electrical components, including accumulator cells, shall be sheilded from exposure to water.
+57.) All electrical components, including accumulator cells, shall be sheilded from exposure to water.
 
-* The battery must be covered in non-flammable material.[11] 
+58.) The battery must be covered in non-flammable material.[11] 
 
 <h4>Constraints </h4>
 
