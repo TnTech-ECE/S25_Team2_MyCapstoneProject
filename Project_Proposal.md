@@ -112,11 +112,16 @@ The estimated cost to build the battery is approximately $4,676, while the E-bik
 |BMS Components| 1 | >~$1,000| 
 |Wire and Connectors| <1 |~$500|
 |Total| |~$4,676|
- 
+
 Battery Cost Calculation: 
 Power required for SAE Car: 64 Ah * 102 V = 6.5 kWh
 Power produced by each individual battery cell: 3.6V * 5 Ah = 18 Wh
 6.5 kWh / 18 Wh = 361.1111
+
+BMS Cost Calculation:
+PCB Design and Construction: ~$600
+Components on PCB: ~$300
+Misc: ~$100
 
 <h3>Personnel </h3>
 
