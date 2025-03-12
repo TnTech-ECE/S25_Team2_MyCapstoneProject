@@ -81,7 +81,7 @@ The constraints explicitly model specific degradation mechanisms, such as lithiu
 
 Currently, various methods exist for implementing a battery management system. The Zero Motorcycle battery includes a proprietary BMS but integrating it into the current vehicle shall require modifications. Additionally, much of the motorcycle’s original system is no longer available, complicating the adaptation process.  
 
-If the team decides to design a new battery, a custom BMS shall be required to prevent suboptimal operating conditions, overheating, and battery damage.  
+If the team decides to design a new battery, a custom BMS shall be required to prevent suboptimal operating conditions, overheating, and battery damage. A new battery costs ~$7,500-$10,000. Therefore, the team stands to not only own the design of their BMS and battery combination, but also save money in the process. 
 
 Alternative options include purchasing pre-built batteries from major manufacturing companies supporting the Formula SAE competition. However, these batteries pose several challenges, including increased weight and integration complexities. Regardless of the battery selection, a dedicated BMS shall be necessary to mitigate fire risks and ensure compliance with Formula SAE regulations and tests.  
 
@@ -113,6 +113,10 @@ The estimated cost to build the battery is approximately $4,676, while the E-bik
 |Wire and Connectors| <1 |~$500|
 |Total| |~$4,676|
  
+Battery Cost Calculation: 
+Power required for SAE Car: 64 Ah * 102 V = 6.5 kWh
+Power produced by each individual battery cell: 3.6V * 5 Ah = 18 Wh
+6.5 kWh / 18 Wh = 361.1111
 
 <h3>Personnel </h3>
 
