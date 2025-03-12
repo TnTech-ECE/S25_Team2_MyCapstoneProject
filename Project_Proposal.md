@@ -294,7 +294,6 @@ Electric vehicles (EVs) and their battery systems are subject to various regulat
   * To prevent dust and water exposure, the battery shall be encapsulated in accordance with IEC 60529 at an IP65 level.
   * The battery shall include overcurrent and overvoltage protection to prevent hazardous conditions caused by short 
     circuits or voltage spikes in the form of the precharge circuit and discharge circuit.[11]
-  * The BMS shall have means to disconnect if abnormalities are detected.(high temperature, high current, high voltage).[12]
 2. Performance Standards
   * The BMS shall continuously monitor the battery’s State of Charge (SoC) and State of Health (SoH) in compliance with 
     SAE J1939 and ISO 15118.
