@@ -49,37 +49,27 @@ The project specifications shall be defined by stakeholder requirements to ensur
 Electric vehicles (EVs) and their battery systems are subject to various regulatory, technical, and safety constraints. These constraints are designed to ensure the safety, reliability, and environmental sustainability of EVs. Key constraints include: 
 
 1. Safety Regulations
- * Thermal Runaway Protection: Regulations require that EV battery management systems (BMS) prevent overheating and 
-   thermal runaway (e.g., UN 38.3, SAE J2929).
- * Crash Safety: Batteries must withstand impact forces without causing fires or leaks (e.g., FMVSS 305, UNECE R100).
- * Ingress Protection (IP Rating): Ensures resistance to dust and water exposure, especially for off-road and harsh 
-   environmental conditions (e.g., IEC 60529).
- * Overcurrent and Overvoltage Protection: Prevents dangerous conditions caused by short circuits or voltage spikes.
-   
+ * To prevent thermal runaway, the Battery Management System (BMS) shall monitor and regulate temperature in compliance 
+   with UN 38.3 and SAE J2929.
+ * The battery shall withstand impact forces without causing fires or leaks, meeting the requirements of FMVSS 305 and 
+   UNECE R100.
+ * To prevent dust and water exposure, the battery shall be encapsulated in accordance with IEC 60529 at an IP65 level.
+ * The battery shall include overcurrent and overvoltage protection to prevent hazardous conditions caused by short 
+   circuits or voltage spikes.
 2. Performance Standards
- * State of Charge (SoC) & State of Health (SoH) Monitoring: Mandated by organizations like the Society of Automotive 
-   Engineers (SAE J1939, ISO 15118).
- * Cycle Life & Aging Constraints: Batteries must maintain a certain percentage of capacity over a specified number of 
-   charge/discharge cycles.
- * Charging Time Requirements: Regulations push for fast-charging capabilities while ensuring thermal and electrical 
-   safety.
-   
+ * The BMS shall continuously monitor the battery’s State of Charge (SoC) and State of Health (SoH) in compliance with SAE 
+   J1939 and ISO 15118.
+ * The battery shall retain at least X% of its original capacity after Y charge/discharge cycles.
+ * The battery shall support a fast-charging capability while maintaining compliance with thermal and electrical safety 
+   standards.
 3. Environmental & Recycling Regulations
- * Battery Disposal & Recycling: Compliance with laws like the EU Battery Directive (2006/66/EC) and the U.S. Battery Act 
-   (42 U.S.C. § 14301).
- * Toxic Material Restrictions: Limits on heavy metals such as lead, cadmium, and mercury in battery production.
- * Carbon Footprint & Lifecycle Assessment: Regulations to minimize CO₂ emissions associated with battery production 
-   (e.g., EU's CO₂ emission standards for cars).
-   
+ * The battery shall comply with EU Battery Directive (2006/66/EC) and the U.S. Battery Act (42 U.S.C. § 14301) for 
+   disposal and recycling.
+ * The battery shall not contain restricted heavy metals such as lead, cadmium, and mercury.
+ * The battery shall meet carbon footprint regulations by adhering to EU CO₂ emission standards for battery production.
 4. Energy Efficiency & Range Constraints
- * Minimum Energy Density Requirements: Ensures that EV batteries provide sufficient range per charge.
- * Efficiency Standards: EVs must meet minimum energy consumption limits per kilometer driven (e.g., U.S. EPA fuel economy 
-   ratings for EVs).
-   
-5. Charging & Grid Integration
- * Charging Standardization: Regulations mandate the use of standardized connectors and protocols (e.g., CCS, CHAdeMO, 
-   GB/T, ISO 15118).
- * Grid Compatibility: Vehicle-to-grid (V2G) compliance ensures EVs can safely interact with power grids.
+ * The battery shall achieve a minimum energy density of X Wh/kg to ensure sufficient range per charge.
+ * The battery shall meet U.S. EPA fuel economy standards for minimum energy consumption per kilometer driven.
   
 <h4> Economic feasibility and resource limitations.</h4>  
 
