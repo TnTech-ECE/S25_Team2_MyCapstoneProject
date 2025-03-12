@@ -305,18 +305,11 @@ Electric vehicles (EVs) and their battery systems are subject to various regulat
 2. Performance Standards
   * The BMS shall continuously monitor the battery’s State of Charge (SoC) and State of Health (SoH) in compliance with 
     SAE J1939 and ISO 15118.
-  * The battery shall retain at least X% of its original capacity after Y charge/discharge cycles.[12]
-  * The battery shall support a fast-charging capability while maintaining compliance with thermal and electrical safety 
-    standards.
 3. Environmental & Recycling Regulations
   * The battery shall comply with EU Battery Directive (2006/66/EC) and the U.S. Battery Act (42 U.S.C. § 14301) for 
     disposal and recycling.
   * The battery shall not contain restricted heavy metals such as lead, cadmium, and mercury.
   * The battery shall meet carbon footprint regulations by adhering to EU CO₂ emission standards for battery production.
-4. Energy Efficiency & Range Constraints
-  * The battery shall achieve a minimum energy density of X Wh/kg to ensure sufficient range per charge.
-  * The battery shall meet U.S. EPA fuel economy standards for minimum energy consumption per kilometer driven.
- 
 
 <h3>Survey of Existing Solutions: </h3>
 
