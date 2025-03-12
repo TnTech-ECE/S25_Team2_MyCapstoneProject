@@ -424,7 +424,6 @@ The implementation of a BMS will provide significant benefits to the Formula SAE
 
 Safety is a critical factor in a competitive racing environment. The BMS will continuously monitor key parameters such as battery state of charge and temperature. With real-time protective measures against undercharge, and thermal anomalies, the system significantly reduces the risk of battery failure and completely prevents overheating or other fire hazards. This shall ensure not only the safety of the vehicle but also the protection of the driver in the advent of an incident.  
 
-The BMS shall also enhance energy efficiency by actively managing charge and discharge cycles, ensuring that the car maintains peak power throughout the race. Furthermore, it will extend the battery pack’s lifespan, reducing the frequency and cost of replacements-an important financial consideration for the team. Real-time telemetry provided by the BMS will enable the team to analyze battery performance, optimize energy consumption, and make data-driven adjustments for improved efficiency. The system’s ability to fine-tune performance settings and conserve battery power when necessary   
 
 <h3>Broader Implications, Ethics, and Responsibility as Engineers: </h3> 
 
