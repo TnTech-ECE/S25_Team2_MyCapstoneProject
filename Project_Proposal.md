@@ -429,7 +429,9 @@ Safety is a critical factor in a competitive racing environment. The BMS will co
 
 The project shall consider the broader ethical and environmental implications of battery-powered electric vehicles. While EVs reduce greenhouse gas emissions, battery production and disposal raise ethical concerns, including environmental degradation, labor exploitation, and improper waste management. 
 
-Additionally, enhancing battery designs, enforcing regulations, and promoting fire prevention measures shall mitigate safety risks associated with lithium-ion batteries. 
+Additionally, enhancing battery designs, enforcing regulations, and promoting fire prevention measures shall mitigate safety risks associated with lithium-ion batteries. This project helps progress the development of EV vehicles in today's ever-advancing world. The design of the team's EV battery and BMS could produce data that supports this advancement.
+
+Tennessee Tech will also benefit from this project as it develops their SAE club. If this project helps Tennessee Tech win the race, it will be a huge success and help propel this program forward.
 
 Engineers have a responsibility to develop sustainable solutions that prioritize ethical sourcing, minimize environmental harm, and advocate for fair labor practices. The team shall ensure safe handling, storage, and disposal of battery components while remaining aware of broader sustainability issues. 
 
