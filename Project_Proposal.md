@@ -32,7 +32,7 @@ The Spring 2025 capstone team is currently working on adapting Zero Motorcycle c
 
 The project specifications shall be defined by stakeholder requirements to ensure optimal performance and competitiveness. If any specification proves unattainable, discussions and negotiations with stakeholders shall be necessary to identify viable alternatives. The primary requirements include: 
 
-* The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing. 
+* The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing namely a maximum energy capacity of 7.2 kWh with a nominal energy capacity of 6.8 kWh, a nominal voltage of 102 V, a maximum cell discharge of 10 C, a maximum cell discharge temp of 60 degrees C, a maximum charge temperature of 50 degrees C, a minimum charge temperature of 0 degrees C, and a weight of 81 lbs. 
   
 * The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion.
 
