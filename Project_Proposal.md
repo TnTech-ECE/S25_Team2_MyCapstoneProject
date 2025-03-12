@@ -49,13 +49,14 @@ The project specifications shall be defined by stakeholder requirements to ensur
 Electric vehicles (EVs) and their battery systems are subject to various regulatory, technical, and safety constraints. These constraints are designed to ensure the safety, reliability, and environmental sustainability of EVs. Key constraints include: 
 
 1. Safety Regulations
- * To prevent thermal runaway, the Battery Management System (BMS) shall monitor and regulate temperature in compliance 
+ * To prevent thermal runaway, the Battery Management System (BMS) shall monitor temperature in compliance 
    with UN 38.3 and SAE J2929.
  * The battery shall withstand impact forces without causing fires or leaks, meeting the requirements of FMVSS 305 and 
    UNECE R100.
  * To prevent dust and water exposure, the battery shall be encapsulated in accordance with IEC 60529 at an IP65 level.
  * The battery shall include overcurrent and overvoltage protection to prevent hazardous conditions caused by short 
    circuits or voltage spikes.
+ * The BMS shall have means to disconnect if abnormalities are detected.(high temperature, high current, high voltage).
 2. Performance Standards
  * The BMS shall continuously monitor the battery’s State of Charge (SoC) and State of Health (SoH) in compliance with SAE 
    J1939 and ISO 15118.
@@ -104,6 +105,11 @@ The estimated cost to build the battery is approximately $4,676, while the E-bik
 |--------------|----------|-----------|
 |Lithium Battery Total| 361 | >~$2,176|
 |Battery Construction Components| ~ |>~1,000|
+|Contactor|    |
+|Temperature Sensor| 
+|Voltage Sensor|
+|Current Sensor|
+|Fuse|
 |BMS Components| 1 | >~$1,000| 
 |Wire and Connectors| <1 |~$500|
 |Total| |~$4,676|
