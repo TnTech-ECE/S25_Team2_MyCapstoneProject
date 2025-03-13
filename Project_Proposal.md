@@ -286,17 +286,17 @@ The project specifications shall be defined by stakeholder requirements to ensur
 
        - In the sensing circuit [11]
 
-53.) The isolation shall consider GLV/TS isolation as well as common mode voltages between sense locations. [11]
+1. The isolation shall consider GLV/TS isolation as well as common mode voltages between sense locations. [11]
   
-54.) The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion and otherwise be disconnected.
+1. The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion and otherwise be disconnected.
 
-55.) The battery shall disconnect based on the means of abnormalities: high temperature, high current, high voltage. 
+1. The battery shall disconnect based on the means of abnormalities: high temperature, high current, high voltage. 
 
-56.) The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
+1. The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
   
-57.) All electrical components, including accumulator cells, shall be sheilded from exposure to water.
+1. All electrical components, including accumulator cells, shall be sheilded from exposure to water.
 
-58.) The battery must be covered in non-flammable material.[11] 
+1. The battery must be covered in non-flammable material.[11] 
 
 1. Cell balancing is not permitted when the Shutdown Circuit is Open ( EV.7.2, EV.8.4 ) EV.7.3.3[11]
 
