@@ -30,7 +30,7 @@ A well-designed BMS is essential for preventing battery fire in environments. Th
 
 *The total project cost shall not exceed $10,000, ensuring cost-effectiveness. 
 
-<h2>Constraints and Their Origins </h2>
+<h3>Constraints and Their Origins </h3>
 
 The design of the BMS must adhere to several constraints imposed by competition rules, engineering standards, and fire safety concerns. These include: 
 
@@ -43,6 +43,14 @@ The design of the BMS must adhere to several constraints imposed by competition 
 *Technical Compatibility: The BMS must be compatible with the vehicle’s electrical system which is currently being designed for the Zero Motor's battery, ensuring seamless integration. 
 
 <h2>Comparative Analysis of Potential Solutions- Dylan </h2>
+The formula sae event has many regulations regarding the battery and battery management system and while they do constrain options for they also help guide system design. Additionally, the battery and battery management system under design must mimick the Zero Motor's battery so that it may be used on the current vehicle.
+<h3> Battery(accumulator)</h3>
+
+<h4> Battery segments</h4>
+<h5> Battery Cells </h5>
+In order to obtain similar electrical charectoristics to the Zero Motor's battery we will need to use lithium ion cells in the battery. Zero motors uses a lithium nickel manganese cobalt (LiNiMnCoO2) which is produced by Farasis.[1] Lithium cobalt has a higher energy density at the cost of battery life and reusability.[1]
+
+<h5> </h5>
 
 While this team could solve the battery management system of the Zero Motor’s 2022 battery, this project is already being developed by the current ECE capstone team. As such, this is not an option for this group. 
 
@@ -64,13 +72,8 @@ This team shall design a battery that has similar electrical and volume characte
 
 <h2>Hardware Block Diagram </h2>
 
-Block diagrams are an excellent way to provide an overarching understanding of a system and the relationships among its individual components. Generally, block diagrams draw from visual modeling languages like the Universal Modeling Language (UML). Each block represents a subsystem, and each connection indicates a relationship between the connected blocks. Typically, the relationship in a system diagram denotes an input-output interaction. 
+![Capture](https://github.com/user-attachments/assets/2736f964-2aea-439d-9cae-8d7a974ce6d6)
 
-In the block diagram, each subsystem should be depicted by a single block. For each block, there should be a brief explanation of its functional expectations and associated constraints. Similarly, each connection should have a concise description of the relationship it represents, including the nature of the connection (such as power, analog signal, serial communication, or wireless communication) and any relevant constraints. 
-
-The end result should present a comprehensive view of a well-defined system, delegating all atomic responsibilities necessary to accomplish the project scope to their respective subsystems. 
-
- ![image](https://github.com/user-attachments/assets/44d1f0d5-974d-433c-85c3-95a8f3e58d2c)
 
 
 <h2>Operational Flow Chart </h2>
@@ -150,7 +153,9 @@ Revise the detailed timeline (Gantt chart) you created in the project proposal. 
 <h2>References </h2>
 
 All sources utilized in the conceptual design that are not considered common knowledge must be properly cited. Multiple references should be included. 
+[1] Unofficial Zero Manual. "Battery/Cells".zeromanual.https://zeromanual.com/wiki/Battery/Cells (accessed March 14, 2025). 
 
+[2] Formula SAE Rules 2025, Formula SAE, 2025.
  
 
 <h2>Statement of Contributions </h2>
