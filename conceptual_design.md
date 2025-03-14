@@ -47,10 +47,19 @@ The formula sae event has many regulations regarding the battery and battery man
 <h3> Battery(accumulator)</h3>
 
 <h4> Battery segments</h4>
+The mass of a given segment may not exceed 12 kg. [2]
+Each segment must use maintenance plugs to connect to other segments of the battery. [2]
+The isolation relay must be used and a minimum of one fuse, to seperate the two poles of the accumulator.[2]
 <h5> Battery Cells </h5>
 In order to obtain similar electrical charectoristics to the Zero Motor's battery we will need to use lithium ion cells in the battery. Zero motors uses a lithium nickel manganese cobalt (LiNiMnCoO2) which is produced by Farasis.[1] Lithium cobalt has a higher energy density at the cost of battery life and reusability.[1]
 
-<h5> </h5>
+<h5>Cell Electrical Characteristics </h5>
+This group needs to have a nominal output voltage of 102 V DC to match the output voltage of the Zero Motor's battery. [3] The output voltage is given by the number of cells connected in series and the cell's output voltage. 
+
+This group needs a nominal energy capacity of 6.3 kWh to match the specifications of the Zero Motor's battery. [3] This is found by multiplying the nominal cell capacity in Ah multiplied by the series and parrallel connections.
+
+<h5> Sensors</h5>
+Inside the battery this group is required to have a voltage indicator which controls the output voltage. This group is also required to have temperature sensors and voltage sensors to monitor the cell voltage and temperature for the battery management system.[2] The voltage indicator must be controlled by the shutdown circuit.
 
 While this team could solve the battery management system of the Zero Motor’s 2022 battery, this project is already being developed by the current ECE capstone team. As such, this is not an option for this group. 
 
@@ -156,6 +165,8 @@ All sources utilized in the conceptual design that are not considered common kno
 [1] Unofficial Zero Manual. "Battery/Cells".zeromanual.https://zeromanual.com/wiki/Battery/Cells (accessed March 14, 2025). 
 
 [2] Formula SAE Rules 2025, Formula SAE, 2025.
+
+[3] "Zero Motors Cypher 2 Powertrain Datasheet," Source.[Online] Available: https://zero-cms-disco.cdn.prismic.io/zero-cms-disco/372e4e04-53f3-4f30-9bf2-7e3e5fc1a901_powertrain-data-sheet.pdf
  
 
 <h2>Statement of Contributions </h2>
