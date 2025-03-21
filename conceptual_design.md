@@ -20,27 +20,33 @@ The development of a custom Battery Management System (BMS) for the Formula SAE 
 
 A well-designed BMS is essential for preventing battery fire in environments. The system must regulate charge levels, monitor temperature, provide cell balancing, and shut down under unsafe conditions. The formulated problem includes the following “shall” statements: 
 
-*The BMS shall monitor the battery’s state of charge and state of health in real-time. 
+* The BMS shall monitor the battery’s state of charge and state of health in real-time. 
 
-*The system shall prevent overcharging, excessive discharge, and overheating. 
+* The system shall prevent overcharging, excessive discharge, and overheating. 
 
-*The BMS shall include an automatic shutdown mechanism to reduce safety risks under the following conditions, temperatures bellow -4 degrees Fahrenheit, temperatures at or above 140 degrees Fahrenheit, low charge, excessive discharging, and when overcharging. 
+* The BMS shall include an automatic shutdown mechanism to reduce safety risks under the following conditions, 
+  temperatures bellow -4 degrees Fahrenheit, temperatures at or above 140 degrees Fahrenheit, low charge, excessive 
+  discharging, and when overcharging. 
 
-*The system shall integrate with the car’s existing electrical architecture and Formula SAE regulations. 
+* The system shall integrate with the car’s existing electrical architecture and Formula SAE regulations. 
 
-*The total project cost shall not exceed $10,000, ensuring cost-effectiveness. 
+* The total project cost shall not exceed $10,000, ensuring cost-effectiveness. 
 
 <h3>Constraints and Their Origins </h3>
 
 The design of the BMS must adhere to several constraints imposed by competition rules, engineering standards, and fire safety concerns. These include: 
 
-*Safety Regulations: The BMS must comply with Formula SAE safety standards, including fire prevention and automatic shutdown in hazardous conditions as stated above. 
+* Safety Regulations: The BMS must comply with Formula SAE safety standards, including fire prevention and automatic 
+  shutdown in hazardous conditions as stated above. 
 
-*Material Constraints: The battery must be enclosed in non-flammable housing to meet industry and competition safety guidelines. 
+* Material Constraints: The battery must be enclosed in non-flammable housing to meet industry and competition safety 
+  guidelines. 
 
-*Economic Feasibility: The total cost must remain under budget to ensure financial viability and to score well in the cooresponding Formula SAE test.  
+* Economic Feasibility: The total cost must remain under budget to ensure financial viability and to score well in the 
+  cooresponding Formula SAE test.  
 
-*Technical Compatibility: The BMS must be compatible with the vehicle’s electrical system which is currently being designed for the Zero Motor's battery, ensuring seamless integration. 
+* Technical Compatibility: The BMS must be compatible with the vehicle’s electrical system which is currently being 
+  designed for the Zero Motor's battery, ensuring seamless integration. 
 
 <h2>Comparative Analysis of Potential Solutions- Dylan </h2>
 The formula sae event has many regulations regarding the battery and battery management system and while they do constrain options for they also help guide system design. Additionally, the battery and battery management system under design must mimick the Zero Motor's battery so that it may be used on the current vehicle.
