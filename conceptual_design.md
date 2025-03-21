@@ -101,29 +101,83 @@ Similar to a block diagram, the flow chart aims to specify the system, but from 
 ![Capstone_I_ConceptualDesign_Flowchart1](https://github.com/user-attachments/assets/f7fd3949-ff1b-418a-b5cb-52538a6ff7fd)
 
 
-<h2>Atomic Subsystem Specifications: Jordan </h2>
+<h2>Atomic Subsystem Specifications: </h2>
 
-Based on the high-level design, provide a comprehensive description of the functions each subsection will perform. 
+<ins> Battery Pack </ins>
 
-Include a description of the interfaces between this subsystem and other subsystems: 
+The battery pack shall store and supply energy to the car’s motor and electronics. It shall convert chemical energy 
+into electrical energy and provide high-power discharge to meet performance requirements. The battery pack shall 
+interface with the BMS for protection and monitoring. 
 
-Give the type of signal (e.g. power, analog signal, serial communication, wireless communication, etc). 
+* The battery pack shall provide DC power to the Electronic Speed Controller and Auxiliary Electronics.
 
-Clearly define the direction of the signal (input or output). 
+* The battery pack shall send an analog voltage signal to the Battery Management System for monitoring. 
 
-Document the communication protocols used. 
-
-Specifying what data will be sent and what will be received. 
-
-Detail the operation of the subsystem: 
-
-Illustrate the expected user interface, if applicable. 
-
-Include functional flowcharts that capture the major sequential steps needed to achieve the desired functionalities. 
-
-For all subsystems, formulate detailed "shall" statements. Ensure these statements are comprehensive enough so that an engineer who is unfamiliar with your project can design the subsystem based on your specifications. Assume the role of the customer in this context to provide clear and precise requirements. 
-
+* The battery pack shall receive DC power from the Battery Charger during charging.
  
+<ins> Battery Management System </ins>
+
+The BMS shall protect and manage the battery pack to ensure safety and efficiency. It shall monitor individual cell voltage, temperature, and current, balance cell voltages during charging, and prevent overcharge, over-discharge, short-circuit, and overheating. The BMS shall communicate battery status to the vehicle control system. 
+
+* The BMS shall receive analog signals (cell voltages, temperature) from the Battery Pack.
+
+* The BMS shall send power control signals (MOSFET switching) to the Battery Output.
+
+* The BMS shall send serial data (I2C, CAN, or UART) to the Vehicle Control Unit for telemetry.
+
+* The BMS shall receive power from the Battery Charger.
+
+<ins> Power Distribution System </ins>
+
+The Power Distribution Unit shall distribute power efficiently to all components, regulating power to different subsystems such as the motor, electronics, and sensors. The PDU shall contain fuses and relays for power safety. 
+
+* The PDU shall receive DC power from the Battery Pack.
+
+* The PDU shall distribute power to the ESC, Auxiliary Electronics, and Sensors.
+
+* The PDU shall send an analog signal (current sensor data) to the VCU.
+
+* The PDU shall report power distribution status to the VCU using the CAN Bus communication protocol.
+
+<ins> Electronic Speed Controller </ins>
+
+The ESC shall regulate motor speed and torque based on throttle input. It shall convert DC power into controlled three-phase AC power for the motor and provide regenerative braking support. 
+
+* The ESC shall receive a PWM signal (throttle control) from the VCU.
+
+* The ESC shall receive DC power from the PDU/Battery Pack.
+
+* The ESC shall output three-phase AC power to the Electric Motor.
+
+* The ESC shall send serial data (ESC telemetry) to the VCU using CAN Bus or UART.
+
+<ins> Vehicle Control Unit </ins>
+
+The VCU shall serve as the central processing unit that manages power, motor control, and user commands. It shall read sensor data and battery status while controlling throttle, braking, and power management. 
+
+* The VCU shall receive serial data (I2C, CAN) from the BMS, PDU, and ESC.
+
+* The VCU shall receive analog signals from throttle and brake sensors.
+
+* The VCU shall send PWM control signals to the ESC. 
+
+* The VCU shall send telemetry data to the User Interface Display. 
+
+* The VCU shall communicate with the BMS, PDU, and ESC using CAN Bus. 
+
+* The VCU shall optionally send telemetry data to a mobile app or remote monitoring system using Bluetooth/WiFi.
+
+<ins> Charging System </ins>
+
+The Charging System shall provide regulated DC voltage and current to the battery pack while ensuring safe operation through BMS control. 
+
+* The charger shall output DC power to the Battery Pack. 
+
+* The charger shall send serial data to the BMS. 
+
+* The charger shall receive AC power from an External Power Source. 
+
+* The charger shall communicate charge status, voltage, and current to the BMS using CAN Bus or UART. 
 
 <h2>Ethical, Professional, and Standards Considerations: </h2>
 
