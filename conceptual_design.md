@@ -113,9 +113,12 @@ Similar to a block diagram, the flow chart aims to specify the system, but from 
 
 <ins> Battery Pack </ins>
 
-The battery pack shall store and supply energy to the car’s motor and electronics. It shall convert chemical energy 
-into electrical energy and provide high-power discharge to meet performance requirements. The battery pack shall 
-interface with the BMS for protection and monitoring. 
+* The battery pack shall store and supply energy to the car’s motor and electronics.
+
+* It shall convert chemical energy into electrical energy and provide high-power discharge to meet performance 
+  requirements.
+  
+* The battery pack shall interface with the BMS for protection and monitoring. 
 
 * The battery pack shall provide DC power to the Electronic Speed Controller and Auxiliary Electronics.
 
