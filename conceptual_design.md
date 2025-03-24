@@ -124,7 +124,7 @@ Similar to a block diagram, the flow chart aims to specify the system, but from 
 
 * The battery pack shall send an analog voltage signal to the Battery Management System for monitoring. 
 
-* The battery pack shall receive DC power from the Battery Charger during charging.
+* The battery pack shall receive DC power from the charging circuit during charging.
  
 <ins> Battery Management System </ins>
 
@@ -141,7 +141,7 @@ Similar to a block diagram, the flow chart aims to specify the system, but from 
 
 * The BMS shall send serial data (I2C, CAN, or UART) to the Vehicle Control Unit for telemetry.
 
-* The BMS shall receive power from the Battery Charger.
+* The BMS shall receive power from the charging circuit.
 
 <ins> Power Distribution System </ins>
 
