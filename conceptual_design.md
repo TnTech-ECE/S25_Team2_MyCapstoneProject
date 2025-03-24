@@ -204,7 +204,7 @@ Similar to a block diagram, the flow chart aims to specify the system, but from 
 
 <h2>Ethical, Professional, and Standards Considerations: </h2>
 
-The design of the BMS must account for its broader impact on culture, society, the environment, public health, public safety, and the economy. Several key considerations influence the design process: 
+The design of the BMS and battery must account for its broader impact on culture, society, the environment, public health, public safety, and the economy. Several key considerations influence the design process: 
 
 Public Safety and Compliance: The BMS must meet Formula SAE safety standards and industry best practices to prevent overheating, fires, and electrical failures that could endanger users and surrounding individuals. 
 
