@@ -12,7 +12,7 @@ Formula SAE Electric Car Team</h1>
 
 <h2>Introduction:  </h2>
 
-The development of a custom Battery Management System (BMS) for the Formula SAE Electric Car is a crucial step toward ensuring optimal battery performance, safety, and longevity. The primary goal of this project is to create a BMS that monitors battery state, prevents hazardous failures, complies with Formula SAE safety regulations and passes the tests necessary. This document outlines the conceptional design, including the original problem formulation, solution decompositions, specifications, constraints, and an implementation roadmap for the custom BMS.  
+The development of a custom Battery Management System (BMS) for the Formula SAE Electric Car is a crucial step toward ensuring optimal battery performance, safety, and longevity. The primary goal of this project is to create a BMS that monitors battery state, prevents hazardous failures, complies with Formula SAE safety regulations and passes the tests necessary. This document outlines the conceptual design, including the original problem formulation, solution decompositions, specifications, constraints, and an implementation roadmap for the custom BMS.  
 
  
 
@@ -24,8 +24,8 @@ A well-designed BMS is essential for preventing battery fire in environments. Th
 
 * The system shall prevent overcharging, excessive discharge, and overheating. 
 
-* The BMS shall include an automatic shutdown mechanism to reduce safety risks under the following conditions, 
-  temperatures bellow -4 degrees Fahrenheit, temperatures at or above 140 degrees Fahrenheit, low charge, excessive 
+* The BMS shall include an automatic shutdown mechanism to reduce safety risks under the following conditions; 
+  temperatures below -4 degrees Fahrenheit, temperatures at or above 140 degrees Fahrenheit, low charge, excessive 
   discharging, and when overcharging. 
 
 * The system shall integrate with the car’s existing electrical architecture and Formula SAE regulations. 
@@ -49,7 +49,7 @@ The design of the BMS must adhere to several constraints imposed by competition 
   designed for the Zero Motor's battery, ensuring seamless integration. 
 
 <h2>Comparative Analysis of Potential Solutions </h2>
-The formula sae event has many regulations regarding the battery and battery management system and while they do constrain options for they also help guide system design. Additionally, the battery and battery management system under design must mimick the Zero Motor's battery so that it may be used on the current vehicle.
+The formula sae event has many regulations regarding the battery and battery management system and while they do constrain options, but they also help guide system design. Additionally, the battery and battery management system under design must mimick the Zero Motor's battery so that it may be used on the current vehicle.
 <h3> Battery(accumulator)</h3>
 
 <h4> Battery Segments</h4>
@@ -86,7 +86,7 @@ A variety of different battery options are available, however, the current vehic
 To compensate for this the group shall use similar materials to the Zero Motor battery. This will allow the group to mimic the electrical characteristics with proper cell placement.
 It does mean, however, that this group shall implement its own battery management system that shall be of a similar size to Zero Motor’s battery management system, which will require the design to be optimal in both size and charge per area. 
 
-High-Level Solution
+<h2>High-Level Solution<h2>
 
 This section presents a comprehensive, high-level solution aimed at efficiently fulfilling all specified requirements and constraints. The solution is designed to maximize stakeholder goal attainment, adhere to established constraints, minimize risks, and optimize resource utilization. Please elaborate on how your design accomplishes these objectives. 
 
@@ -104,7 +104,6 @@ This team shall design a battery that has similar electrical and volume characte
 
 <h2>Operational Flow Chart </h2>
 
-Similar to a block diagram, the flow chart aims to specify the system, but from the user's point of view rather than illustrating the arrangement of each subsystem. It outlines the steps a user needs to perform to use the device and the screens/interfaces they will encounter. A diagram should be drawn to represent this process. Each step should be represented in the diagram to visually depict the sequence of actions and corresponding screens/interfaces the user will encounter while using the device. 
 
 ![Capstone_I_ConceptualDesign_Flowchart1](https://github.com/user-attachments/assets/f7fd3949-ff1b-418a-b5cb-52538a6ff7fd)
 
@@ -124,7 +123,7 @@ Similar to a block diagram, the flow chart aims to specify the system, but from 
 
 * The battery pack shall send an analog voltage signal to the Battery Management System for monitoring. 
 
-* The battery pack shall receive DC power from the Battery Charger during charging.
+* The battery pack shall receive DC power from the battery charger during charging.
  
 <ins> Battery Management System </ins>
 
@@ -141,7 +140,7 @@ Similar to a block diagram, the flow chart aims to specify the system, but from 
 
 * The BMS shall send serial data (I2C, CAN, or UART) to the Vehicle Control Unit for telemetry.
 
-* The BMS shall receive power from the Battery Charger.
+* The BMS shall receive power from the battery charger.
 
 <ins> Power Distribution System </ins>
 
@@ -149,7 +148,7 @@ Similar to a block diagram, the flow chart aims to specify the system, but from 
   
 * The PDU shall contain fuses and relays for power safety. 
 
-* The PDU shall receive DC power from the Battery Pack.
+* The PDU shall receive DC power from the battery pack.
 
 * The PDU shall distribute power to the ESC, Auxiliary Electronics, and Sensors.
 
@@ -257,5 +256,5 @@ All sources utilized in the conceptual design that are not considered common kno
 
 <h2>Statement of Contributions </h2>
 
-Each team member is required to make a meaningful contribution to the project proposal. In this section, each team member is required to document their individual contributions to the report. One team member may not record another member's contributions on their behalf. By submitting, the team certifies that each member's statement of contributions is accurate. 
+Jordan Davis was in charge of the Atomic Subsystem Section and helped others. Marisol M. helped others as well as created the diagrams. Dylan C. was in charge of the high level solution section. Maddox Cagle was in charge of Budget and Timeline sections. Mackenzie Raleigh did the introduction and restated the problem as well helped others.  
 
