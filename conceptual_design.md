@@ -48,7 +48,7 @@ The design of the BMS must adhere to several constraints imposed by competition 
 * Technical Compatibility: The BMS must be compatible with the vehicle’s electrical system which is currently being 
   designed for the Zero Motor's battery, ensuring seamless integration. 
 
-<h2>Comparative Analysis of Potential Solutions- Dylan </h2>
+<h2>Comparative Analysis of Potential Solutions </h2>
 The formula sae event has many regulations regarding the battery and battery management system and while they do constrain options for they also help guide system design. Additionally, the battery and battery management system under design must mimick the Zero Motor's battery so that it may be used on the current vehicle.
 <h3> Battery(accumulator)</h3>
 
@@ -86,9 +86,11 @@ A variety of different battery options are available, however, the current vehic
 To compensate for this the group shall use similar materials to the Zero Motor battery. This will allow the group to mimic the electrical characteristics with proper cell placement.
 It does mean, however, that this group shall implement its own battery management system that shall be of a similar size to Zero Motor’s battery management system, which will require the design to be optimal in both size and charge per area. 
 
-High-Level Solution:  Dylan and Marisol 
+High-Level Solution
 
 This section presents a comprehensive, high-level solution aimed at efficiently fulfilling all specified requirements and constraints. The solution is designed to maximize stakeholder goal attainment, adhere to established constraints, minimize risks, and optimize resource utilization. Please elaborate on how your design accomplishes these objectives. 
+
+This team must design a battery with the same output charectoristics of the Zero Motor's battery.
 Additionally, this group must design the BMS and battery to comply with Formula SAE rules.
  
 
