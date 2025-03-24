@@ -125,7 +125,12 @@ interface with the BMS for protection and monitoring.
  
 <ins> Battery Management System </ins>
 
-The BMS shall protect and manage the battery pack to ensure safety and efficiency. It shall monitor individual cell voltage, temperature, and current, balance cell voltages during charging, and prevent overcharge, over-discharge, short-circuit, and overheating. The BMS shall communicate battery status to the vehicle control system. 
+* The BMS shall protect and manage the battery pack to ensure safety and efficiency.
+  
+* It shall monitor individual cell voltage, temperature, and current, balance cell voltages during charging, and prevent 
+  overcharge, over-discharge, short-circuit, and overheating.
+  
+* The BMS shall communicate battery status to the vehicle control system. 
 
 * The BMS shall receive analog signals (cell voltages, temperature) from the Battery Pack.
 
@@ -137,7 +142,9 @@ The BMS shall protect and manage the battery pack to ensure safety and efficienc
 
 <ins> Power Distribution System </ins>
 
-The Power Distribution Unit shall distribute power efficiently to all components, regulating power to different subsystems such as the motor, electronics, and sensors. The PDU shall contain fuses and relays for power safety. 
+* The Power Distribution Unit shall distribute power efficiently to all components, regulating power to different subsystems such as the motor, electronics, and sensors.
+  
+* The PDU shall contain fuses and relays for power safety. 
 
 * The PDU shall receive DC power from the Battery Pack.
 
@@ -149,7 +156,9 @@ The Power Distribution Unit shall distribute power efficiently to all components
 
 <ins> Electronic Speed Controller </ins>
 
-The ESC shall regulate motor speed and torque based on throttle input. It shall convert DC power into controlled three-phase AC power for the motor and provide regenerative braking support. 
+* The ESC shall regulate motor speed and torque based on throttle input.
+
+* It shall convert DC power into controlled three-phase AC power for the motor and provide regenerative braking support. 
 
 * The ESC shall receive a PWM signal (throttle control) from the VCU.
 
@@ -161,7 +170,9 @@ The ESC shall regulate motor speed and torque based on throttle input. It shall 
 
 <ins> Vehicle Control Unit </ins>
 
-The VCU shall serve as the central processing unit that manages power, motor control, and user commands. It shall read sensor data and battery status while controlling throttle, braking, and power management. 
+* The VCU shall serve as the central processing unit that manages power, motor control, and user commands.
+
+* It shall read sensor data and battery status while controlling throttle, braking, and power management. 
 
 * The VCU shall receive serial data (I2C, CAN) from the BMS, PDU, and ESC.
 
@@ -177,7 +188,8 @@ The VCU shall serve as the central processing unit that manages power, motor con
 
 <ins> Charging System </ins>
 
-The Charging System shall provide regulated DC voltage and current to the battery pack while ensuring safe operation through BMS control. 
+* The Charging System shall provide regulated DC voltage and current to the battery pack while ensuring safe operation 
+  through BMS control. 
 
 * The charger shall output DC power to the Battery Pack. 
 
