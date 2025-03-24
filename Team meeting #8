@@ -1,1 +1,34 @@
 
+Team meeting #8
+
+attendance:
+
+starts 3:00 p.m. 3/24/2025
+
+to do: vote on type of battery material used: Lithium ion or lithium manganese cobalt (NMC) decided find a potentially better battery cell: marisol
+voted to impliment a temperature based limiting current behaviour of the battery management system. - passed.
+get in touch with Mark Davis to figure out what specifically he wants in the battery and battery management system for the conceptual design.-maddox allowable dimmensions, zero motors electrical characteristics and tollerances and what specifically he is looking for in the conceptual design. 
+
+sensors for battery management system: dylan
+
+
+Acheivements: completed relevant sections of the conceptual design 
+updated the flow chart: Marisol
+updated the comparison of potential solutions: Dylan
+updated the specifications of subsystems: Jordan
+Added reviewers: Mackenzie
+
+goals:
+maddox: work on circuit design for the detailed design and keep track of resources. Discharge circuit.
+marisol: power distribution circuit
+jordan: charging circuit
+
+dylan: battery design and sensors.
+mackenzie: figure out the required arrangment of battery cells to meet the eletcrical characteristics. Find an insulating material. 
+
+
+
+
+
+
+ends:
