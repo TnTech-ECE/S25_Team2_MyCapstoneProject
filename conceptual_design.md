@@ -189,9 +189,9 @@ Similar to a block diagram, the flow chart aims to specify the system, but from 
 
 * The VCU shall optionally send telemetry data to a mobile app or remote monitoring system using Bluetooth/WiFi.
 
-<ins> Charging System </ins>
+<ins> Charging Circuit </ins>
 
-* The Charging System shall provide regulated DC voltage and current to the battery pack while ensuring safe operation 
+* The Charging Circuit shall provide regulated DC voltage and current to the battery pack while ensuring safe operation 
   through BMS control. 
 
 * The charger shall output DC power to the Battery Pack. 
