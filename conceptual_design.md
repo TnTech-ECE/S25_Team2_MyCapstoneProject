@@ -88,7 +88,7 @@ It does mean, however, that this group shall implement its own battery managemen
 
 <h2>High-Level Solution</h2>
 
-This section presents a comprehensive, high-level solution aimed at efficiently fulfilling all specified requirements and constraints. The solution is designed to maximize stakeholder goal attainment, adhere to established constraints, minimize risks, and optimize resource utilization. Please elaborate on how your design accomplishes these objectives. 
+
 
 This team must design a battery with the same output charectoristics of the Zero Motor's battery.
 Additionally, this group must design the BMS and battery to comply with Formula SAE rules.
@@ -104,7 +104,7 @@ This team shall design a battery that has similar electrical and volume characte
 
 <h2>Operational Flow Chart </h2>
 
-Similar to a block diagram, the flow chart aims to specify the system, but from the user's point of view rather than illustrating the arrangement of each subsystem. It outlines the steps a user needs to perform to use the device and the screens/interfaces they will encounter. A diagram should be drawn to represent this process. Each step should be represented in the diagram to visually depict the sequence of actions and corresponding screens/interfaces the user will encounter while using the device. 
+
 
 ![Capstone_I_ConceptualDesign_Flowchart1](https://github.com/user-attachments/assets/f7fd3949-ff1b-418a-b5cb-52538a6ff7fd)
 
