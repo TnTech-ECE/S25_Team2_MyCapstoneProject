@@ -253,7 +253,7 @@ Revise the detailed timeline (Gantt chart) you created in the project proposal. 
 
 <h2>References </h2>
 
-All sources utilized in the conceptual design that are not considered common knowledge must be properly cited. Multiple references should be included. 
+
 [1] Unofficial Zero Manual. "Battery/Cells".zeromanual.https://zeromanual.com/wiki/Battery/Cells (accessed March 14, 2025). 
 
 [2] Formula SAE Rules 2025, Formula SAE, 2025.
