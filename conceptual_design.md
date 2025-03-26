@@ -143,52 +143,6 @@ This team shall design a battery that has similar electrical and volume characte
 
 * The BMS shall receive power from the charging circuit.
 
-<ins> Power Distribution System </ins>
-
-* The Power Distribution Unit shall distribute power efficiently to all components, regulating power to different subsystems such as the motor, electronics, and sensors.
-  
-* The PDU shall contain fuses and relays for power safety. 
-
-* The PDU shall receive DC power from the Battery Pack.
-
-* The PDU shall distribute power to the ESC, Auxiliary Electronics, and Sensors.
-
-* The PDU shall send an analog signal (current sensor data) to the VCU.
-
-* The PDU shall report power distribution status to the VCU using the CAN Bus communication protocol.
-
-<ins> Electronic Speed Controller </ins>
-
-* The ESC shall regulate motor speed and torque based on throttle input.
-
-* It shall convert DC power into controlled three-phase AC power for the motor and provide regenerative braking support. 
-
-* The ESC shall receive a PWM signal (throttle control) from the VCU.
-
-* The ESC shall receive DC power from the PDU/Battery Pack.
-
-* The ESC shall output three-phase AC power to the Electric Motor.
-
-* The ESC shall send serial data (ESC telemetry) to the VCU using CAN Bus or UART.
-
-<ins> Vehicle Control Unit </ins>
-
-* The VCU shall serve as the central processing unit that manages power, motor control, and user commands.
-
-* It shall read sensor data and battery status while controlling throttle, braking, and power management. 
-
-* The VCU shall receive serial data (I2C, CAN) from the BMS, PDU, and ESC.
-
-* The VCU shall receive analog signals from throttle and brake sensors.
-
-* The VCU shall send PWM control signals to the ESC. 
-
-* The VCU shall send telemetry data to the User Interface Display. 
-
-* The VCU shall communicate with the BMS, PDU, and ESC using CAN Bus. 
-
-* The VCU shall optionally send telemetry data to a mobile app or remote monitoring system using Bluetooth/WiFi.
-
 <ins> Charging Circuit </ins>
 
 * The Charging Circuit shall provide regulated DC voltage and current to the battery pack while ensuring safe operation 
