@@ -105,7 +105,6 @@ This team shall design a battery that has similar electrical and volume characte
 <h2>Operational Flow Chart </h2>
 
 
-
 ![Capstone_I_ConceptualDesign_Flowchart1](https://github.com/user-attachments/assets/f7fd3949-ff1b-418a-b5cb-52538a6ff7fd)
 
 
@@ -170,15 +169,9 @@ Engineering Standards: The project follows Institute of Electrical and Electroni
 
 Ethical Considerations: The team is committed to responsible sourcing of materials, ensuring that no components come from unethical labor practices. Transparency in design and testing is a key priority to maintain the integrity of the engineering profession. 
 
-<h2>Resources: Maddox and Marisol </h2>
+<h2>Resources </h2>
 
-You have already estimated the resources needed to complete the solution. Now, let's refine those estimates. 
-
- 
-
-<h2>Budget </h2>
-
-Develop a budget proposal with justifications for expenses associated with each subsystem. Note that the total of this budget proposal can also serve as a specification for each subsystem. After creating the budgets for individual subsystems, merge them to create a comprehensive budget for the entire solution. 
+<h3>Budget </h3>
 
 |Item/Material | Quantity | Cost(USD) | 
 |--------------|----------|-----------|
@@ -195,7 +188,14 @@ Develop a budget proposal with justifications for expenses associated with each 
 
 <h2>Division of Labor </h2>
 
-First, conduct a thorough analysis of the skills currently available within the team, and then compare these skills to the specific requirements of each subsystem. Based on this analysis, appoint a team member to take the specifications for each subsystem and generate a corresponding solution (i.e. detailed design). If there are more team members than subsystems, consider further subdividing the solutions into smaller tasks or components, thereby allowing each team member the opportunity to design a subsystem. 
+|Team Member |Subsystem | 
+|--------------|----------|
+| Maddox | Discharge Circuit, BMS |
+| Dylan | Sensors, Battery Pack |
+| Jordan | Charging Circuit |
+| Marisol | BMS |
+| Mackenzie | Structure and Alignment, Battery Pack |
+
 
  
 
@@ -217,5 +217,9 @@ Revise the detailed timeline (Gantt chart) you created in the project proposal. 
 
 <h2>Statement of Contributions </h2>
 
-Each team member is required to make a meaningful contribution to the project proposal. In this section, each team member is required to document their individual contributions to the report. One team member may not record another member's contributions on their behalf. By submitting, the team certifies that each member's statement of contributions is accurate. 
+Maddox: budget, operation flow chart
+Dylan: comparison of solutions, hardware block diagram, operation flow chart
+Jordan: atomic subsystem specifications
+Marisol: hardware block diagram, personnel, timeline
+Mackenzie: intro, restating the problem, ethics 
 
