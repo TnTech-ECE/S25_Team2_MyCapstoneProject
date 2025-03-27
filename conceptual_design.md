@@ -2,7 +2,7 @@
 
 Formula SAE Electric Car Team</h1> 
 
-<h3>Team 2: Maddox Cagle, Jordan Davis, Mackenzie Raleigh, Marisol Miranda, Dylan Caten </h3>
+<h3>Team 2: Maddox Cagle, Dylan Caten, Jordan Davis, Marisol Miranda, Mackenzie Raleigh </h3>
 
  
 
@@ -218,8 +218,12 @@ Revise the detailed timeline (Gantt chart) you created in the project proposal. 
 <h2>Statement of Contributions </h2>
 
 Maddox: budget, operation flow chart
+
 Dylan: comparison of solutions, hardware block diagram, operation flow chart
+
 Jordan: atomic subsystem specifications
+
 Marisol: hardware block diagram, personnel, timeline
+
 Mackenzie: intro, restating the problem, ethics 
 
