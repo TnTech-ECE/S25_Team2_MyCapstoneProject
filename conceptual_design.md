@@ -50,7 +50,7 @@ The design of the BMS must adhere to several constraints imposed by competition 
 
 <h2>Comparative Analysis of Potential Solutions </h2>
 The formula sae event has many regulations regarding the battery and battery management system and while they do constrain options for they also help guide system design. Additionally, the battery and battery management system under design must mimick the Zero Motor's battery so that it may be used on the current vehicle.
-<h3> Battery(accumulator)</h3>
+<h3> Battery(Accumulator)</h3>
 
 <h4> Battery Segments</h4>
 The mass of a given segment may not exceed 12 kg. [2]
@@ -68,16 +68,16 @@ This group needs a nominal energy capacity of 6.3 kWh to match the specification
 <h5> Sensors</h5>
 Inside the battery this group is required to have a voltage indicator which controls the output voltage. This group is also required to have temperature sensors and voltage sensors to monitor the cell voltage and temperature for the battery management system.[2] The voltage indicator must be controlled by the shutdown circuit.
 
-<h4> Battery Management System (BMS)</h4> 
+<h3> Battery Management System (BMS)</h3> 
 The battery management system must monitor the voltage and temperature of the cells when the battery is charging or when the vehicle is running. [2]
 The temperature must be measured at the negative terminal of the battery cells. [2] 
 If any battery cells exceed 60 degrees celcius, the battery management system must trigger the voltage indicator to stop providing voltage. [2]
 If the above condition is met, then the BMS must send a signal that triggers the BMS warning light.[2]
 
-<h5> Discharge Circuit</h5>
+<h4> Discharge Circuit</h4>
 A circuit that is always active when the shutdown circuit is open.[2] Cannot use positive temperature coefficent devices to limit the current.[2]
 This group also wants to impliment a current limiting behavior in the BMS when the accumulator approaches the shutoff temperature to prevent reaching the shuttoff temperature and reduce the risk of fire.
-<h5> Precharge Circuit</h5>
+<h4> Precharge Circuit</h4>
 The precharge circuit must be able to charge the accumulator up to 90% of its capacity before closing the isolation relay.[2] It must be mechanical in design. [2] Cannot use positive temperature coefficent devices to limit the current.[2]
 
 While this team could solve the battery management system of the Zero Motor’s 2022 battery, this project is already being developed by the current ECE capstone team. As such, this is not an option for this group. 
