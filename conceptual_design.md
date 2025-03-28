@@ -28,7 +28,7 @@ A well-designed BMS is essential for preventing battery fire in environments. Th
   temperatures bellow -4 degrees Fahrenheit, temperatures at or above 140 degrees Fahrenheit, low charge, excessive 
   discharging, and when overcharging. 
 
-* The system shall integrate with the car’s existing electrical architecture and Formula SAE regulations. 
+* The system shall integrate with the car’s existing electrical architecture and Formula SAE regulations as listed in the specifications of atomic subsystems. 
 
 * The total project cost shall not exceed $10,000, ensuring cost-effectiveness. 
 
@@ -58,20 +58,104 @@ Each segment must use maintenance plugs to connect to other segments of the batt
 Each segment must be electrically and physically issolated from eachother. [2]
 The isolation relay must be used and a minimum of one fuse, to seperate the two poles of the accumulator.[2]
 <h5> Battery Cells </h5>
-In order to obtain similar electrical charectoristics to the Zero Motor's battery we will need to use lithium ion cells in the battery. Zero motors uses a lithium nickel manganese cobalt (LiNiMnCoO2) which is produced by Farasis.[1] Lithium cobalt has a higher energy density at the cost of battery life and reusability.[1]
+In order to obtain similar electrical charectoristics to the Zero Motor's battery we will need to use lithium ion cells in the battery. Zero motors uses a lithium nickel manganese cobalt (LiNiMnCoO2) which is produced by Farasis.[1] Lithium cobalt has a higher energy density at the cost of battery life and reusability but is not available for commercial purchase.[1]
+
+<h6> Comparison of Cells:</h6>
+--Cylindrical lithium ion batteries.
+Samsung cells: From the Samsung supplier there are a variety of battery options: [4]
+*Molicel model number INR-21700-P45B
+-cycle life: reaches 80% power output at 300 cycles
+-nominal capacity: 4500 mAh
+-approximate weight:  70 g
+-country of origin: Tiawan
+-nominal voltage: 3.6 V
+-maximum voltage: 4.2 V
+-price per unit: $7.99
+-diameter: 21.55 mm
+-length: 70.15 mm
+-series connections: 28
+-parallel connections: 50
+-total units required: 1,400
+-total cost of cells: $11,186
+-total weight: 216 pounds
+
+*Samsung SDI model number 40T (INR21700-40T)
+-cycle life: ~ 250
+-nominal capacity: 4000 mAh
+-approximate weight:  66.8 g
+-country of origin: unlisted
+-nominal voltage: 3.6 V
+-maximum voltage: 4.2 V
+-price per unit: $7.99
+-diameter: 21.1 mm
+-length: 70.4 mm
+-series connections: 28
+-parallel connections: 56
+-total units required: 1568
+-total cost of cells: $12,528.32
+-total weight: 232 pounds
+
+*Samsung SDI model number 50T (INR21700-40T)
+-cycle life: ~ 250 to 60% capacity
+-nominal capacity: 5000 mAh
+-approximate weight:  70 g
+-country of origin: unlisted
+-nominal voltage: 3.6 V
+-maximum voltage: 4.2 V
+-price per unit: $8.99
+-diameter: 21.1 mm
+-length: 70.7 mm
+-series connections: 28
+-parallel connections: 45
+-total units required: 1260
+-total cost of cells: $11,327.40
+-total weight: 195 pounds
+
+--ultra thin cells:
+*GMBPOW model number CP142828 
+-cycle life: unlisted. discharges at 2% per year at 30 degrees celcius.
+-nominal capacity: 100 mAh
+-approximate weight:  1.5 g
+-country of origin: China
+-nominal voltage: 3 V
+-maximum voltage: unlisted
+-price per unit: $5.00
+-Max. dimensions (mm) 1.6×28.5×29 
+-series connections: 34
+-parallel connections: 1853
+-total units required: 63,002
+-total cost of cells: $315,010.00
+-total weight: 208 pounds
+
+*Huizhou Markyn New Energy Co., LTD. model number CP203030
+-cycle life: unlisted. Has a shelf life of 8 yrs.
+-nominal capacity: 230 mAh
+-approximate weight:  3 g
+-country of origin: China
+-nominal voltage: 3 V
+-maximum voltage: unlisted
+-price per unit: $5.00
+-Max. dimensions (mm) 2.1×30.0×30.0 
+-series connections: 34
+-parallel connections: 806
+-total units required: 27,404
+-total cost of cells: $137,020.00
+-total weight: 181 pounds
+
 
 <h5>Cell Electrical Characteristics </h5>
-This group needs to have a nominal output voltage of 102 V DC to match the output voltage of the Zero Motor's battery. [3] The output voltage is given by the number of cells connected in series and the cell's output voltage. 
+This group needs to have a nominal output voltage of 102 V DC to match the output voltage of the Zero Motor's battery. [3] The output voltage is given by the number of cells connected in series and the cell's output voltage. Most cells have a typical output voltage of 3.6 V, so this group will need to connect 28 battery cells in series if one is using the molicel cylindrical battery.
 
-This group needs a nominal energy capacity of 6.3 kWh to match the specifications of the Zero Motor's battery. [3] This is found by multiplying the nominal cell capacity in Ah multiplied by the series and parrallel connections.
+This group needs a nominal energy capacity of 6.3 kWh to match the specifications of the Zero Motor's battery. [3] This is found by multiplying the nominal cell capacity in amp hours (Ah) multiplied by the series and parrallel connections. For the above example this group will need 56.25 parallel connections to achieve the same nominal energy capacity.
 
 <h5> Sensors</h5>
 Inside the battery this group is required to have a voltage indicator which controls the output voltage. This group is also required to have temperature sensors and voltage sensors to monitor the cell voltage and temperature for the battery management system.[2] The voltage indicator must be controlled by the shutdown circuit.
+Because energy efficency is important, this group must use a lithium ion battery, which by the rules requires at least 40% of  the battery cells to be monitored by temperature.
 
 <h3> Battery Management System (BMS)</h3> 
 The battery management system must monitor the voltage and temperature of the cells when the battery is charging or when the vehicle is running. [2]
 The temperature must be measured at the negative terminal of the battery cells. [2] 
-If any battery cells exceed 60 degrees celcius, the battery management system must trigger the voltage indicator to stop providing voltage. [2]
+If any battery cell exceed 60 degrees celcius, the battery management system must trigger the voltage indicator to stop providing voltage. [2]
 If the above condition is met, then the BMS must send a signal that triggers the BMS warning light.[2]
 
 <h4> Discharge Circuit</h4>
@@ -82,16 +166,9 @@ The precharge circuit must be able to charge the accumulator up to 90% of its ca
 
 While this team could solve the battery management system of the Zero Motor’s 2022 battery, this project is already being developed by the current ECE capstone team. As such, this is not an option for this group. 
 
-A variety of different battery options are available, however, the current vehicle under design is made assuming that the Zero Motor battery will be used in it. This requires the group to get a certain voltage and energy density is a predetermined area.
-To compensate for this the group shall use similar materials to the Zero Motor battery. This will allow the group to mimic the electrical characteristics with proper cell placement.
-It does mean, however, that this group shall implement its own battery management system that shall be of a similar size to Zero Motor’s battery management system, which will require the design to be optimal in both size and charge per area. 
-
 <h2>High-Level Solution</h2>
 
-
-
-This team must design a battery with the same output charectoristics of the Zero Motor's battery.
-Additionally, this group must design the BMS and battery to comply with Formula SAE rules.
+This team will design a battery using a molicel battery cell model number INR-21700-P45B which requires 28 series connections and 50 parralel connections to achieve the same electrical characteristics as the Zero Motor's battery with a weight of the battery cells alone at  98 kg or 216 pounds
  
 
 This team shall design a battery that has similar electrical and volume characteristics to the 2022 Zero Motor’s motorcycle battery with a knowable battery management system to be used as a backup for the Formula SAE event. 
@@ -213,6 +290,7 @@ Revise the detailed timeline (Gantt chart) you created in the project proposal. 
 [2] Formula SAE Rules 2025, Formula SAE, 2025.
 
 [3] "Zero Motors Cypher 2 Powertrain Datasheet," Source.[Online] Available: https://zero-cms-disco.cdn.prismic.io/zero-cms-disco/372e4e04-53f3-4f30-9bf2-7e3e5fc1a901_powertrain-data-sheet.pdf
+[4] IMR batteries.com.https://imrbatteries.com/collections/21700-batteries (Accessed 3/28/2025) 
  
 
 <h2>Statement of Contributions </h2>
