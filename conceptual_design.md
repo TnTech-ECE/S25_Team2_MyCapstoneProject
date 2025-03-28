@@ -155,6 +155,7 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
 --ultra thin cells:
 
+
 *GMBPOW model number CP142828 
 
 -cycle life: unlisted. discharges at 2% per year at 30 degrees celcius.
@@ -183,6 +184,7 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
 -total weight: 208 pounds
 
+
 *Huizhou Markyn New Energy Co., LTD. model number CP203030
 
 -cycle life: unlisted. Has a shelf life of 8 yrs.
@@ -209,9 +211,65 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
 -total cost of cells: $137,020.00
 
--total weight: 181 pounds
+-total weight: 181 pounds]
 
 
+*Huizhou Markyn New Energy Co., LTD. model number CP203345
+
+-cycle life: unlisted. Has a shelf life of 5 yrs.
+
+-nominal capacity: 450 mAh
+
+-approximate weight:  5 g
+
+-country of origin: China
+
+-nominal voltage: 3 V
+
+-maximum voltage: unlisted
+
+-price per unit: $5.00
+
+-Max. dimensions (mm) 2.1×46.0×33.5 
+
+-series connections: 34
+
+-parallel connections: 412
+
+-total units required: 14,008
+
+-total cost of cells: $70,040.00
+
+-total weight: 154 pounds
+
+
+*Huizhou Markyn New Energy Co., LTD. model number CP505050
+
+-cycle life: unlisted. Has a shelf life of 8 yrs.
+
+-nominal capacity: 3000 mAh
+
+-approximate weight:  22 g
+
+-country of origin: China
+
+-nominal voltage: 3 V
+
+-maximum voltage: unlisted
+
+-price per unit: $10.50
+
+-Max. dimensions (mm) 5.2×50.0×50.0 
+
+-series connections: 34
+
+-parallel connections: 62
+
+-total units required: 2108
+
+-total cost of cells: $22,134.00
+
+-total weight: 102 pounds
 
 
 <h5>Cell Electrical Characteristics </h5>
