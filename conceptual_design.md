@@ -64,83 +64,154 @@ In order to obtain similar electrical charectoristics to the Zero Motor's batter
 --Cylindrical lithium ion batteries.
 Samsung cells: From the Samsung supplier there are a variety of battery options: [4]
 *Molicel model number INR-21700-P45B
+
 -cycle life: reaches 80% power output at 300 cycles
+
 -nominal capacity: 4500 mAh
+
 -approximate weight:  70 g
+
 -country of origin: Tiawan
+
 -nominal voltage: 3.6 V
+
 -maximum voltage: 4.2 V
+
 -price per unit: $7.99
+
 -diameter: 21.55 mm
+
 -length: 70.15 mm
+
 -series connections: 28
+
 -parallel connections: 50
+
 -total units required: 1,400
+
 -total cost of cells: $11,186
+
 -total weight: 216 pounds
 
 *Samsung SDI model number 40T (INR21700-40T)
+
 -cycle life: ~ 250
+
 -nominal capacity: 4000 mAh
+
 -approximate weight:  66.8 g
+
 -country of origin: unlisted
+
 -nominal voltage: 3.6 V
+
 -maximum voltage: 4.2 V
+
 -price per unit: $7.99
+
 -diameter: 21.1 mm
+
 -length: 70.4 mm
+
 -series connections: 28
+
 -parallel connections: 56
+
 -total units required: 1568
+
 -total cost of cells: $12,528.32
+
 -total weight: 232 pounds
 
 *Samsung SDI model number 50T (INR21700-40T)
+
 -cycle life: ~ 250 to 60% capacity
+
 -nominal capacity: 5000 mAh
+
 -approximate weight:  70 g
+
 -country of origin: unlisted
+
 -nominal voltage: 3.6 V
+
 -maximum voltage: 4.2 V
+
 -price per unit: $8.99
+
 -diameter: 21.1 mm
+
 -length: 70.7 mm
+
 -series connections: 28
+
 -parallel connections: 45
+
 -total units required: 1260
+
 -total cost of cells: $11,327.40
+
 -total weight: 195 pounds
 
 --ultra thin cells:
+
 *GMBPOW model number CP142828 
+
 -cycle life: unlisted. discharges at 2% per year at 30 degrees celcius.
+
 -nominal capacity: 100 mAh
+
 -approximate weight:  1.5 g
+
 -country of origin: China
+
 -nominal voltage: 3 V
+
 -maximum voltage: unlisted
+
 -price per unit: $5.00
+
 -Max. dimensions (mm) 1.6×28.5×29 
+
 -series connections: 34
+
 -parallel connections: 1853
+
 -total units required: 63,002
+
 -total cost of cells: $315,010.00
+
 -total weight: 208 pounds
 
 *Huizhou Markyn New Energy Co., LTD. model number CP203030
+
 -cycle life: unlisted. Has a shelf life of 8 yrs.
+
 -nominal capacity: 230 mAh
+
 -approximate weight:  3 g
+
 -country of origin: China
+
 -nominal voltage: 3 V
+
 -maximum voltage: unlisted
+
 -price per unit: $5.00
+
 -Max. dimensions (mm) 2.1×30.0×30.0 
+
 -series connections: 34
+
 -parallel connections: 806
+
 -total units required: 27,404
+
 -total cost of cells: $137,020.00
+
 -total weight: 181 pounds
+
+
 
 
 <h5>Cell Electrical Characteristics </h5>
