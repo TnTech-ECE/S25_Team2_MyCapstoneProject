@@ -271,6 +271,34 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
 -total weight: 102 pounds
 
+*GMBPOW. model number CP603450
+
+-cycle life: unlisted. discharges at 2% per year at 30 degrees celcius.
+
+-nominal capacity: 2300 mAh
+
+-approximate weight:  18 g
+
+-country of origin: China
+
+-nominal voltage: 3 V
+
+-maximum voltage: unlisted
+
+-price per unit: $7.00
+
+-Max. dimensions (mm) 6.2×34.5×51 
+
+-series connections: 34
+
+-parallel connections: 81
+
+-total units required: 2754
+
+-total cost of cells: $19,278.00
+
+-total weight: 109 pounds
+
 
 <h5>Cell Electrical Characteristics </h5>
 This group needs to have a nominal output voltage of 102 V DC to match the output voltage of the Zero Motor's battery. [3] The output voltage is given by the number of cells connected in series and the cell's output voltage. Most cells have a typical output voltage of 3.6 V, so this group will need to connect 28 battery cells in series if one is using the molicel cylindrical battery.
