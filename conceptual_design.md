@@ -685,6 +685,7 @@ Ethical Considerations: The team is committed to responsible sourcing of materia
 [2] Formula SAE Rules 2025, Formula SAE, 2025.
 
 [3] "Zero Motors Cypher 2 Powertrain Datasheet," Source.[Online] Available: https://zero-cms-disco.cdn.prismic.io/zero-cms-disco/372e4e04-53f3-4f30-9bf2-7e3e5fc1a901_powertrain-data-sheet.pdf
+
 [4] IMR batteries.com.https://imrbatteries.com/collections/21700-batteries (Accessed 3/28/2025) 
  
 
