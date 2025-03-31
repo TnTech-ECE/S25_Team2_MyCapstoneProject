@@ -184,121 +184,117 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - total weight: 208 pounds
 
+ * Huizhou Markyn New Energy Co., LTD. model number CP203030
 
-*Huizhou Markyn New Energy Co., LTD. model number CP203030
+  - cycle life: unlisted. Has a shelf life of 8 yrs.
 
--cycle life: unlisted. Has a shelf life of 8 yrs.
+  - nominal capacity: 230 mAh
 
--nominal capacity: 230 mAh
+  - approximate weight:  3 g
 
--approximate weight:  3 g
+  - country of origin: China
 
--country of origin: China
+  - nominal voltage: 3 V
 
--nominal voltage: 3 V
+  - maximum voltage: unlisted
 
--maximum voltage: unlisted
+  - price per unit: $5.00
 
--price per unit: $5.00
+  - Max. dimensions (mm) 2.1×30.0×30.0 
 
--Max. dimensions (mm) 2.1×30.0×30.0 
+  - series connections: 34
 
--series connections: 34
+  - parallel connections: 806
 
--parallel connections: 806
+  - total units required: 27,404
 
--total units required: 27,404
+  - total cost of cells: $137,020.00
 
--total cost of cells: $137,020.00
+  - total weight: 181 pounds]
 
--total weight: 181 pounds]
+ * Huizhou Markyn New Energy Co., LTD. model number CP203345
 
+  - cycle life: unlisted. Has a shelf life of 5 yrs.
 
-*Huizhou Markyn New Energy Co., LTD. model number CP203345
+  - nominal capacity: 450 mAh
 
--cycle life: unlisted. Has a shelf life of 5 yrs.
+  - approximate weight:  5 g
 
--nominal capacity: 450 mAh
+  - country of origin: China
 
--approximate weight:  5 g
+  - nominal voltage: 3 V
 
--country of origin: China
+  - maximum voltage: unlisted
 
--nominal voltage: 3 V
+  - price per unit: $5.00
 
--maximum voltage: unlisted
+  - Max. dimensions (mm) 2.1×46.0×33.5 
 
--price per unit: $5.00
+  - series connections: 34
 
--Max. dimensions (mm) 2.1×46.0×33.5 
+  - parallel connections: 412
 
--series connections: 34
+  - total units required: 14,008
 
--parallel connections: 412
+  - total cost of cells: $70,040.00
 
--total units required: 14,008
+  - total weight: 154 pounds
 
--total cost of cells: $70,040.00
+ * Huizhou Markyn New Energy Co., LTD. model number CP505050
 
--total weight: 154 pounds
+  - cycle life: unlisted. Has a shelf life of 8 yrs.
 
+  - nominal capacity: 3000 mAh
 
-*Huizhou Markyn New Energy Co., LTD. model number CP505050
+  - approximate weight:  22 g
 
--cycle life: unlisted. Has a shelf life of 8 yrs.
+  - country of origin: China
 
--nominal capacity: 3000 mAh
+  - nominal voltage: 3 V
 
--approximate weight:  22 g
+  - maximum voltage: unlisted
 
--country of origin: China
+  - price per unit: $10.50
 
--nominal voltage: 3 V
+  - Max. dimensions (mm) 5.2×50.0×50.0 
 
--maximum voltage: unlisted
+  - series connections: 34
 
--price per unit: $10.50
+  - parallel connections: 62
 
--Max. dimensions (mm) 5.2×50.0×50.0 
+  - total units required: 2108
 
--series connections: 34
+  - total cost of cells: $22,134.00
 
--parallel connections: 62
+  - total weight: 102 pounds
 
--total units required: 2108
+ * GMBPOW. model number CP603450
 
--total cost of cells: $22,134.00
+  - cycle life: unlisted. discharges at 2% per year at 30 degrees celcius.
 
--total weight: 102 pounds
+  - nominal capacity: 2300 mAh
 
-*GMBPOW. model number CP603450
+  - approximate weight:  18 g
 
--cycle life: unlisted. discharges at 2% per year at 30 degrees celcius.
+  - country of origin: China
 
--nominal capacity: 2300 mAh
+  - nominal voltage: 3 V
 
--approximate weight:  18 g
+  - maximum voltage: unlisted
 
--country of origin: China
+  - price per unit: $7.00
 
--nominal voltage: 3 V
+  - Max. dimensions (mm) 6.2×34.5×51 
 
--maximum voltage: unlisted
+  - series connections: 34
 
--price per unit: $7.00
+  - parallel connections: 81
 
--Max. dimensions (mm) 6.2×34.5×51 
+  - total units required: 2754
 
--series connections: 34
+  - total cost of cells: $19,278.00
 
--parallel connections: 81
-
--total units required: 2754
-
--total cost of cells: $19,278.00
-
--total weight: 109 pounds
-
+  - total weight: 109 pounds
 
 <h5>Cell Electrical Characteristics </h5>
 This group needs to have a nominal output voltage of 102 V DC to match the output voltage of the Zero Motor's battery. [3] The output voltage is given by the number of cells connected in series and the cell's output voltage. Most cells have a typical output voltage of 3.6 V, so this group will need to connect 28 battery cells in series if one is using the molicel cylindrical battery.
@@ -332,7 +328,7 @@ This team shall design a battery that has similar electrical and volume characte
 
 <h2>Hardware Block Diagram </h2>
 
-<img src= "images/hardwareblock3.PNG" witdth="3000" height="900">
+<img src= "images/hardwareblock3.PNG" witdth="2100" height="700">
 
 
 
