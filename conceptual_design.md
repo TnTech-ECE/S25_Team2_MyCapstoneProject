@@ -86,13 +86,13 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - series connections: 28
 
-  - parallel connections: 50
+  - parallel connections: 14
 
-  - total units required: 1,400
+  - total units required: 392
 
-  - total cost of cells: $11,186
+  - total cost of cells: $3,132.08
 
-  - total weight: 216 pounds
+  - total weight: 60.49 pounds
 
 * Samsung SDI model number 40T (INR21700-40T)
 
@@ -116,13 +116,13 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - series connections: 28
 
-  - parallel connections: 56
+  - parallel connections: 16
 
-  - total units required: 1568
+  - total units required: 448
 
-  - total cost of cells: $12,528.32
+  - total cost of cells: $3,579.52
 
-  - total weight: 232 pounds
+  - total weight: 65.98 pounds
 
 * Samsung SDI model number 50T (INR21700-40T)
 
@@ -146,13 +146,13 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - series connections: 28
 
-  - parallel connections: 45
+  - parallel connections: 13
 
-  - total units required: 1260
+  - total units required: 364
 
-  - total cost of cells: $11,327.40
+  - total cost of cells: $3,272.36
 
-  - total weight: 195 pounds
+  - total weight: 56.17 pounds
 
 <h6>Ultra thin lithium ion:</h6>
 
@@ -176,13 +176,13 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - series connections: 34
 
-  - parallel connections: 1853
+  - parallel connections: 618
 
-  - total units required: 63,002
+  - total units required: 21,012
 
-  - total cost of cells: $315,010.00
+  - total cost of cells: $105,060.00
 
-  - total weight: 208 pounds
+  - total weight: 69.49 pounds
 
 * Huizhou Markyn New Energy Co., LTD. model number CP203030
 
@@ -204,13 +204,13 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - series connections: 34
 
-  - parallel connections: 806
+  - parallel connections: 269
 
-  - total units required: 27,404
+  - total units required: 9,146
 
-  - total cost of cells: $137,020.00
+  - total cost of cells: $45,730.00
 
-  - total weight: 181 pounds]
+  - total weight: 60.49 pounds
 
 * Huizhou Markyn New Energy Co., LTD. model number CP203345
 
@@ -232,13 +232,13 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - series connections: 34
 
-  - parallel connections: 412
+  - parallel connections: 138
 
-  - total units required: 14,008
+  - total units required: 4,692
 
-  - total cost of cells: $70,040.00
+  - total cost of cells: $23,460.00
 
-  - total weight: 154 pounds
+  - total weight: 51.72 pounds
 
 * Huizhou Markyn New Energy Co., LTD. model number CP505050
 
@@ -260,13 +260,13 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - series connections: 34
 
-  - parallel connections: 62
+  - parallel connections: 21
 
-  - total units required: 2108
+  - total units required: 714
 
-  - total cost of cells: $22,134.00
+  - total cost of cells: $7,497.00
 
-  - total weight: 102 pounds
+  - total weight: 34.63 pounds
 
 * GMBPOW. model number CP603450
 
@@ -288,13 +288,13 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - series connections: 34
 
-  - parallel connections: 81
+  - parallel connections: 27
 
-  - total units required: 2754
+  - total units required: 918
 
-  - total cost of cells: $19,278.00
+  - total cost of cells: $6,426
 
-  - total weight: 109 pounds
+  - total weight: 36.43 pounds
 
 <h5>Cell Electrical Characteristics </h5>
 This group needs to have a nominal output voltage of 102 V DC to match the output voltage of the Zero Motor's battery. [3] The output voltage is given by the number of cells connected in series and the cell's output voltage. Most cells have a typical output voltage of 3.6 V, so this group will need to connect 28 battery cells in series if one is using the molicel cylindrical battery.
