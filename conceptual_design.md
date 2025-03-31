@@ -63,35 +63,36 @@ In order to obtain similar electrical charectoristics to the Zero Motor's batter
 <h5> Comparison of Cells:</h5>
 <h6> Cylindrical lithium ion: </h6>
 Samsung cells: From the Samsung supplier there are a variety of battery options: [4]
+
 * Molicel model number INR-21700-P45B
 
- -cycle life: reaches 80% power output at 300 cycles
+ - cycle life: reaches 80% power output at 300 cycles
 
- -nominal capacity: 4500 mAh
+ - nominal capacity: 4500 mAh
 
- -approximate weight:  70 g
+ - approximate weight:  70 g
 
- -country of origin: Tiawan
+ - country of origin: Tiawan
 
- -nominal voltage: 3.6 V
+ - nominal voltage: 3.6 V
 
- -maximum voltage: 4.2 V
+ - maximum voltage: 4.2 V
 
- -price per unit: $7.99
+ - price per unit: $7.99
 
- -diameter: 21.55 mm
+ - diameter: 21.55 mm
 
- -length: 70.15 mm
+ - length: 70.15 mm
 
- -series connections: 28
+ - series connections: 28
 
- -parallel connections: 50
+ - parallel connections: 50
 
- -total units required: 1,400
+ - total units required: 1,400
 
- -total cost of cells: $11,186
+ - total cost of cells: $11,186
 
- -total weight: 216 pounds
+ - total weight: 216 pounds
 
 * Samsung SDI model number 40T (INR21700-40T)
 
@@ -332,7 +333,7 @@ This team shall design a battery that has similar electrical and volume characte
 
 <h2>Hardware Block Diagram </h2>
 
-<img src= "/images/hardwareblock3.PNG" witdth="6000" height="800">
+<img src= "images/hardwareblock3.PNG" witdth="6000" height="800">
 
 
 
