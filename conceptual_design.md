@@ -354,7 +354,9 @@ This team shall design a battery that has similar electrical and volume characte
 * The battery pack shall send an analog voltage signal to the Battery Management System for monitoring. 
 
 * The battery pack shall receive DC power from the charging circuit during charging.
+  
 * Requirements by SAE
+  
      - design of the battery shall be documented in the Structural Equivalency Spreadsheet (SES)  F.10.1.2 [2]
 
      - the battery pack shall attach to the vehicle. [2]
@@ -378,14 +380,15 @@ This team shall design a battery that has similar electrical and volume characte
 
      - the battery pack shall be closed at all times without the need to install additional protective covers. EV.4.3.3 
        [2]
-     - the container may contain holes, but only the wiring harness, ventilation, fasteners, and coolant fluid may pass through those holes. EV.4.3.4 a [2]
+     - the container may contain holes, but only the wiring harness, ventilation, fasteners, and coolant fluid may pass 
+       through those holes. EV.4.3.4 a [2]
 
      - each segment of the accumulator may have: [2]
 
      - a maximum voltage of 120 V DC.  [2]
 
-     - energy of 6MJ maximum –figured by multiplying the maximum stack voltage with the nominal capacity of the cells used. 
-       [2]
+     - energy of 6MJ maximum –figured by multiplying the maximum stack voltage with the nominal capacity of the cells 
+       used. [2]
 
      - a mass of 12 kg maximum. [2]
 
@@ -431,9 +434,11 @@ This team shall design a battery that has similar electrical and volume characte
     
        - Be nonconductive on surfaces that do not provide any electrical connection [2]
 
-   1. When the Accumulator Containers are opened or Segments are removed, the Accumulator Segments shall be separated by using the Maintenance Plugs. EV.5.3.3 [2]
+   1. When the Accumulator Containers are opened or Segments are removed, the Accumulator Segments shall be separated by 
+      using the Maintenance Plugs. EV.5.3.3 [2]
 
-  1. Isolation Relays - IR EV.5.4.1 
+  1. Isolation Relays - IR EV.5.4.1
+     
       - All Accumulator Containers shall contain minimum one fuse (EV.6.6) and two or more Isolation Relays (IR) EV.5.4 [2]
 
       - The Isolation Relays shall: a. Be a Normally Open type b. Open the two poles of the Accumulator EV.5.4.2 [2]
@@ -445,7 +450,8 @@ This team shall design a battery that has similar electrical and volume characte
 
       - A capacitor may be used to hold the IRs closed for up to 250 ms after the Shutdown Circuit Opens EV.5.4.5 [2]
 
-  1. Manual Service Disconnect - MSD A Manual Service Disconnect (MSD) shall be included to quickly disconnect one or the two poles of the Accumulator EV.11.3.2  EV.5.5 [2]
+  1. Manual Service Disconnect - MSD A Manual Service Disconnect (MSD) shall be included to quickly disconnect one or the 
+     two poles of the Accumulator EV.11.3.2  EV.5.5 [2]
 
       - The Energy Meter shall not be used as the Manual Service Disconnect (MSD) EV.5.5.2 [2]
 
@@ -616,6 +622,10 @@ This team shall design a battery that has similar electrical and volume characte
          EV.5.6.4 [2]
 
    - The precharge relay shall be a mechanical type relay EV.5.6.5 [2]
+ 
+  <ins> Discharging Circuit</ins>
+
+  *
 
 <h2>Ethical, Professional, and Standards Considerations: </h2>
 
