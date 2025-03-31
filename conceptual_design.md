@@ -355,7 +355,7 @@ This team shall design a battery that has similar electrical and volume characte
 
 * The battery pack shall receive DC power from the charging circuit during charging.
   
-* Requirements by SAE
+* Requirements by SAE:
   
      - design of the battery shall be documented in the Structural Equivalency Spreadsheet (SES)  F.10.1.2 [2]
 
