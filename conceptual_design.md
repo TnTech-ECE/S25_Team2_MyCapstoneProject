@@ -60,100 +60,100 @@ The isolation relay must be used and a minimum of one fuse, to seperate the two 
 <h5> Battery Cells </h5>
 In order to obtain similar electrical charectoristics to the Zero Motor's battery we will need to use lithium ion cells in the battery. Zero motors uses a lithium nickel manganese cobalt (LiNiMnCoO2) which is produced by Farasis.[1] Lithium cobalt has a higher energy density at the cost of battery life and reusability but is not available for commercial purchase.[1]
 
-<h6> Comparison of Cells:</h6>
---Cylindrical lithium ion batteries.
+<h5> Comparison of Cells:</h5>
+<h6> Cylindrical lithium ion: </h6>
 Samsung cells: From the Samsung supplier there are a variety of battery options: [4]
-*Molicel model number INR-21700-P45B
+* Molicel model number INR-21700-P45B
 
--cycle life: reaches 80% power output at 300 cycles
+ -cycle life: reaches 80% power output at 300 cycles
 
--nominal capacity: 4500 mAh
+ -nominal capacity: 4500 mAh
 
--approximate weight:  70 g
+ -approximate weight:  70 g
 
--country of origin: Tiawan
+ -country of origin: Tiawan
 
--nominal voltage: 3.6 V
+ -nominal voltage: 3.6 V
 
--maximum voltage: 4.2 V
+ -maximum voltage: 4.2 V
 
--price per unit: $7.99
+ -price per unit: $7.99
 
--diameter: 21.55 mm
+ -diameter: 21.55 mm
 
--length: 70.15 mm
+ -length: 70.15 mm
 
--series connections: 28
+ -series connections: 28
 
--parallel connections: 50
+ -parallel connections: 50
 
--total units required: 1,400
+ -total units required: 1,400
 
--total cost of cells: $11,186
+ -total cost of cells: $11,186
 
--total weight: 216 pounds
+ -total weight: 216 pounds
 
-*Samsung SDI model number 40T (INR21700-40T)
+* Samsung SDI model number 40T (INR21700-40T)
 
--cycle life: ~ 250
+ -cycle life: ~ 250
 
--nominal capacity: 4000 mAh
+ -nominal capacity: 4000 mAh
 
--approximate weight:  66.8 g
+ -approximate weight:  66.8 g
 
--country of origin: unlisted
+ -country of origin: unlisted
 
--nominal voltage: 3.6 V
+ -nominal voltage: 3.6 V
 
--maximum voltage: 4.2 V
+ -maximum voltage: 4.2 V
 
--price per unit: $7.99
+ -price per unit: $7.99
 
--diameter: 21.1 mm
+ -diameter: 21.1 mm
 
--length: 70.4 mm
+ -length: 70.4 mm
 
--series connections: 28
+ -series connections: 28
 
--parallel connections: 56
+ -parallel connections: 56
 
--total units required: 1568
+ -total units required: 1568
 
--total cost of cells: $12,528.32
+ -total cost of cells: $12,528.32
 
--total weight: 232 pounds
+ -total weight: 232 pounds
 
-*Samsung SDI model number 50T (INR21700-40T)
+* Samsung SDI model number 50T (INR21700-40T)
 
--cycle life: ~ 250 to 60% capacity
+ -cycle life: ~ 250 to 60% capacity
 
--nominal capacity: 5000 mAh
+ -nominal capacity: 5000 mAh
 
--approximate weight:  70 g
+ -approximate weight:  70 g
 
--country of origin: unlisted
+ -country of origin: unlisted
 
--nominal voltage: 3.6 V
+ -nominal voltage: 3.6 V
 
--maximum voltage: 4.2 V
+ -maximum voltage: 4.2 V
 
--price per unit: $8.99
+ -price per unit: $8.99
 
--diameter: 21.1 mm
+ -diameter: 21.1 mm
 
--length: 70.7 mm
+ -length: 70.7 mm
 
--series connections: 28
+ -series connections: 28
 
--parallel connections: 45
+ -parallel connections: 45
 
--total units required: 1260
+ -total units required: 1260
 
--total cost of cells: $11,327.40
+ -total cost of cells: $11,327.40
 
--total weight: 195 pounds
+ -total weight: 195 pounds
 
---ultra thin cells:
+<h6>Ultra thin lithium ion:</h6>
 
 
 *GMBPOW model number CP142828 
@@ -332,7 +332,7 @@ This team shall design a battery that has similar electrical and volume characte
 
 <h2>Hardware Block Diagram </h2>
 
-![Capture](https://github.com/user-attachments/assets/2736f964-2aea-439d-9cae-8d7a974ce6d6)
+<img src= "/images/hardwareblock3.PNG" witdth="6000" height="800">
 
 
 
@@ -435,7 +435,7 @@ Ethical Considerations: The team is committed to responsible sourcing of materia
 
 <h2>Timeline </h2>
 
-Revise the detailed timeline (Gantt chart) you created in the project proposal. Ensure that the timeline is optimized for detailed design. Address critical unknowns early and determine if a prototype needs to be constructed before the final build to validate a subsystem. Additionally, if subsystem A imposes constraints on subsystem B, generally, subsystem A should be designed first. 
+<img src= "/images/gantt5.PNG" witdth="8800" height="400">
 
  
 
@@ -454,7 +454,7 @@ Revise the detailed timeline (Gantt chart) you created in the project proposal. 
 
 Maddox: budget, operation flow chart
 
-Dylan: comparison of solutions, hardware block diagram, operation flow chart
+Dylan: comparison of solutions, hardware block diagram
 
 Jordan: atomic subsystem specifications
 
