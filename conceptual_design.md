@@ -156,7 +156,7 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
 <h6>Ultra thin lithium ion:</h6>
 
- * GMBPOW model number CP142828 
+* GMBPOW model number CP142828 
 
   - cycle life: unlisted. discharges at 2% per year at 30 degrees celcius.
 
@@ -184,7 +184,7 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - total weight: 208 pounds
 
- * Huizhou Markyn New Energy Co., LTD. model number CP203030
+* Huizhou Markyn New Energy Co., LTD. model number CP203030
 
   - cycle life: unlisted. Has a shelf life of 8 yrs.
 
@@ -212,7 +212,7 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - total weight: 181 pounds]
 
- * Huizhou Markyn New Energy Co., LTD. model number CP203345
+* Huizhou Markyn New Energy Co., LTD. model number CP203345
 
   - cycle life: unlisted. Has a shelf life of 5 yrs.
 
@@ -240,7 +240,7 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - total weight: 154 pounds
 
- * Huizhou Markyn New Energy Co., LTD. model number CP505050
+* Huizhou Markyn New Energy Co., LTD. model number CP505050
 
   - cycle life: unlisted. Has a shelf life of 8 yrs.
 
@@ -268,7 +268,7 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - total weight: 102 pounds
 
- * GMBPOW. model number CP603450
+* GMBPOW. model number CP603450
 
   - cycle life: unlisted. discharges at 2% per year at 30 degrees celcius.
 
@@ -328,7 +328,7 @@ This team shall design a battery that has similar electrical and volume characte
 
 <h2>Hardware Block Diagram </h2>
 
-<img src= "images/hardwareblock3.PNG" witdth="2100" height="700">
+<img src= "images/hardwareblock3.PNG" witdth="1050" height="350">
 
 
 
