@@ -64,7 +64,6 @@ In order to obtain similar electrical charectoristics to the Zero Motor's batter
 <h6> Cylindrical lithium ion: </h6>
 Samsung cells: From the Samsung supplier there are a variety of battery options: [4]
 
-| Cylindrical Lithium Ion Cells| | | |
 |------------------------------|----------|----------|-----------|
 | Name			|  Molicel		|  Samsung SDI 40T  	| Samsung SDI 50T|
 |Model Number	| INR-21700-P45B 	| INR21700-40T	 | INR21700-50S|
