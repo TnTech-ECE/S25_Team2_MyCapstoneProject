@@ -86,20 +86,20 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 | Ultra-thin Lithium Ion Cells |  |  |  |  |  |
 |-------------------------------|----------------|-------------------|--------------------|-------------|---------------|
 | Name			|  GMBPOW	|  Huizhou Markyn New Energy Co, LTD | Huizhou Markyn New Energy Co, LTD | Huizhou Markyn New Energy Co, LTD | GMBPOW |
-| Model Number	| CP142828	|CP203030	| CP203345| CP505050| CP603450|
-| Cycle life		|  unlisted. discharges at 2% per year at 30 °C| unlisted; as a shelf life of 8 yrs| unlisted; as a shelf life of 5 yrs | unlisted; as a shelf life of 8 yrs | unlisted. discharges at 2% per year at 30 °C |
-| Nominal capacity, mAh|  100		| 	 230 	| 450 |3000| 2300|
-| Approximate weight, g  |  1.5 		|  	3	| 5|22| 18|
-| Country of origin	   |  China 	|  	China	| China	| China | China|
-| Nominal voltage, V	   |  3 		|  	3	|3	|3| 3|
-| Maximum voltage, V	|  unlisted  	|    unlisted	| unlisted| unlisted| unlisted|
-| Price per unit, USD $	| 5.00 		|   5.00		|5.00	|10.50| 7.00 |
-| Max. dimensions, mm| 1.6×28.5×29	|   2.1×30.0×30.0| 2.1×46.0×33.5|5.2×50.0×50.0| 6.2×34.5×51|
-| Series connection	|  34		|   	34	| 34 	| 34| 34|
-| Parallel connections	|   618		|   	269	| 138	|21| 27|
-| Total units required	|  21,012	|   	9,146	|4,692 	|714|918 |
-| Total cost of cells, USD $|  105,060.00| 45,730.00	| 23,460.00|7,497.00| 6,426.00|
-| Total weight, lb	|  69.49		|    	60.49 	|51.72  |34.63 | 36.43 |
+| Model Number	| CP142828	| CP203030	| CP203345 | CP505050 | CP603450 |
+| Cycle life		| unlisted; discharges at 2% per year at 30 °C | unlisted; as a shelf life of 8 yrs | unlisted; as a shelf life of 5 yrs | unlisted; as a shelf life of 8 yrs | unlisted. discharges at 2% per year at 30 °C |
+| Nominal capacity, mAh |  100		| 	 230 	| 450 | 3000 | 2300 |
+| Approximate weight, g  |  1.5 		|  	3	| 5 | 22 | 18 |
+| Country of origin	   |  China 	|  	China	| China	| China | China |
+| Nominal voltage, V	   |  3 		|  	3	| 3	| 3 | 3 |
+| Maximum voltage, V	|  unlisted  	|    unlisted	| unlisted | unlisted | unlisted |
+| Price per unit, USD $	| 5.00 | 5.00	| 5.00	| 10.50 | 7.00 |
+| Max. dimensions, mm | 1.6×28.5×29	|   2.1×30.0×30.0 | 2.1×46.0×33.5 | 5.2×50.0×50.0 | 6.2×34.5×51 |
+| Series connection	|  34		|   	34	| 34 	| 34 | 34 |
+| Parallel connections	|   618		|   	269	| 138	| 21 | 27 |
+| Total units required	|  21,012	|   	9,146	| 4,692 	| 714 | 918 |
+| Total cost of cells, USD $|  105,060.00 | 45,730.00	| 23,460.00 | 7,497.00 | 6,426.00 |
+| Total weight, lb	|  69.49		|    	60.49 	| 51.72  | 34.63 | 36.43 |
 
 
 * Molicel model number INR-21700-P45B
