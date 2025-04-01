@@ -421,7 +421,7 @@ This team shall design a battery that has similar electrical and volume characte
      - each accumulator segment shall be electrically isolated from each other and on top of the segments to prevent 
        arcing.  EV.5.2.3 [2]
 
-    1. Each Accumulator Container shall be labeled with the EV.4.3.8:
+    * Each Accumulator Container shall be labeled with the EV.4.3.8:
 
        - School Name and Vehicle Number
          
@@ -437,7 +437,7 @@ This team shall design a battery that has similar electrical and volume characte
          
        - All wires in the accumulator shall be rated for the maximum voltage in the tractive system. EV.5.2.5 [2]
 
-   1. Maintenance Plugs shall EV.5.3.2:  [2]
+   * Maintenance Plugs shall EV.5.3.2:  [2]
 
        - Require the physical removal or separation of a component. Contactors or switches are not acceptable Maintenance 
          Plugs [2]
@@ -453,10 +453,10 @@ This team shall design a battery that has similar electrical and volume characte
     
        - Be nonconductive on surfaces that do not provide any electrical connection [2]
 
-   1. When the Accumulator Containers are opened or Segments are removed, the Accumulator Segments shall be separated by 
+  * When the Accumulator Containers are opened or Segments are removed, the Accumulator Segments shall be separated by 
       using the Maintenance Plugs. EV.5.3.3 [2]
 
-  1. Isolation Relays - IR EV.5.4.1
+  * Isolation Relays - IR EV.5.4.1
      
       - All Accumulator Containers shall contain minimum one fuse (EV.6.6) and two or more Isolation Relays (IR) EV.5.4 [2]
 
@@ -469,8 +469,8 @@ This team shall design a battery that has similar electrical and volume characte
 
       - A capacitor may be used to hold the IRs closed for up to 250 ms after the Shutdown Circuit Opens EV.5.4.5 [2]
 
-  1. Manual Service Disconnect - MSD A Manual Service Disconnect (MSD) shall be included to quickly disconnect one or the 
-     two poles of the Accumulator EV.11.3.2  EV.5.5 [2]
+  * Manual Service Disconnect - MSD A Manual Service Disconnect (MSD) shall be included to quickly disconnect one or the 
+    two poles of the Accumulator EV.11.3.2  EV.5.5 [2]
 
       - The Energy Meter shall not be used as the Manual Service Disconnect (MSD) EV.5.5.2 [2]
 
@@ -495,12 +495,14 @@ This team shall design a battery that has similar electrical and volume characte
 * The BMS shall send serial data (I2C, CAN, or UART) to the Vehicle Control Unit for telemetry.
 
 * The BMS shall receive power from the charging circuit.
+  
 * Requirements given by SAE:
-* 1. Battery Management System - BMS EV.7.3 [11]
+ 
+* Battery Management System - BMS EV.7.3 [11]
 
    - Prevents the maximum current draw from accumulator T.9.2.2 [2]
 
-   - A Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the EV.7.3.1:  [2]
+   - A Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the EV.7.3.1:      [2]
 
       - Tractive System is Active EV.11.5  [2]
 
@@ -535,26 +537,27 @@ This team shall design a battery that has similar electrical and volume characte
 
       - Clearly marked with the lettering “BMS” [2]
 
-1. Accumulator Voltage EV.7.4  [2]
+* Accumulator Voltage EV.7.4  [2]
 
-      - The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one 
-        voltage measurement is needed EV.7.4.1 [2]
+   - The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one 
+     voltage measurement is needed EV.7.4.1 [2]
 
-      - Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data 
-        sheet. Measurement accuracy shall be considered. EV.7.4.2 [2]
+   - Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data 
+     sheet. Measurement accuracy shall be considered. EV.7.4.2 [2]
 
-      - All voltage sense wires to the BMS shall meet one of EV.7.4.3:  [2]
+   - All voltage sense wires to the BMS shall meet one of EV.7.4.3:  [2]
 
       - Have Overcurrent Protection EV.7.4.4 below  [2]
 
       - Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  [2]
 
-   - When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two EV.7.4.4:  [2]
+         - When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two EV.7.4.4:  [2]
 
-      - The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell 
-        tab.  [2]
+         - The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the 
+           cell tab.  [2]
 
-      - The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  [2]
+         - The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage 
+           [2]
 
    - Overcurrent Protection is not required on a voltage sense wire if all three conditions are met EV.7.4.5:  [2]
 
@@ -564,15 +567,15 @@ This team shall design a battery that has similar electrical and volume characte
 
       - BMS board has Overcurrent Protection [2]
 
-1. Accumulator Temperature EV.7.5 [2]
+* Accumulator Temperature EV.7.5 [2]
 
    - The BMS shall measure the temperatures of critical points of the Accumulator EV.7.5.1 [2]
 
    - Temperatures (considering measurement accuracy) shall stay below the lower of the two EV.7.5.2:  [2]
 
-     - The maximum cell temperature limit stated in the cell data sheet  [2]
+      - The maximum cell temperature limit stated in the cell data sheet  [2]
 
-     - 60°C [2]
+      - 60°C [2]
 
    - Cell temperatures shall be measured at the negative terminal of the respective cell EV.7.5.3 [2]
 
@@ -599,19 +602,21 @@ This team shall design a battery that has similar electrical and volume characte
 
        - In the sensing circuit [2]
 
-1. The isolation shall consider GLV/TS isolation as well as common mode voltages between sense locations. [2]
+* The isolation shall consider GLV/TS isolation as well as common mode voltages between sense locations. [2]
   
-1. The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion and otherwise be disconnected.
+* The battery shall safely discharge and recharge only under appropriate operating conditions (when the internal battery 
+  temperature is between -4 degrees Fahrenheit and 140 degrees Fahrenheit) to minimize the risk of combustion and 
+  otherwise be disconnected.
 
-1. The battery shall disconnect based on the means of abnormalities: high temperature, high current, high voltage. 
+* The battery shall disconnect based on the means of abnormalities: high temperature, high current, high voltage. 
 
-1. The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
+* The battery shall have a total cost ,manufactoring and design, not exceeding $10,000. 
   
-1. All electrical components, including accumulator cells, shall be sheilded from exposure to water.
+* All electrical components, including accumulator cells, shall be sheilded from exposure to water.
 
-1. The battery must be covered in non-flammable material.[2] 
+* The battery must be covered in non-flammable material.[2] 
 
-1. Cell balancing is not permitted when the Shutdown Circuit is Open ( EV.7.2, EV.8.4 ) EV.7.3.3[2]
+* Cell balancing is not permitted when the Shutdown Circuit is Open ( EV.7.2, EV.8.4 ) EV.7.3.3[2]
 
 
 <ins> Precharging Circuit </ins>
@@ -628,32 +633,35 @@ This team shall design a battery that has similar electrical and volume characte
 * The charger shall communicate charge status, voltage, and current to the BMS using CAN Bus or UART.
 
 * Requirements given by SAE:
-* 1. The Precharge Circuit shall: [2]
+  
+   - The Precharge Circuit shall: [2]
 
-   - Be able to charge the Intermediate Circuit to minimum 90% of the Accumulator voltage before closing the second IR 
-         [2]
+      - Be able to charge the Intermediate Circuit to minimum 90% of the Accumulator voltage before closing the second IR 
+        [2]
    
-   - Be supplied from the Shutdown Circuit EV.7.1 [2]
+      - Be supplied from the Shutdown Circuit EV.7.1 [2]
    
-   - The Accumulator shall contain a Precharge Circuit. EV.5.6.1 [2]
+      - The Accumulator shall contain a Precharge Circuit. EV.5.6.1 [2]
 
-   - Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Precharge Circuit 
-         EV.5.6.4 [2]
+      - Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Precharge Circuit 
+        EV.5.6.4 [2]
 
-   - The precharge relay shall be a mechanical type relay EV.5.6.5 [2]
+      - The precharge relay shall be a mechanical type relay EV.5.6.5 [2]
  
   <ins> Discharging Circuit</ins>
 
-  *Requirements given by SAE:
-  -Wired in a way that it is always active when the Shutdown Circuit is open [2]
+  * Requirements given by SAE:
+  
+    - Wired in a way that it is always active when the Shutdown Circuit is open [2]
 
-  -Able to discharge the Intermediate Circuit capacitors if the MSD has been opened [2]
+    - Able to discharge the Intermediate Circuit capacitors if the MSD has been opened [2]
 
-  -Not be fused [2]
+    - Not be fused [2]
 
-  -Designed to handle the maximum Tractive System voltage for minimum 15 seconds [2]
+    - Designed to handle the maximum Tractive System voltage for minimum 15 seconds [2]
 
-  -Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Discharge Circuit EV.5.6.4 [2]
+    - Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Discharge Circuit EV.5.6.4 
+      [2]
 
 <h2>Ethical, Professional, and Standards Considerations: </h2>
 
