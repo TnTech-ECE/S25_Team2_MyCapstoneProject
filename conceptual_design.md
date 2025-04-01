@@ -64,6 +64,25 @@ In order to obtain similar electrical charectoristics to the Zero Motor's batter
 <h6> Cylindrical lithium ion: </h6>
 Samsung cells: From the Samsung supplier there are a variety of battery options: [4]
 
+| Cylindrical Lithium Ion Cells|  |  |
+|--------------|----------|----------|-----------|
+| Name			|  Molicel		|  Samsung SDI 40T  	| Samsung SDI 50T|
+|Model Number	| INR-21700-P45B 	| INR21700-40T	 | INR21700-40T|
+|Cycle life		|  reaches 80% power output at 300 cycles | ~ 250  |~ 250 to 60% capacity|
+|Nominal capacity, mAh|  4500 		| 	4000	|5000|
+|Approximate weight, g	|  70  			|  66.8 		|70|
+|Country of origin	|  Taiwan 		|  unlisted	| unlisted|
+|Nominal voltage, V	|  3.6  			|  3.6 		|3.6|
+|Maximum voltage, V	|  4.2  			|  4.2 		|4.2|
+|Price per unit, USD $	| 7.99 			|  7.99		|8.99|
+|Max. dimensions, mm| 21.55×70.15		|  21.1×70.4	|21.1×70.7|
+|Series connection	|  28			|  28		|28|
+|Parallel connections	|  14			|  16		|13|
+|Total units required	|  392			|  448		|364|
+|Total cost of cells, USD $|  3,132.08		|3,579.52	|3,272.36|
+|Total weight, lb	|  60.49 		|  65.98 	|56.17|
+
+
 * Molicel model number INR-21700-P45B
 
   - cycle life: reaches 80% power output at 300 cycles
