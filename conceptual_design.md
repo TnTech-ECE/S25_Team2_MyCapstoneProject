@@ -143,7 +143,7 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
   - total weight: 65.98 pounds
 
-* Samsung SDI model number 50T (INR21700-40T)
+* Samsung SDI model number 50S (INR21700-50S)
 
   - cycle life: ~ 250 to 60% capacity
 
