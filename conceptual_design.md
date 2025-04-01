@@ -647,21 +647,21 @@ This team shall design a battery that has similar electrical and volume characte
         EV.5.6.4 [2]
 
       - The precharge relay shall be a mechanical type relay EV.5.6.5 [2]
- 
-  <ins> Discharging Circuit</ins>
 
-  * Requirements given by SAE:
+<ins> Discharging Circuit</ins>
+
+* Requirements given by SAE:
   
-    - Wired in a way that it is always active when the Shutdown Circuit is open [2]
+   - Wired in a way that it is always active when the Shutdown Circuit is open [2]
 
-    - Able to discharge the Intermediate Circuit capacitors if the MSD has been opened [2]
+   - Able to discharge the Intermediate Circuit capacitors if the MSD has been opened [2]
 
-    - Not be fused [2]
+   - Not be fused [2]
 
-    - Designed to handle the maximum Tractive System voltage for minimum 15 seconds [2]
+   - Designed to handle the maximum Tractive System voltage for minimum 15 seconds [2]
 
-    - Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Discharge Circuit EV.5.6.4 
-      [2]
+   - Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Discharge Circuit EV.5.6.4 
+     [2]
 
 <h2>Ethical, Professional, and Standards Considerations: </h2>
 
