@@ -83,8 +83,8 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 |Total weight, lb	|  60.49 		|  65.98 	|56.17|
 
 
-| Ultra-thin Lithium Ion Cells |  |  |  |  |  |
-|-------------------------------|----------------|-------------------------------|-------------------------------|-------------------------------|----------------|
+| Ultra-thin Lithium Ion Cells| | | | | |
+|-----------------------------|-----------|-----------|-----------|-----------|-----------|
 | Name			|  GMBPOW	|  Huizhou Markyn New Energy Co, LTD | Huizhou Markyn New Energy Co, LTD | Huizhou Markyn New Energy Co, LTD | GMBPOW |
 | Model Number	| CP142828	| CP203030	| CP203345 | CP505050 | CP603450 |
 | Cycle life		| unlisted; discharges at 2% per year at 30 °C | unlisted; 8 yrs shelf life| unlisted; 5 yrs shelf life | unlisted; 8 yrs shelf life | unlisted. discharges at 2% per year at 30 °C |
