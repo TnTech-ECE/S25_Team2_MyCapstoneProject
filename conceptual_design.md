@@ -66,7 +66,7 @@ Samsung cells: From the Samsung supplier there are a variety of battery options:
 
 | Cylindrical Lithium Ion Cells| | | |
 |------------------------------|----------|----------|-----------|
-| Name			|  Molicel		|  Samsung SDI 40T  	| Samsung SDI 50T|
+| Name			|  Molicel		|  Samsung SDI 40T  	| Samsung SDI 50S|
 |Model Number	| INR-21700-P45B 	| INR21700-40T	 | INR21700-50S|
 |Cycle life		|  reaches 80% power output at 300 cycles | ~ 250  |~ 250 to 60% capacity|
 |Nominal capacity, mAh|  4500 		| 	4000	|5000|
