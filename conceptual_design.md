@@ -46,6 +46,8 @@ The project specifications shall be defined by stakeholder requirements to ensur
 
 * All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure.
 
+* This team shall design a battery that has similar electrical and volume characteristics to the 2022 Zero Motor’s motorcycle battery with a knowable battery management system to be used as a backup and/or main battery for the Formula SAE event. 
+
 <h3>Constraints and Their Origins </h3>
 
 The design of the BMS must adhere to several constraints imposed by competition rules, engineering standards, and fire safety concerns. These include: 
@@ -149,7 +151,7 @@ While this team could solve the battery management system of the Zero Motor’s 
 This team will design a battery using a molicel battery cell model number INR-21700-P45B which requires 28 series connections and 50 parralel connections to achieve the same electrical characteristics as the Zero Motor's battery with a weight of the battery cells alone at  98 kg or 216 pounds
  
 
-This team shall design a battery that has similar electrical and volume characteristics to the 2022 Zero Motor’s motorcycle battery with a knowable battery management system to be used as a backup for the Formula SAE event. 
+
 
 <h2>Hardware Block Diagram </h2>
 
