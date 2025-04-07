@@ -32,21 +32,41 @@ A well-designed BMS is essential for preventing battery fire in environments. Th
 
 * The total project cost shall not exceed $10,000, ensuring cost-effectiveness. 
 
+<h3>Specifications</h3>
+
+The project specifications shall be defined by stakeholder requirements to ensure optimal performance and competitiveness. If any specification proves unattainable, discussions and negotiations with stakeholders shall be necessary to identify viable alternatives. The primary requirements include:
+
+* The battery shall meet or exceed the performance of the Zero Motorcycle battery, ensuring sufficient power, endurance, and efficiency for competitive racing.
+
+* The battery shall safely discharge and recharge under appropriate operating conditions without the risk of combustion.
+
+* This project shall employ a strategic engineering approach that optimally balances performance, weight, safety, and cost efficiency.
+
+* The battery shall have a total cost not exceeding $10,000.
+
+* All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure.
+
 <h3>Constraints and Their Origins </h3>
 
 The design of the BMS must adhere to several constraints imposed by competition rules, engineering standards, and fire safety concerns. These include: 
 
 * Safety Regulations: The BMS must comply with Formula SAE safety standards, including fire prevention and automatic 
-  shutdown in hazardous conditions as stated above. 
+  shutdown in hazardous conditions as stated above.
+
+   * The battery management system shall display the voltage levels and other relevant information as given by the Formula SAE rulebook and shut down the operation of the battery to prevent fires when those conditions are not met.
 
 * Material Constraints: The battery must be enclosed in non-flammable housing to meet industry and competition safety 
-  guidelines. 
+  guidelines, including:
+
+   * The battery must be covered in non-flammable material.
 
 * Economic Feasibility: The total cost must remain under budget to ensure financial viability and to score well in the 
   cooresponding Formula SAE test.  
 
 * Technical Compatibility: The BMS must be compatible with the vehicle’s electrical system which is currently being 
-  designed for the Zero Motor's battery, ensuring seamless integration. 
+  designed for the Zero Motor's battery, ensuring seamless integration.
+  
+The constraints explicitly model specific degradation mechanisms, such as lithium plating, lithium depletion, overheating, and stress fracture. A critical challenge is that these states evolve according to a systems of nonlinear partial differential equations and are not physically measurable. This design shall address this challenge and potential solutions by utilizing the reference governor concept, demonstrating how electrochemical model state information can be leveraged to ensure safe operation while enhancing energy capacity, power, and charge times in Li-ion batteries.
 
 <h2>Comparative Analysis of Potential Solutions </h2>
 The formula sae event has many regulations regarding the battery and battery management system and while they do constrain options for they also help guide system design. Additionally, the battery and battery management system under design must mimick the Zero Motor's battery so that it may be used on the current vehicle.
