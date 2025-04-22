@@ -155,7 +155,7 @@ This team will design a battery using a molicel battery cell model number INR-21
 
 <h2>Hardware Block Diagram </h2>
 
-<img src= "images/hardwareblock3.PNG" witdth="1050" height="350">
+<img src= "images/hardwareblock6.PNG" witdth="1050" height="350">
 
 
 
