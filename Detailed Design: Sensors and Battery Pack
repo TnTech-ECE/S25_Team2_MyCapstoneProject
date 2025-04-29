@@ -1,2 +1,2 @@
 <h1> Detailed Design: Sensors and Battery Cells </h1>
-The battery cells of an accumulator are the 
+The Formula SAE vehicle requires a battery similar to the Zero Motor's battery in electrical characteristics in order to function properly. Namely, the output voltage should be 102 volts with a nominal energy capacity of 6.3 kwh. To accomplish this we shall use 
