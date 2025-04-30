@@ -23,8 +23,9 @@ The battery cells and sensors are embeded in the accumulator behind a layer of i
 * The size of the resulting battery should be the same as the Zero Motor's battery
 
 <h2> Proposed Solution </h2>
-We want to use the Samsung SDI 50S batteries in a twenty eight cell in series to 12 cells in parralel configuration to reach the electrical characteristics of the Zero Motor's battery. 
-For the sensors we have options: enepaq sells some battery packs, however, I Dylan Caten failed to find any prices for battery packs on their website. I was able to find miniature BMS that are meant for the battery packs, but the cost for the packs alone is unlisted. 
+We want to use the Samsung SDI 50S batteries in a 28 cell in series to 12 cells in parralel configuration to reach the electrical characteristics of the Zero Motor's battery. 
+For the sensors we have options: enepaq sells some battery packs. 
 Additionally, enepaq's batteries that they sell are also not listed with their prices on their vendors.
 
-enepaq would be a great source for the sensors and insulation for the batteries, they supply thier battery packs through digikey. The packs configure the cells into 
+enepaq would be a great source for the sensors and insulation for the batteries, they supply thier battery packs through digikey. The packs configure the cells into a paralel configuration so we will need 56 1s6p or 28 2s6p for a total cost of 
+They may not have a size that fits for the Samsung S50 battery, so we may have to chose a different battery cell.
