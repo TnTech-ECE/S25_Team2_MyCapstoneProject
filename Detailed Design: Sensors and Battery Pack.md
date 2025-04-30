@@ -8,7 +8,7 @@ The Formula SAE vehicle requires a battery similar to the Zero Motor's battery i
 <h3> Sensors and Battery Cells Integration </h3>
 The battery cells and sensors are embeded in the accumulator behind a layer of insulation that hooks up to an isolation relay and outputs a steady low power voltage for the low powered systems and a high power voltage which can be turned off by the battery management system (BMS).
 
-<h3 Constraints </h3>
+<h3> Constraints </h3>
 * Each segment of the accumulator must weigh no more than 12 kg
 * Each segment must have insulation rated for the maximum voltage of the accumulator
 * 20% of all cells must be monitored for temperature at the negative terminal
