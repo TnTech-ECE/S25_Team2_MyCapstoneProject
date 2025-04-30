@@ -86,7 +86,7 @@ A variety of different battery options are available, however, the current vehic
 To compensate for this the group shall use similar materials to the Zero Motor battery. This will allow the group to mimic the electrical characteristics with proper cell placement.
 It does mean, however, that this group shall implement its own battery management system that shall be of a similar size to Zero Motor’s battery management system, which will require the design to be optimal in both size and charge per area. 
 
-<h2>High-Level Solution<h2>
+<h2>High-Level Solution</h2>h2>
 
 This section presents a comprehensive, high-level solution aimed at efficiently fulfilling all specified requirements and constraints. The solution is designed to maximize stakeholder goal attainment, adhere to established constraints, minimize risks, and optimize resource utilization. Please elaborate on how your design accomplishes these objectives. 
 
