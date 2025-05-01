@@ -4,6 +4,7 @@ The Formula SAE vehicle requires a battery similar to the Zero Motor's battery i
 --
 *additionally we would like, 
 --Keep the dimensions similar to the Zero Motor's battery -- this may not be possible.
+--Keep the price of the project at a reasonable level, below $10,000 for this detailed design.
 
 <h3> Sensors and Battery Cells Integration </h3>
 The battery cells and sensors are embeded in the accumulator behind a layer of insulation that hooks up to an isolation relay and outputs a steady low power voltage for the low powered systems and a high power voltage which can be turned off by the battery management system (BMS).
@@ -23,9 +24,6 @@ The battery cells and sensors are embeded in the accumulator behind a layer of i
 * The size of the resulting battery should be the same as the Zero Motor's battery
 
 <h2> Proposed Solution </h2>
-We want to use the Samsung SDI 50S batteries in a 28 cell in series to 12 cells in parralel configuration to reach the electrical characteristics of the Zero Motor's battery. 
-For the sensors we have options: enepaq sells some battery packs. 
-Additionally, enepaq's batteries that they sell are also not listed with their prices on their vendors.
+We want to use the BL5000C21703S3PFTM106ICC1NN from GlobTek, Inc battery packs in a 10 cell in series to 4 cells in parralel configuration to reach the electrical characteristics of the Zero Motor's battery. 
+The battery packs contain sensors however they communicate on SMbuss lines. The appropriate protocols will have to be applied in the BMS.
 
-enepaq would be a great source for the sensors and insulation for the batteries, they supply thier battery packs through digikey. The packs configure the cells into a paralel configuration so we will need 56 1s6p or 28 2s6p for a total cost of 
-They may not have a size that fits for the Samsung S50 battery, so we may have to chose a different battery cell.
