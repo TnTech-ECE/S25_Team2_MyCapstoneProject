@@ -3,7 +3,7 @@
 M. Miranda
 Tennessee Technological University 
 ECE Department 
-[mmirandam42@tntech.edu](mailto:mmirandam42@tntech.edu)
+mmirandam42@tntech.edu
 ```
 ## Function of the Subsystem
 
