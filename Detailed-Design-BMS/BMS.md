@@ -150,7 +150,12 @@ For sections including a software component, produce a chart that demonstrates t
 
 ## BOM
 
-Provide a comprehensive list of all necessary components along with their prices and the total cost of the subsystem. This information should be presented in a tabular format, complete with the manufacturer, part number, distributor, distributor part number, quantity, price, and purchasing website URL. If the component is included in your schematic diagram, ensure inclusion of the component name on the BOM (i.e R1, C45, U4).
+Provide a comprehensive list of all necessary components along with their prices and the total cost of the subsystem. 
+If the component is included in your schematic diagram, ensure inclusion of the component name on the BOM (i.e R1, C45, U4).
+
+| item | manufacturer | part number | distributor | distributor part number | quantity | price | purchasing website UR | 
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 
 ## Analysis of Design Decisions:
 
