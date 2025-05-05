@@ -156,7 +156,7 @@ If the component is included in your schematic diagram, ensure inclusion of the 
 | Item | Manufacturer | Part Number | Distributor | Distributor Part Number | Quantity | Price (USD) | Purchasing Website URL | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | TinyBMSv2.1 | 	ENEPAQ | TinyBMSv2.1-150A 4s-16s 12V-60V | DigiKey | 5124-TinyBMSv2.1-150A4s-16s12V-60V-ND | 2 | 389.00 | [site](https://www.digikey.com/en/products/detail/enepaq/TinyBMSv2-1-150A-4s-16s-12V-60V/21283300) |
-| Total | --- | --- | --- | --- | --- | $0 | --- |
+| Total $ (USD) | --- | --- | --- | --- | --- | 778.00 | --- |
 
 ## Analysis of Design Decisions:
 
