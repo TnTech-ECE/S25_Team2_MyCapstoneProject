@@ -7,14 +7,14 @@ mmirandam42@tntech.edu
 ```
 ## Function of the Subsystem
 
-This segment should elucidate the role of the subsystem within the entire system, detailing its intended function, aligned with the conceptual design.
+The Battery Management System (BMS), also referred to as the Accumulator Management System (AMS) functions as an intermediary between the accumulator and the rest of the vehicle’s electrical system. It serves as the primary supervisory component responsible for monitoring the accumulator’s key parameters, including cell voltage, temperature, and overall system integrity. It continuously verifies that all monitored values remain within the safe operating limits defined by SAE regulations. If a fault is detected—such as an overvoltage condition, a temperature anomaly, or a sensor failure—the BMS initiates a safety response. This subsystem is essential not only for regulatory compliance but also for protecting the vehicle, its occupants, and surrounding infrastructure.
 
 
 ## Specifications and Constraints
 
 ### Specifications
 
-The Battery (Accumulator) Management System (BMS or AMS) shall continuously monitor the voltage, temperature, and overall status of the accumulator to ensure safe and reliable operation under all vehicle conditions. It shall function during both charging and active operation of the Tractive System.
+The Battery Management System shall continuously monitor the voltage, temperature, and overall status of the accumulator to ensure safe and reliable operation under all vehicle conditions. It shall function during both charging and active operation of the Tractive System.
 
 The BMS shall promptly detect faults such as out-of-range voltage or temperature, loss of sensor signals, or internal malfunctions. In the event of a fault, the BMS shall trigger shutdown protocol by disabling the vehicle’s high-voltage circuit and activating a red “BMS” indicator light, clearly visible to the seated driver, in compliance with SAE regulations.
 
