@@ -1,10 +1,10 @@
 # Formula SAE Electric Vehicle: Battery Management System
-
+```
 M. Miranda
 Tennessee Technological University 
 ECE Department 
 [mmirandam42@tntech.edu](mailto:mmirandam42@tntech.edu)
-
+```
 ## Function of the Subsystem
 
 This segment should elucidate the role of the subsystem within the entire system, detailing its intended function, aligned with the conceptual design.
