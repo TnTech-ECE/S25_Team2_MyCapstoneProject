@@ -1,11 +1,8 @@
 # Formula SAE Electric Vehicle: Battery Management System
 
 M. Miranda
-
 Tennessee Technological University 
-
 ECE Department 
-
 [mmirandam42@tntech.edu](mailto:mmirandam42@tntech.edu)
 
 ## Function of the Subsystem
