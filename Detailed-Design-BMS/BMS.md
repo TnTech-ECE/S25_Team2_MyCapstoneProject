@@ -81,7 +81,7 @@ The Battery (Accumulator) Management System (BMS or AMS) shall monitor the tempe
 
    - BMS board has Overcurrent Protection [1]
 
-#### Accumulator Temperature EV.7.5 [11]
+#### Accumulator Temperature EV.7.5 [1]
 
 - The BMS shall measure the temperatures of critical points of the Accumulator EV.7.5.1 [1]
 
