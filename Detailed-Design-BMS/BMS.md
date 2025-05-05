@@ -55,7 +55,59 @@ The Battery (Accumulator) Management System (BMS or AMS) shall monitor the tempe
       - Clearly visible to the seated driver in bright sunlight [1]
 
       - Clearly marked with the lettering “BMS” [1]
+      - 
+#### Accumulator Voltage EV.7.4  [1]
 
+- The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed EV.7.4.1 [1]
+
+- Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data sheet. Measurement accuracy shall be considered. EV.7.4.2 [1]
+- All voltage sense wires to the BMS shall meet one of EV.7.4.3:  [1]
+
+- Have Overcurrent Protection EV.7.4.4 below  [1]
+
+- Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  [1]
+
+- When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two EV.7.4.4:  [1]
+
+- The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell tab.  [1]
+
+- The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  [1]
+
+- Overcurrent Protection is not required on a voltage sense wire if all three conditions are met EV.7.4.5:  [1]
+
+   - BMS is a distributed BMS system (one cell measurement per board) [1]
+
+   - Sense wire length is less than 25 mm  [1]
+
+   - BMS board has Overcurrent Protection [1]
+
+#### Accumulator Temperature EV.7.5 [11]
+
+- The BMS shall measure the temperatures of critical points of the Accumulator EV.7.5.1 [1]
+
+- Temperatures (considering measurement accuracy) shall stay below the lower of the two EV.7.5.2:  [1]
+
+     - The maximum cell temperature limit stated in the cell data sheet  [1]
+
+     - 60°C [1]
+
+- Cell temperatures shall be measured at the negative terminal of the respective cell EV.7.5.3 [1]
+
+- The temperature sensor used shall be in direct contact with one of EV.7.5.4:  [1]
+
+     - The negative terminal itself  [1]
+
+     - The negative terminal busbar less than 10 mm away from the spot weld or clamping source on the negative cell terminal [1]
+
+- For lithium based cells, EV.7.5.5:  [1]
+
+   - The temperature of a minimum of 20% of the cells shall be monitored by the BMS  [1]
+
+   - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1] 
+
+   - Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. EV.7.5.6 [1]
+     
+- Cell balancing is not permitted when the Shutdown Circuit is Open ( EV.7.2, EV.8.4 ) EV.7.3.3[1]
 
 ### Constraints
 
