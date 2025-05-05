@@ -44,6 +44,7 @@ The modules will be hooked up with Enepaq's provided busbar and bolt kits to ach
 <h2>Bill of Materials</h2>
 
 |Item|Quantity|price per unit|price total|
+|----|-----|----|----|
 |1s7p|60|$116.84| $7010.40|
 
 
