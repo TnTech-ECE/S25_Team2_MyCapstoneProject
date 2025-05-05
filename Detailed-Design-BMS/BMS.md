@@ -63,15 +63,15 @@ The Battery (Accumulator) Management System (BMS or AMS) shall monitor the tempe
 - Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data sheet. Measurement accuracy shall be considered. EV.7.4.2 [1]
 - All voltage sense wires to the BMS shall meet one of EV.7.4.3:  [1]
 
-- Have Overcurrent Protection EV.7.4.4 below  [1]
+   - Have Overcurrent Protection EV.7.4.4 below  [1]
 
-- Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  [1]
+   - Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  [1]
 
 - When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two EV.7.4.4:  [1]
 
-- The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell tab.  [1]
+  - The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell tab.  [1]
 
-- The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  [1]
+   - The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  [1]
 
 - Overcurrent Protection is not required on a voltage sense wire if all three conditions are met EV.7.4.5:  [1]
 
