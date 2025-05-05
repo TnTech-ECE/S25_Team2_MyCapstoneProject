@@ -18,7 +18,7 @@ The Battery (Accumulator) Management System (BMS or AMS) shall monitor the tempe
 
    #### Battery Management System - BMS EV.7.3 [1]
 
-   - The Battery Management System shall prevent the maximum current draw from accumulator T.9.2.2 [1]
+   - The Battery Management System shall prevent the maximum current drawn from accumulator T.9.2.2 [1]
    - The Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the EV.7.3.1:  [1]
 
       - Tractive System is Active EV.11.5  [1]
