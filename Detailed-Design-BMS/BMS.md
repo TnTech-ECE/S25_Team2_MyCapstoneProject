@@ -153,9 +153,10 @@ For sections including a software component, produce a chart that demonstrates t
 Provide a comprehensive list of all necessary components along with their prices and the total cost of the subsystem. 
 If the component is included in your schematic diagram, ensure inclusion of the component name on the BOM (i.e R1, C45, U4).
 
-| item | manufacturer | part number | distributor | distributor part number | quantity | price | purchasing website UR | 
+| item | manufacturer | part number | distributor | distributor part number | quantity | price (USD) | purchasing website UR | 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Total | --- | --- | --- | --- | --- | $0 | --- |
 
 ## Analysis of Design Decisions:
 
