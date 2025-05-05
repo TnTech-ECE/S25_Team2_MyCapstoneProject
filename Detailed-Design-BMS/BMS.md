@@ -166,8 +166,8 @@ Deliver a full and relevant analysis of the design demonstrating that it should 
 
 [1] Formula SAE Rules 2025, Formula SAE, 2025. https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=379e4a8a-80a2-4a74-87c2-6f2de4212270 (Accessed 5/5/2025)
 
-[2] Li-ion building block with Molicel P42A datasheet. https://enepaq.com/wp-content/uploads/2025/02/USER-MANUAL-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf
+[2] Li-ion building block with Molicel P42A [Datasheet](https://enepaq.com/wp-content/uploads/2025/02/Molicel-P42A-21700-Li-ion-Battery-Module-With-Temperature-Sensor-Datasheet-.pdf)
 
-[3] Tiny BMS s516 – 30A / 150A / 750A User Manual. https://enepaq.com/wp-content/uploads/2025/02/Molicel-P42A-21700-Li-ion-Battery-Module-With-Temperature-Sensor-Datasheet-.pdf
+[3] Tiny BMS s516 – 30A / 150A / 750A [User Manual](https://enepaq.com/wp-content/uploads/2025/02/USER-MANUAL-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf)
 
-[4] Tiny BMS s516 – 30A / 150A / 750A Datasheet. https://enepaq.com/wp-content/uploads/2025/02/DATASHEET-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf
+[4] Tiny BMS s516 – 30A / 150A / 750A [Datasheet](https://enepaq.com/wp-content/uploads/2025/02/DATASHEET-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf)
