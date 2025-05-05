@@ -154,8 +154,8 @@ Provide a comprehensive list of all necessary components along with their prices
 If the component is included in your schematic diagram, ensure inclusion of the component name on the BOM (i.e R1, C45, U4).
 
 | item | manufacturer | part number | distributor | distributor part number | quantity | price (USD) | purchasing website UR | 
-| TinyBMSv2.1 | 	ENEPAQ | TinyBMSv2.1-150A 4s-16s 12V-60V | DigiKey | 5124-TinyBMSv2.1-150A4s-16s12V-60V-ND | 2 | 389.00 | [site](https://www.digikey.com/en/products/detail/enepaq/TinyBMSv2-1-150A-4s-16s-12V-60V/21283300) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| TinyBMSv2.1 | 	ENEPAQ | TinyBMSv2.1-150A 4s-16s 12V-60V | DigiKey | 5124-TinyBMSv2.1-150A4s-16s12V-60V-ND | 2 | 389.00 | [site](https://www.digikey.com/en/products/detail/enepaq/TinyBMSv2-1-150A-4s-16s-12V-60V/21283300) |
 | Total | --- | --- | --- | --- | --- | $0 | --- |
 
 ## Analysis of Design Decisions:
