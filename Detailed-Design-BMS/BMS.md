@@ -55,7 +55,7 @@ The Battery (Accumulator) Management System (BMS or AMS) shall monitor the tempe
       - Clearly visible to the seated driver in bright sunlight [1]
 
       - Clearly marked with the lettering “BMS” [1]
-      - 
+ 
 #### Accumulator Voltage EV.7.4  [1]
 
 - The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed EV.7.4.1 [1]
