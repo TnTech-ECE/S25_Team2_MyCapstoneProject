@@ -1,3 +1,10 @@
+# Formula SAE Electric Vehicle: Battery Management System
+
+#### M. Miranda
+#### Tennessee Technological University 
+#### ECE Department 
+[mmirandam42@tntech.edu](mailto:mmirandam42@tntech.edu)
+
 ## Function of the Subsystem
 
 This segment should elucidate the role of the subsystem within the entire system, detailing its intended function, aligned with the conceptual design.
@@ -48,7 +55,7 @@ For sections including a software component, produce a chart that demonstrates t
 
 Provide a comprehensive list of all necessary components along with their prices and the total cost of the subsystem. This information should be presented in a tabular format, complete with the manufacturer, part number, distributor, distributor part number, quantity, price, and purchasing website URL. If the component is included in your schematic diagram, ensure inclusion of the component name on the BOM (i.e R1, C45, U4).
 
-## Analysis
+## Analysis of Design Decisions:
 
 Deliver a full and relevant analysis of the design demonstrating that it should meet the constraints and accomplish the intended function. This analysis should be comprehensive and well articulated for persuasiveness.
 
