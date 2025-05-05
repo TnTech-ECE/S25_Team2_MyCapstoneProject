@@ -1,4 +1,4 @@
-References
+# References
 
 [1] Formula SAE Rules 2025, Formula SAE, 2025.(Accessed 5/5/2025)
 [2] Li-ion building block with Molicel P42A datasheet. https://enepaq.com/wp-content/uploads/2025/02/USER-MANUAL-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf
