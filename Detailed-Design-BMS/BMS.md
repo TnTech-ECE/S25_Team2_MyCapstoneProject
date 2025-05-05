@@ -173,3 +173,5 @@ Deliver a full and relevant analysis of the design demonstrating that it should 
 [3] Tiny BMS s516 – 30A / 150A / 750A [User Manual](https://enepaq.com/wp-content/uploads/2025/02/USER-MANUAL-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf)
 
 [4] Tiny BMS s516 – 30A / 150A / 750A [Datasheet](https://enepaq.com/wp-content/uploads/2025/02/DATASHEET-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf)
+
+[5] Tiny BMS s516 – 30A / 150A / 750A [Quick Start Guide](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/Tiny%20BMS%20Quick%20Start%20Guide.pdf)
