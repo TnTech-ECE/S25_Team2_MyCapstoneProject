@@ -2,7 +2,7 @@
 
 M. Miranda<br/>
 Tennessee Technological University <br/>
-ECE Department <br/>
+Electrical and Computer Engineering Department <br/>
 mmirandam42@tntech.edu<br/>
 
 ## Function of the Subsystem
