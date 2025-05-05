@@ -14,6 +14,8 @@ This segment should elucidate the role of the subsystem within the entire system
 
 ### Specifications
 
+The Battery (Accumulator) Management System (BMS or AMS) shall monitor the temperature, voltage, and overall status of the accumulator in accordance with SAE regulations. If a fault is detected, the BMS shall indicate fault status and trigger the vehicle's shutdown circuit to disable the high-voltage output. Per SAE regulations:
+
    #### Battery Management System - BMS EV.7.3 [1]
 
    - Prevents the maximum current draw from accumulator T.9.2.2 [1]
