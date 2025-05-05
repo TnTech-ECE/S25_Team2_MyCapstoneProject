@@ -12,11 +12,49 @@ This segment should elucidate the role of the subsystem within the entire system
 
 ## Specifications and Constraints
 
-This section should provide a list of constraints applicable to the subsystem, along with the rationale behind these limitations. For instance, constraints can stem from physics-based limitations or requirements, subsystem prerequisites, standards, ethical considerations, or socio-economic factors.
+### Specifications
 
-The team should set specifications for each subsystem. These specifications may require modifications, which must be authorized by the team. It could be necessary to impose additional constraints as further information becomes available.
+   #### Battery Management System - BMS EV.7.3 [1]
 
-Every subsystem must incorporate at least one constraint stemming from standards, ethics, or socio-economic factors.
+   - Prevents the maximum current draw from accumulator T.9.2.2 [1]
+
+   2. A Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the EV.7.3.1:  [1]
+
+   - Tractive System is Active EV.11.5  [1]
+
+   - Accumulator is connected to a Charger EV.8.3  [1]
+
+   3. The BMS shall have galvanic isolation at each segment to segment boundary, as approved in the ESF EV.7.3.2 [1]
+
+   - The BMS shall monitor for EV.7.3.4: [1]
+
+   - Voltage values outside the allowable range EV.7.4.2 [1]
+
+   - Voltage sense Overcurrent Protection device(s) blown or tripped [1]
+
+      - Temperature values outside the allowable range EV.7.5.2 [1]
+
+      - Missing or interrupted voltage or temperature measurements [1]
+
+      - A fault in the BMS [1]
+
+   - If the BMS detects one or more of the conditions of EV.7.3.4 above, the BMS shall EV.7.3.5 : [1]
+
+      - Open the Shutdown Circuit EV.7.2.2 [1]
+
+      - Turn on the BMS Indicator Light and the Tractive System Status Indicator EV.5.11.5 The two lights shall stay on 
+        until the BMS is manually reset EV.7.2.3 [1]
+
+   - The BMS Indicator Light shall be EV.7.3.6: [1]
+
+      - Color: Red [1]
+
+      - Clearly visible to the seated driver in bright sunlight [1]
+
+      - Clearly marked with the lettering “BMS” [1]
+
+
+### Constraints
 
 
 ## Overview of Proposed Solution
