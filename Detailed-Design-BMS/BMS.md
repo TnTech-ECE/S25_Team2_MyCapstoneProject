@@ -26,12 +26,12 @@ The Battery (Accumulator) Management System (BMS or AMS) shall monitor the tempe
       - Accumulator is connected to a Charger EV.8.3  [1]
 
    - The BMS shall have galvanic isolation at each segment to segment boundary, as approved in the ESF EV.7.3.2 [1]
-
+   
    - The BMS shall monitor for EV.7.3.4: [1]
 
-   - Voltage values outside the allowable range EV.7.4.2 [1]
+      - Voltage values outside the allowable range EV.7.4.2 [1]
 
-   - Voltage sense Overcurrent Protection device(s) blown or tripped [1]
+      - Voltage sense Overcurrent Protection device(s) blown or tripped [1]
 
       - Temperature values outside the allowable range EV.7.5.2 [1]
 
