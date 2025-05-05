@@ -26,6 +26,8 @@ The Battery (Accumulator) Management System (BMS or AMS) shall monitor the tempe
       - Accumulator is connected to a Charger EV.8.3  [1]
 
    - The BMS shall have galvanic isolation at each segment to segment boundary, as approved in the ESF EV.7.3.2 [1]
+
+   - Cell balancing is not permitted when the Shutdown Circuit is Open ( EV.7.2, EV.8.4 )  EV.7.3.3 [1]
    
    - The BMS shall monitor for EV.7.3.4: [1]
 
