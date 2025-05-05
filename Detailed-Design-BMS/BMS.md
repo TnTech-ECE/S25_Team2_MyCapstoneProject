@@ -105,7 +105,7 @@ The Battery (Accumulator) Management System (BMS or AMS) shall monitor the tempe
 
    - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1] 
 
-   - Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. EV.7.5.6 [1]
+- Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. EV.7.5.6 [1]
      
 
 ### Constraints
