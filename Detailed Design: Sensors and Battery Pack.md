@@ -24,6 +24,32 @@ The battery cells and sensors are embeded in the accumulator behind a layer of i
 * The size of the resulting battery should be the same as the Zero Motor's battery
 
 <h2> Proposed Solution </h2>
-We want to use the BL5000C21703S3PFTM106ICC1NN from GlobTek, Inc battery packs in a 10 cell in series to 4 cells in parralel configuration to reach the electrical characteristics of the Zero Motor's battery. 
-The battery packs contain sensors however they communicate on SMbuss lines. The appropriate protocols will have to be applied in the BMS.
+We want to use Enepaq's Li-ion building block with Molicel P42A modules 1s7p in a series configuration of thirty units and two in parallel to get a 30s14p configuration.
+To meet the requirements in terms of weight the cells will be in four segments of fifteen cells in series with seven in parallel, seperated by maintanence plugs resulting in a weight of 7.905 kg per segment. 
+
+-that will have the electrical characteristics 
+
+*108 volts
+
+*6,348 Wh
+
+*1,764 Ah
+
+-total weight : 69.10 pds 
+
+and will have a cost of $6,973.20 before tarrifs, shipping, and handling.
+The modules will be hooked up with Enepaq's provided busbar and bolt kits to achieve this configuration.
+
+
+<h2>Bill of Materials</h2>
+
+|Item|Quantity|price per unit|price total|
+|1s7p|60|$116.84| $7010.40|
+
+
+
+
+
+
+
 
