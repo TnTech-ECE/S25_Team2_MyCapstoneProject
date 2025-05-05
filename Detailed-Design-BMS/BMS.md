@@ -164,7 +164,7 @@ Deliver a full and relevant analysis of the design demonstrating that it should 
 
 ## References
 
-[1] Formula SAE Rules 2025, Formula SAE, 2025. https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=379e4a8a-80a2-4a74-87c2-6f2de4212270 (Accessed 5/5/2025)
+[1] 2025 Formula SAE Rules V.1 [Regulation Manual](https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=379e4a8a-80a2-4a74-87c2-6f2de4212270) (Accessed 5/5/2025)
 
 [2] Li-ion building block with Molicel P42A [Datasheet](https://enepaq.com/wp-content/uploads/2025/02/Molicel-P42A-21700-Li-ion-Battery-Module-With-Temperature-Sensor-Datasheet-.pdf)
 
