@@ -14,7 +14,15 @@ This segment should elucidate the role of the subsystem within the entire system
 
 ### Specifications
 
-The Battery (Accumulator) Management System (BMS or AMS) shall monitor the temperature, voltage, and overall status of the accumulator in accordance with SAE regulations. If a fault is detected, the BMS shall indicate fault status and trigger the vehicle's shutdown circuit to disable the high-voltage output. Per SAE regulations:
+The Battery (Accumulator) Management System (BMS or AMS) shall continuously monitor the voltage, temperature, and overall status of the accumulator to ensure safe and reliable operation under all vehicle conditions. It shall function during both charging and active operation of the Tractive System.
+
+The BMS shall promptly detect faults such as out-of-range voltage or temperature, loss of sensor signals, or internal malfunctions. In the event of a fault, the BMS shall trigger shutdown protocol by disabling the vehicle’s high-voltage circuit and activating a red “BMS” indicator light, clearly visible to the seated driver, in compliance with SAE regulations.
+
+The design aims to meet all relevant SAE constraints while ensuring system performance supports consistent speeds up to 55 mph (80.4 kph) in runs of up to 13.6 miles (22 km). These objectives are to be achieved without risk of fire or harm to the driver, upholding high safety and reliability standards throughout operation.
+
+### Constraints
+
+Per SAE regulations:
 
    #### Battery Management System - BMS EV.7.3 [1]
 
@@ -106,9 +114,6 @@ The Battery (Accumulator) Management System (BMS or AMS) shall monitor the tempe
    - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1] 
 
 - Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. EV.7.5.6 [1]
-     
-
-### Constraints
 
 
 ## Overview of Proposed Solution
