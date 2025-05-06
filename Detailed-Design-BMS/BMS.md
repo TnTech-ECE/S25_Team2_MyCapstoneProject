@@ -18,7 +18,7 @@ The Battery Management System shall continuously monitor the voltage, temperatur
 
 The BMS shall promptly detect faults such as out-of-range voltage or temperature, loss of sensor signals, or internal malfunctions. In the event of a fault, the BMS shall trigger shutdown protocol by disabling the vehicle’s high-voltage circuit and activating a red “BMS” indicator light, clearly visible to the seated driver, in compliance with SAE regulations.
 
-The design aims to meet all relevant SAE constraints while ensuring system performance supports consistent speeds up to 55 mph (80.4 kph) in runs of up to 13.6 miles (22 km). These objectives are to be achieved upholding high safety and reliability standards throughout operation.
+The design aims to meet all relevant SAE constraints while ensuring system performance supports consistent speeds up to 55 mph (80.4 kph) in runs of up to 13.6 miles (22 km). These objectives are to be achieved while upholding high safety and reliability standards throughout operation.
 
 ### Constraints
 
