@@ -145,7 +145,7 @@ Include a manufacturable printed circuit board layout.
 
 ## Flowchart
 
-<img src= "images/Flowchart.PNG" witdth="270" height="900"> 
+<img src= "images/Flowchart.PNG" witdth="180" height="630"> 
 
 
 ## Bill of Materials
