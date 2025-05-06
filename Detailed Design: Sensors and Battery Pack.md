@@ -40,6 +40,10 @@ To meet the requirements in terms of weight the cells will be in four segments o
 and will have a cost of $6,973.20 before tarrifs, shipping, and handling.
 The modules will be hooked up with Enepaq's provided busbar and bolt kits to achieve this configuration.
 
+<h2>Interface with other subsystems</h2>
+
+The battery cells are always at their output voltage unless they are not and need to be charged. All electrical components of the vehicle can trace their power back to the cells. Specifically, the cells interface with the voltage indicator and isolation relay.
+The temperature sensors communicate directly to the BMS to determine the battery operation. The BMS must measure the voltage of the cells at their terminals to determine cell health, the Enepaq modules do not do this function. 
 
 <h2>Bill of Materials</h2>
 
