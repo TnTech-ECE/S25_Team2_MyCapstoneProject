@@ -40,6 +40,7 @@ that will have the electrical characteristics
 -total weight : 69.10 pds 
 
 and will have a cost of $6,973.20 before tarrifs, shipping, and handling.
+
 The modules will be hooked up with Enepaq's provided busbar and bolt kits to achieve this configuration.
 
 <h2>Interface with other subsystems</h2>
