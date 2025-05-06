@@ -125,7 +125,7 @@ Describe the solution and how it will fulfill the specifications and constraints
 
 Provide detailed information about the inputs, outputs, and data transferred to other subsystems. Ensure specificity and thoroughness, clarifying the method of communication and the nature of the data transmitted.
 
-### Accumulator (Battery Packs)
+### Accumulator
 
 ### Precharge Circuit
 
@@ -137,21 +137,12 @@ Inputs/Output: None <br/>
 Function: The BMS operates within the container. <br/>
 Connection Method: Direct physical integration within the enclosure.
 
-## 3D Model of Custom Mechanical Components
-
-Should there be mechanical elements, display diverse views of the necessary 3D models within the document. Ensure the image's readability and appropriate scaling. Offer explanations as required.
-
 
 ## Buildable Schematic 
 
 Integrate a buildable electrical schematic directly into the document. If the diagram is unreadable or improperly scaled, the supervisor will deny approval. Divide the diagram into sections if the text and components seem too small.
 
 The schematic should be relevant to the design and provide ample details necessary for constructing the model. It must be comprehensive so that someone, with no prior knowledge of the design, can easily understand it. Each related component's value and measurement should be clearly mentioned.
-
-
-## Printed Circuit Board Layout
-
-Include a manufacturable printed circuit board layout.
 
 
 ## Flowchart
