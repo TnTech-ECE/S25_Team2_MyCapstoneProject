@@ -67,9 +67,15 @@ EV.1.3 Accumulator
 All the battery cells or super capacitors that store the electrical energy to be used by the 
 Tractive System
 
+EV.2.1.1 Each team must submit an Electrical System Form (ESF) with a clearly structured 
+documentation of the entire vehicle electrical system (including control and Tractive System). 
+Submission and approval of the ESF does not mean that the vehicle will automatically pass 
+Electrical Technical Inspection with the described items / parts.
 
-
+EV.3.3.1 The maximum power measured by the Energy Meter must not exceed 80 kW  
  
+EV.3.3.2 The maximum permitted voltage that may occur between any two points must not exceed 
+600 V DC
 
 EV.5.1.2 Each Accumulator Segment must contain: 
 • Static voltage of 120 V DC maximum 
@@ -104,6 +110,84 @@ f. Be nonconductive on surfaces that do not provide any electrical connection
 EV.5.3.3 When the Accumulator Containers are opened or Segments are removed, the Accumulator 
 Segments must be separated by using the Maintenance Plugs
 
+EV.6.3.1 All wires and terminals and other conductors used in the Tractive System must be sized for the 
+continuous current they will conduct  
+EV.6.3.2 All Tractive System wiring must: 
+a. Be marked with wire gauge, temperature rating and insulation voltage rating.  
+A serial number or a norm printed on the wire is sufficient if this serial number or norm is 
+clearly bound to the wire characteristics for example by a data sheet. 
+ 
+b. Have temperature rating more than or equal to 90°C
+
+EV.6.3.3 Tractive System wiring must be: 
+
+a. Done to professional standards with sufficient strain relief  
+
+b. Protected from loosening due to vibration  
+
+c. Protected against damage by rotating and / or moving parts 
+
+d. Located out of the way of possible snagging or damage  
+
+
+
+EV.6.3.4 Any Tractive System wiring that runs outside of electrical enclosures:  
+a. Must meet one of the two: 
+
+• Enclosed in separate orange nonconductive conduit  
+
+• Use an orange shielded cable  
+
+b. The conduit or shielded cable must be securely anchored at each end to allow it to 
+withstand a force of 200 N without straining the cable end crimp 
+
+c. Any shielded cable must have the shield grounded 
+
+EV.6.6.2 Unless otherwise allowed in the Rules, all Overcurrent Protection devices must: 
+
+a. Be rated for the highest voltage in the systems they protect.  
+Overcurrent Protection devices used for DC must be rated for DC and must carry a DC 
+rating equal to or more than the system voltage  
+
+b. Have a continuous current rating less than or equal to the continuous current rating of 
+any electrical component that it protects  
+
+c. Have an interrupt current rating higher than the theoretical short circuit current of the 
+system that it protects  
+
+
+EV.6.6.3 Each parallel element of multiple parallel battery cells, capacitors, strings of battery cells, 
+strings of capacitors, or conductors must have individual Overcurrent Protection. 
+
+EV.6.6.4 Any conductors (wires, busbars, etc) conducting the entire pack current must meet one of: 
+a. Be appropriately sized for the total current that the individual Overcurrent Protection 
+devices could transmit 
+
+b. Contain additional Overcurrent Protection to protect the conductors
+
+EV.7.5.1 The BMS must measure the temperatures of critical points of the Accumulator 
+
+EV.7.5.2 Temperatures (considering measurement accuracy) must stay below the lower of the two: 
+
+• The maximum cell temperature limit stated in the cell data sheet 
+
+• 60°C 
+
+EV.7.5.3 Cell temperatures must be measured at the negative terminal of the respective cell
+
+EV.7.5.4 The temperature sensor used must be in direct contact with one of:  
+
+• The negative terminal itself  
+
+• The negative terminal busbar less than 10 mm away from the spot weld or clamping 
+source on the negative cell terminal 
+
+EV.7.5.5 For lithium based cells, 
+
+a. The temperature of a minimum of 20% of the cells must be monitored by the BMS  
+
+b. The monitored cells must be equally distributed inside the Accumulator Container(s)  
+The temperature of each cell should be monitored
 
 
 
