@@ -165,7 +165,7 @@ If the component is included in your schematic diagram, ensure inclusion of the 
 
 *Shipping not included
 
-## Analysis of Design Decisions:
+## Analysis of Design Decisions
 
 Deliver a full and relevant analysis of the design demonstrating that it should meet the constraints and accomplish the intended function. This analysis should be comprehensive and well articulated for persuasiveness.
 
