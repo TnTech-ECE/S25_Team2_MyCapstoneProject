@@ -29,6 +29,7 @@ The battery cells and sensors are embeded in the accumulator behind a layer of i
 We want to use Enepaq's Li-ion building block with Molicel P42A modules 1s7p in a series configuration of thirty units and two in parallel to get a 30s14p configuration.
 To meet the requirements in terms of weight the cells will be in four segments of fifteen cells in series with seven in parallel, seperated by maintanence plugs resulting in a weight of 7.905 kg per segment. 
 
+
 that will have the electrical characteristics 
 
 *108 volts
