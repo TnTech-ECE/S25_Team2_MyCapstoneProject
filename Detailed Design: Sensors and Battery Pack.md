@@ -41,7 +41,7 @@ that will have the electrical characteristics
 
 and will have a cost of $6,973.20 before tarrifs, shipping, and handling.
 
-The modules will be hooked up with Enepaq's provided busbar and bolt kits to achieve this configuration.
+The modules will be hooked up with Enepaq's provided busbar and bolt kits to achieve this configuration. The busbar and bolt kits will also satisfy the maintenance plug requirements for Formula SAE.
 
 <h2>Interface with other subsystems</h2>
 
@@ -54,7 +54,55 @@ The temperature sensors communicate directly to the BMS to determine the battery
 |----|-----|----|----|
 |1s7p|60|$116.84| $7010.40|
 
+<h2>Analysis</h2>
+<h3>Relevant Rules and Rule Numbers</h3>
 
+EV.1.1 Tractive System – TS  
+Every part electrically connected to the Motor(s) and/or Accumulator(s) 
+
+EV.1.2 Grounded Low Voltage - GLV
+Every electrical part that is not part of the Tractive System 
+
+EV.1.3 Accumulator  
+All the battery cells or super capacitors that store the electrical energy to be used by the 
+Tractive System
+
+
+
+ 
+
+EV.5.1.2 Each Accumulator Segment must contain: 
+• Static voltage of 120 V DC maximum 
+• Energy of 6 MJ maximum 
+The contained energy of a stack is calculated by multiplying the maximum stack voltage 
+with the nominal capacity of the used cell(s) 
+• Mass of 12 kg maximum 
+
+EV.5.3.1 Maintenance Plugs must allow electrical separation of the Accumulator Segments to meet:  
+a. The separated Segments meet voltage and energy limits of EV.5.1.2
+ 
+b. The separation must affect the two poles of the Segment 
+
+EV.5.3.2 Maintenance Plugs must: 
+
+a. Require the physical removal or separation of a component.  Contactors or switches are 
+not acceptable Maintenance Plugs  
+
+b. Have access after opening the Accumulator Container and not necessary to move or 
+remove any other components 
+
+c. Not be physically possible to make electrical connection in any configuration other than 
+the design intended configuration
+
+d. Not require tools to install or remove
+
+e. Include a positive locking feature which prevents the plug from unintentionally becoming 
+loose 
+
+f. Be nonconductive on surfaces that do not provide any electrical connection 
+
+EV.5.3.3 When the Accumulator Containers are opened or Segments are removed, the Accumulator 
+Segments must be separated by using the Maintenance Plugs
 
 
 
