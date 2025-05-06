@@ -189,7 +189,29 @@ a. The temperature of a minimum of 20% of the cells must be monitored by the BMS
 b. The monitored cells must be equally distributed inside the Accumulator Container(s)  
 The temperature of each cell should be monitored
 
+<h3> Other Options for Battery Cells</h3>
 
+BL5000C21703S3PFTM106ICC1NN
 
+BATTERY PACK LI-ION 10.8V 21700
 
+from GlobTek, inc
+
+<h4>Pros</h4>
+
+* significantly cheaper than the Enepaq modules.
+
+* requires only 40 units to impliment
+
+* similar electrical characteristics to the enepaq solution
+
+* lighter weight
+
+<h4>Cons</h4>
+
+* There are only 30 units of this battery module available.
+
+* The battery cell used in this module is made in China which is currently being tarrifed. It is unlikely more of the cell will be made available soon.
+
+* Considerably more work would have to be placed in configuring and assembling the packs into the required 10s4p configuration required.
 
