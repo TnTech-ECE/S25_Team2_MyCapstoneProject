@@ -125,6 +125,17 @@ Describe the solution and how it will fulfill the specifications and constraints
 
 Provide detailed information about the inputs, outputs, and data transferred to other subsystems. Ensure specificity and thoroughness, clarifying the method of communication and the nature of the data transmitted.
 
+### Accumulator (Battery Packs)
+
+### Precharge Circuit
+
+### Discharge Circuit
+
+### Accumulator Container
+
+Inputs/Output: None <br/>
+Function: The BMS operates within the container. <br/>
+Connection Method: Direct physical integration within the enclosure.
 
 ## 3D Model of Custom Mechanical Components
 
