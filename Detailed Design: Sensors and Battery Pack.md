@@ -20,7 +20,9 @@ The battery cells and sensors are embeded in the accumulator behind a layer of i
 * 20% of all cells must be monitored for voltage
 
 <h3> Specifications </h3>
+
 * The electrical characteristics should be similar to the Zero Motor's battery
+  
 * The size of the resulting battery should be the same as the Zero Motor's battery
 
 <h2> Proposed Solution </h2>
