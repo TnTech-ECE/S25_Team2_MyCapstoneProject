@@ -218,6 +218,8 @@ from GlobTek, inc
 
 * lighter weight
 
+* Contains the relevant temperature sensors
+
 <h4>Cons</h4>
 
 * There are only 30 units of this battery module available.
@@ -225,4 +227,17 @@ from GlobTek, inc
 * The battery cell used in this module is made in China which is currently being tarrifed. It is unlikely more of the cell will be made available soon.
 
 * Considerably more work would have to be placed in configuring and assembling the packs into the required 10s4p configuration required.
+
+* This solution requires its own insulation for the cells.
+
+
+<h2>References</h2>
+
+[1] "Zero Motors Cypher 2 Powertrain Datasheet," Source.[Online] Available: https://zero-cms-disco.cdn.prismic.io/zero-cms-disco/372e4e04-53f3-4f30-9bf2-7e3e5fc1a901_powertrain-data-sheet.pdf
+
+[2] Formula SAE Rules 2025, Formula SAE, 2025.
+
+[3] Enepaq. "Li-ion building block with Molicel P45B datasheet." enepaq.com. https://enepaq.com/wp-content/uploads/2025/02/Molicel-P45B-21700-Li-ion-Battery-Module-With-Temperature-Sensor-Datasheet-.pdf (Accessed May 7, 2025).
+
+[4] GlobTek. "U5M3183792." spec.globtek.info. https://spec.globtek.info/spec/pdf/2765989/U5M3183792 (Accessed May 7, 2025).
 
