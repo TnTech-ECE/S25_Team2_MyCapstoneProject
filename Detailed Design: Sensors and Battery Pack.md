@@ -56,7 +56,8 @@ The temperature sensors communicate directly to the BMS to determine the battery
 
 <h2>Flowchart</h2>
 
-<img src= "Images/image.png" witdth="390" height="630">
+![image](https://github.com/user-attachments/assets/0b821e7c-6e81-4cd3-ad46-b0b9e70dc31c)
+
 
 <h2>Bill of Materials</h2>
 
