@@ -1,6 +1,6 @@
-<h1> Detailed Design: Sensors and Battery Cells </h1>
+<h1>Detailed Design: Sensors and Battery Cells</h1>
 
-<h2> Function of the Subsystem </h2>
+<h2>Function of the Subsystem</h2>
 
 The Formula SAE vehicle requires a battery similar to the Zero Motor's battery in electrical characteristics in order to function properly. Namely, the output voltage should be 102 volts with a nominal energy capacity of 6.3 kwh.
 *Formula SAE has a number of rules regarding the battery cells and sensors, namely: 
