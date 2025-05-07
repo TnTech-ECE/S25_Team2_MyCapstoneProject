@@ -39,11 +39,19 @@ meets FSAE safety rules.
 
 ## Specifications and Constraints
 
-This section should provide a list of constraints applicable to the subsystem, along with the rationale behind these limitations. For instance, constraints can stem from physics-based limitations or requirements, subsystem prerequisites, standards, ethical considerations, or socio-economic factors.
+1. The Precharge Circuit shall: [11]
 
-The team should set specifications for each subsystem. These specifications may require modifications, which must be authorized by the team. It could be necessary to impose additional constraints as further information becomes available.
+   - Be able to charge the Intermediate Circuit to minimum 90% of the Accumulator voltage before closing the second IR 
+         [11]
+   
+   - Be supplied from the Shutdown Circuit EV.7.1 [11]
+   
+   - The Accumulator shall contain a Precharge Circuit. EV.5.6.1 [11]
 
-Every subsystem must incorporate at least one constraint stemming from standards, ethics, or socio-economic factors.
+   - Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Precharge Circuit 
+         EV.5.6.4 [11]
+
+   - The precharge relay shall be a mechanical type relay EV.5.6.5 [11]
 
 
 ## Overview of Proposed Solution
