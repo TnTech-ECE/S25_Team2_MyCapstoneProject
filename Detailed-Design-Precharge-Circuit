@@ -1,4 +1,4 @@
-# Detailed Design
+# Detailed Design: Precharge Circuit
 
 This document delineates the objectives of a comprehensive system design. Upon reviewing this design, the reader should have a clear understanding of:
 
@@ -28,7 +28,13 @@ The document should include:
 
 ## Function of the Subsystem
 
-This segment should elucidate the role of the subsystem within the entire system, detailing its intended function, aligned with the conceptual design.
+A precharge circuit is a key safety feature in high-voltage electric vehicles like those used in Formula SAE Electric (FSAE) 
+competitions. When the car is first powered on, components like the motor controller have large capacitors that initially act 
+like a short circuit. If full voltage is applied all at once, it can cause a huge surge of current—damaging components, welding 
+shut contactors, or even creating dangerous sparks. A precharge circuit prevents this by temporarily routing power through a 
+resistor, allowing the capacitors to charge gradually. Once the voltage levels out, the main contactor closes to supply full 
+power, and the resistor is bypassed. This simple system protects vital electronics, extends component life, and ensures the car 
+meets FSAE safety rules.
 
 
 ## Specifications and Constraints
