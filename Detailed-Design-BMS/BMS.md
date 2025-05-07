@@ -134,8 +134,9 @@ Outputs from BMS: Indirectly commands system disconnect. <br/>
 
 ### Accumulator Container
 
-Inputs to BMS: The accumulator container provides direct physical integration, housing the BMS securely within the enclosure. It includes a manual reset interface accessible to the user, enabling manual system restart after a fault condition. <br/>
-Output from BMS: No active data or signals are transmitted from the BMS to the container itself, as it serves a primarily structural and interface role. <br/>
+Inputs to BMS: The accumulator container provides direct physical integration, housing the BMS securely within the enclosure. It includes a manual reset interface accessible to the user, enabling manual system restart after a fault condition. 
+
+Output from BMS: No active data or signals are transmitted from the BMS to the container itself, as it serves a primarily structural and interface role.
 
 
 ## Buildable Schematic 
