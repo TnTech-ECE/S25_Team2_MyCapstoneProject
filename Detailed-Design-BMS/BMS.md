@@ -126,6 +126,7 @@ Describe the solution and how it will fulfill the specifications and constraints
 Provide detailed information about the inputs, outputs, and data transferred to other subsystems. Ensure specificity and thoroughness, clarifying the method of communication and the nature of the data transmitted.
 
 ### Accumulator
+Outputs from BMS: Indirectly commands system disconnect. <br/>
 
 ### Precharge Circuit
 
@@ -133,9 +134,8 @@ Provide detailed information about the inputs, outputs, and data transferred to 
 
 ### Accumulator Container
 
-Inputs/Output: None <br/>
-Function: The BMS operates within the container. <br/>
-Connection Method: Direct physical integration within the enclosure.
+Inputs to BMS: The accumulator container provides direct physical integration, housing the BMS securely within the enclosure. It includes a manual reset interface accessible to the user, enabling manual system restart after a fault condition. <br/>
+Output from BMS: No active data or signals are transmitted from the BMS to the container itself, as it serves a primarily structural and interface role. <br/>
 
 
 ## Buildable Schematic 
