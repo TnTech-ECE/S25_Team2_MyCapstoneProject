@@ -32,6 +32,8 @@ The battery cells and sensors are embeded in the accumulator behind a layer of i
 
 <h2> Proposed Solution </h2>
 
+![image](https://github.com/user-attachments/assets/821f508c-f054-4671-96f8-e4483e261d65)
+
 We want to use Enepaq's Li-ion building block with Molicel P42A modules 1s7p in a series configuration of thirty units and two in parallel to get a 30s14p configuration.
 To meet the requirements in terms of weight the cells will be in four segments of fifteen cells in series with seven in parallel, seperated by maintanence plugs resulting in a weight of 7.905 kg per segment. 
 
@@ -229,6 +231,21 @@ from GlobTek, inc
 * Considerably more work would have to be placed in configuring and assembling the packs into the required 10s4p configuration required.
 
 * This solution requires its own insulation for the cells.
+
+Generic Battery Pack from Enepaq
+
+<h4>Pros</h4>
+
+* No quote needed for purchasing
+
+* Same product as the molicel battery packs but with a different cell.
+
+<h4>Cons</h4>
+
+* Older model batteries, requires more modules and has weaker preformance.
+
+* Vastly more expensive, over $40,000 for the battery packs alone.
+
 
 
 <h2>References</h2>
