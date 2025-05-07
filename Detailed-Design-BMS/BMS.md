@@ -147,7 +147,7 @@ The schematic should be relevant to the design and provide ample details necessa
 
 ## Flowchart
 
-<img src= "images/Flowchart.PNG" witdth="180" height="630"> 
+<img src= "images/Flowchart3.PNG" witdth="180" height="630"> 
 
 
 ## Bill of Materials
