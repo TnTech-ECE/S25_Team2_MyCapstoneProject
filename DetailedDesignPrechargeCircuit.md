@@ -39,6 +39,10 @@ meets FSAE safety rules.
 
 ## Specifications and Constraints
 
+ <h1>Specifications</h1>
+
+ <h1>Constraints</h1>
+
 1. The Precharge Circuit shall: [11]
 
    - Be able to charge the Intermediate Circuit to minimum 90% of the Accumulator voltage before closing the second IR 
@@ -56,7 +60,13 @@ meets FSAE safety rules.
 
 ## Overview of Proposed Solution
 
-Describe the solution and how it will fulfill the specifications and constraints of this subsystem.
+This precharge circuit is designed to safely energize the high-voltage system in a Formula SAE Electric vehicle using an Orion BMS 2 and a modular lithium-ion battery pack. Its primary function is to protect components like the motor controller from harmful inrush currents when the system is first powered on.
+
+The circuit includes a 100 Ω, 225 W Ohmite resistor to limit inrush current, controlled by a TE EV200AAANA relay during the precharge phase. Once the system voltage reaches about 90% of the battery voltage, a Gigavac GV200MDA main contactor closes to deliver full power and bypass the resistor.
+
+A voltage divider connected to a Teensy microcontroller monitors the voltage across the motor controller to determine when precharge is complete. The system can also receive input from the Orion BMS, which provides key data such as pack voltage, precharge control signals, and fault status—either through digital I/O or over the CAN bus.
+
+This solution works seamlessly with the Orion BMS 2, ensures the precharge process runs automatically every time the vehicle powers up, and complies with FSAE Electric rules. It offers a safe, reliable, and easy-to-integrate method for managing high-voltage startup in an electric race car.
 
 
 ## Interface with Other Subsystems
