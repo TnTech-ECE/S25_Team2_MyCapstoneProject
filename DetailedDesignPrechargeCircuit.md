@@ -40,7 +40,23 @@ meets FSAE safety rules.
 ## Specifications and Constraints
 
    ### Specifications
+   
+   - The precharge circuit shall limit the inrush current to less than 5 A during the capacitor charging phase.
 
+   - The precharge relay shall be energized only when the BMS reports a no-fault condition and the high-voltage interlock 
+     loop is closed.
+
+   - The precharge circuit shall measure motor controller voltage to determine when the system is sufficiently charged 
+     (≥90% of pack voltage).
+
+   - The main contactor shall close only after the precharge voltage condition has been met.
+
+   - The precharge resistor shall be rated for a minimum of 225 W continuous and sufficient pulse energy to handle full 
+     charge-up events.
+
+   - The system shall open the precharge relay immediately after the main contactor is closed to prevent overheating of 
+     the resistor.
+      
    ### Constraints
 
 1. The Precharge Circuit shall: [11]
@@ -115,7 +131,8 @@ Provide detailed information about the inputs, outputs, and data transferred to 
 ## 3D Model of Custom Mechanical Components
 
 Should there be mechanical elements, display diverse views of the necessary 3D models within the document. Ensure the image's readability and appropriate scaling. Offer explanations as required.
-<img src="C:\Users\17314\OneDrive\Pictures\3DMechanicalDrawing_DD.png" alt="CAD">
+<img width="280" alt="image" src="https://github.com/user-attachments/assets/7b958ffc-730d-46b8-90ab-472bfc7ec6f5" />
+
 
 ## Buildable Schematic 
 
