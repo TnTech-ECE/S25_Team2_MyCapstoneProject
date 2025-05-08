@@ -26,9 +26,15 @@ The design aims to meet all relevant SAE constraints while ensuring system perfo
 
 Per SAE regulations:
 
-   #### Battery Management System - BMS EV.7.3 [1]
+   ### Shutdown Circuit EV.7.1
 
-   - The Battery Management System shall prevent the maximum current drawn from accumulator T.9.2.2 [1]
+   - The BMS, IMD, and BSPD parts of the Shutdown Circuit must be Normally Open EV.7.1.3 [1]
+  
+   - The BMS, IMD and BSPD must have completely independent circuits to Open the Shutdown
+Circuit. EV.7.1.4 [1]
+
+   #### Battery Management System - BMS EV.7.3 [1]
+   
    - The Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the EV.7.3.1:  [1]
 
       - Tractive System is Active EV.11.5  [1]
@@ -105,7 +111,37 @@ Per SAE regulations:
 
    - The temperature of a minimum of 20% of the cells shall be monitored by the BMS  [1]
 
-   - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1] 
+   - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1]
+     
+### Charging Shutdown Circuit EV.8.3
+
+- The BMS and IMD parts of the Charging Shutdown Circuit must, EV.8.3.2:
+
+  - Be designed as Normally Open contacts
+    
+  - Have completely independent circuits to Open the Charging Shutdown Circuit
+ 
+  - Design of the respective circuits must make sure that a failure cannot result in electrical
+power being fed back into the Charging Shutdown Circuit.
+
+### Charging Shutdown Circuit Operation EV.8.4
+
+-When Charging, the BMS and IMD must, EV.8.4.1:
+
+   - Monitor the Accumulator
+     
+   - Open the Charging Shutdown Circuit if a fault is detected
+
+### Other
+
+- The Battery Management System shall prevent the maximum current drawn from accumulator T.9.2.2 [1]
+  
+- The Tractive System Status Indicator must show when the GLV System is energized, EV.5.11.5:
+  
+   - Condition: No Faults. Green Light, Always ON. Red Light, OFF.
+     
+   - Condition: Fault in one or the two-BMS EV.7.3.5 or IMD EV.7.6.5. Green Light, OFF. Red Light, Flash 2 Hz to 5 Hz, 50% duty cycle.
+     
 
 
 ## Overview of Proposed Solution
