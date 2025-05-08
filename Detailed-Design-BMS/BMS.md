@@ -112,7 +112,7 @@ Circuit. EV.7.1.4 [1]
 
       - The temperature of a minimum of 20% of the cells shall be monitored by the BMS  [1]
 
-      - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1]
+      - The monitored cells shall be equally distributed inside the Accumulator Container(s), the temperature of each cell should be monitored [1]
      
    #### Charging Shutdown Circuit EV.8.3 [1]
 
@@ -140,25 +140,40 @@ power being fed back into the Charging Shutdown Circuit. [1]
      
 ## Overview of Proposed Solution
 
-Describe the solution and how it will fulfill the specifications and constraints of this subsystem.
+Considering the specifications and constraints of the BMS subsystem, Orion 2 BMS is well suited as a battery monitoring and managing solution.
 
+The Orion 2 BMS is able to manage all critical functions of the 30s14p battery pack, including real-time monitoring of all cells voltage, temperature, and fault detection. It supports up to 180V nominal system voltage and offers passive balancing to maintain cell voltage uniformity, which is essential for preserving battery health and energy efficiency.
+
+The Orion 2 BMS also fulfills the communication and integration requirements of this subsystem through its support for industry-standard protocol, CANbus, enabling seamless interfacing with the motor controller. Furthermore, its advanced diagnostics and configuration software provide intuitive tools for monitoring and managing the entire accumulator system.
+
+In addition, Orion’s expandability and configurability allow it to be tailored precisely to the battery architecture and application constraints, including high-current handling, voltage protection thresholds, and operational temperature ranges.The Orion 2 BMS is a robust, automotive-grade solution engineered for high-reliability applications, making it an ideal fit for the project’s safety and communication requirements.
 
 ## Interface with Other Subsystems
 
-Provide detailed information about the inputs, outputs, and data transferred to other subsystems. Ensure specificity and thoroughness, clarifying the method of communication and the nature of the data transmitted.
-
 ### Accumulator
-Outputs from BMS: Indirectly commands system disconnect. <br/>
+
+Inputs to BMS: Continuous real-time data from the battery cells in the form of voltage, temperature, and current readings via sensor lines. Analog signals transmitted through hardwired connections. <br/>
+Outputs from BMS: Indirectly commands system disconnect via isolation relay, digital signal. <br/>
 
 ### Precharge Circuit
 
+Inputs to BMS: Ready to precharge, completed precharge, and fault status. Digital signals. <br/>
+Outputs from BMS: Status request, precharge start and end command. Digital signals. <br/>
+
 ### Discharge Circuit
+
+Inputs to BMS: Discharge and fault status. Digital signals. <br/>
+Outputs from BMS: Discharge permited and prohibited instruction via digital signals. <br/>
 
 ### Accumulator Container
 
-Inputs to BMS: The accumulator container provides direct physical integration, housing the BMS securely within the enclosure. It includes a manual reset interface accessible to the user, enabling manual system restart after a fault condition. 
+Inputs to BMS: No active data or signals are transmitted from the the container to the BMS. However, the enclousure includes a manual reset interface accessible to the user, enabling manual system restart after a fault condition.  <br/>
+Output from BMS: No active data or signals are transmitted from the BMS to the container itself. <br/>
 
-Output from BMS: No active data or signals are transmitted from the BMS to the container itself, as it serves a primarily structural and interface role.
+### Controller and Shutdown System
+
+Inputs to BMS: Status of shutdown system via CAN communication, digital signal. If any part of the shutdown system in fault status, the BMS commands disconnect until fault is corrected.  <br/>
+Output from BMS: CAN communication, digital signals. Continuous accumulator system status report. <br/>
 
 
 ## Buildable Schematic 
@@ -181,16 +196,17 @@ If the component is included in your schematic diagram, ensure inclusion of the 
 | Item | Manufacturer | Part Number | Distributor | Distributor Part Number | Quantity | Price (USD) | Purchasing Website URL | 
 |  :---:   |  :---:  |  :---:   |  :---:   |  :---:   |  :---:   |  :---:   |  :---:   |
 | |  |  | |  | | | |
-|  TinyBMSv2.1 |  ENEPAQ |  TinyBMSv2.1-150A 4s-16s 12V-60V |  DigiKey |  5124-TinyBMSv2.1-150A4s-16s12V-60V-ND |  2 |  389.00 |  [site](https://www.digikey.com/en/products/detail/enepaq/TinyBMSv2-1-150A-4s-16s-12V-60V/21283300) |
-|  Tool Kit  |  |  | |  |  | 0.00 | |
+|  Orion 2 BMS |  Ewert Energy Systems, Inc |  Orion O2 Battery Management System | Evolve Electronics |  Orion O2 Battery Management System 36 200A |  1 |  1,295 |  [site]([https://evolveelectrics.com/products/orion-bms-2?variant=41792470351970]) |
+|  Crimping Tool |  |  | |  |  | 0.00 | |
+|  Wire Strippers |  |  | |  |  | 0.00 | |
 | |  |  | |  | | | |
-|  Total* $  |  |  | |  |  | 778.00 | |
+|  Total $  |  |  | |  |  | 1,295.00 | |
 
-*Shipping not included
 
 ## Analysis of Design Decisions
 
-Deliver a full and relevant analysis of the design demonstrating that it should meet the constraints and accomplish the intended function. This analysis should be comprehensive and well articulated for persuasiveness.
+The options available for this subsystem were designing a BMS from scratch, using a TinyBMS (a compatible BMS sold with Molicels), and using a Orion 2 BMS. Due to time limitations and  because there are readily available compatible BMS on the market, it would be impractical to build a BMS from scratch. The TinyBMS was promising due to its compatability with the Molicels and because it met many of the subsytem needs such as CAN communication, temperature, and current readings. However, the TinyBMS could only support 75V nominal system voltage and is not stackable [4]. Additionally, due to contraints requiring 20% of all cells to be monitored and the requirement that the monitored cells must be equally distributed inside the Accumulator Container [1], with a battery pack with configuration of 30s14p four TinyBMS must have been purchased totaling $1,558 not including shipping.  
+
 
 ## References
 
@@ -202,4 +218,12 @@ Deliver a full and relevant analysis of the design demonstrating that it should 
 
 [4] Tiny BMS s516 – 30A / 150A / 750A [Datasheet](https://enepaq.com/wp-content/uploads/2025/02/DATASHEET-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf)
 
-[5] Tiny BMS s516 – 30A / 150A / 750A [Quick Start Guide](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/Tiny%20BMS%20Quick%20Start%20Guide.pdf)
+[5] Orion 2 BMS [Wiring & Installation Manual](https://cdn.shopify.com/s/files/1/1820/0269/files/orionbms2_wiring_and_installation_manual.pdf?1289632542684048831)
+
+[6] Orion 2 BMS [Specifications](https://www.orionbms.com/downloads/documents/orionbms2_specifications.pdf)
+
+[7] Orion 2 BMS [Technical Outline](https://www.orionbms.com/downloads/drawings/orionbms2_mechanical_72.pdf)
+
+[8] Orion 2 BMS [Quick Start Guide](https://www.orionbms.com/downloads/documents/quickstart_orion2.pdf)
+
+[9] Orion 2 BMS [Operation Manual](https://www.orionbms.com/manuals/pdf/orionbms2_operational_manual.pdf)
