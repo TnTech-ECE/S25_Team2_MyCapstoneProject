@@ -150,7 +150,7 @@ In addition, Orion’s expandability and configurability allow it to be tailored
 
 ## Interface with Other Subsystems
 
-### Accumulator
+### Accumulator Cells and Sensors
 
 Inputs to BMS: Continuous real-time data from the battery cells in the form of voltage, temperature, and current readings via sensor lines. Analog signals transmitted through hardwired connections. <br/>
 Outputs from BMS: Indirectly commands system disconnect via isolation relay, digital signal. <br/>
