@@ -201,7 +201,7 @@ From Capstone Fall 2024-Spring 2025 Team
 
 ## Analysis of Design Decisions
 
-The options available for this subsystem were designing a BMS from scratch, using a TinyBMS (a compatible BMS sold with Molicels), and using a Orion 2 BMS. Due to time limitations and  because there are readily available compatible BMS on the market, it would be impractical to build a BMS from scratch. The TinyBMS was promising due to its compatability with the Molicels and because it met many of the subsytem needs such as CAN communication, temperature, and current readings. However, the TinyBMS could only support 75V nominal system voltage and is not stackable [4]. Additionally, due to contraints requiring 20% of all cells to be monitored and the requirement that the monitored cells must be equally distributed inside the Accumulator Container [1], with a battery pack with configuration of 30s14p four TinyBMS must have been purchased totaling $1,558 not including shipping.  
+The options available for this subsystem were designing a BMS from scratch, using a TinyBMS (a compatible BMS sold with Molicels), and using a Orion 2 BMS. Due to time limitations and  because there are readily available compatible BMS on the market, it would be impractical to build a BMS from scratch. The TinyBMS was promising due to its compatability with the Molicels and because it met many of the subsytem needs such as CAN communication, temperature, and current readings. However, the TinyBMS could only support 75V nominal system voltage and is not stackable [4]. Additionally, due to contraints requiring a minumum 20% of all cells to be monitored and the requirement that the monitored cells must be equally distributed inside the Accumulator Container [1], with a battery pack with configuration of 30s14p four TinyBMS must have been purchased totaling $1,558 not including shipping.  
 
 The Orion BMS 2 is designed for centralized, large-scale battery monitoring, with support for up to 180V systems and seamless handling of high series cell counts within a single unit. This centralized approach not only simplifies wiring and integration but drastically reduces complexity, potential points of failure, and software configuration challenges.
 
@@ -229,7 +229,7 @@ Moreover, the Orion BMS supports advanced features such as stackable expansion, 
 - Accumulator Temperature Monitoring – EV.7.5</b>
    - To address EV.7.5.1: Orion 2 allows for up to 100 temperature inputs via expansion modules, suitable for monitoring critical points.</b>
    - To satisfy EV.7.5.2: Orion 2 BMS has configurable limits ensure cells remain below either 60°C or the manufacturer's specifications.</b>
-   - Satisfying EV.7.5.5: Orion 2 allows precise sensor distribution to ensure >20% cell monitoring, well-distributed across accumulator container.</b>
+   - Satisfying EV.7.5.5: Orion 2 allows precise sensor distribution to ensure more than 20% cell monitoring, well-distributed across accumulator container.</b>
 
 - Charging Shutdown Circuit – EV.8.3 and EV.8.4</b>
    - Satisfying EV.8.3.2: Orion 2 BMS integrates charging shutdown control with normally open logic.</b>
