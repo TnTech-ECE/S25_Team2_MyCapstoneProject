@@ -24,7 +24,7 @@ The design aims to meet all relevant SAE constraints while ensuring system perfo
 
 ### Constraints
 
-Per SAE regulations:
+Per Formula SAE regulations:
 
    #### Shutdown Circuit EV.7.1 [1]
 
