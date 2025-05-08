@@ -207,6 +207,12 @@ If the component is included in your schematic diagram, ensure inclusion of the 
 
 The options available for this subsystem were designing a BMS from scratch, using a TinyBMS (a compatible BMS sold with Molicels), and using a Orion 2 BMS. Due to time limitations and  because there are readily available compatible BMS on the market, it would be impractical to build a BMS from scratch. The TinyBMS was promising due to its compatability with the Molicels and because it met many of the subsytem needs such as CAN communication, temperature, and current readings. However, the TinyBMS could only support 75V nominal system voltage and is not stackable [4]. Additionally, due to contraints requiring 20% of all cells to be monitored and the requirement that the monitored cells must be equally distributed inside the Accumulator Container [1], with a battery pack with configuration of 30s14p four TinyBMS must have been purchased totaling $1,558 not including shipping.  
 
+The Orion BMS 2 is designed for centralized, large-scale battery monitoring, with support for up to 180V systems and seamless handling of high series cell counts within a single unit. This centralized approach not only simplifies wiring and integration but drastically reduces complexity, potential points of failure, and software configuration challenges.
+
+Moreover, the Orion BMS supports advanced features such as stackable expansion, configurable CAN communication, custom fault thresholds, and robust diagnostic tools. The Orion platform is also automotive-grade, with proven performance in EVs, energy storage systems, and industrial applications—providing high confidence in long-term reliability and safety.
+
+In summary, although the Orion BMS has a higher unit cost, its greater scalability, system simplicity, integration support, and long-term value make it the superior design choice for this subsystem.
+
 
 ## References
 
