@@ -1,10 +1,9 @@
 # <div align="center"> Formula SAE Electric Vehicle: Battery Management System
 ## <div align="center">  Detailed Design
 
-<div align="center"> M. Miranda<br/>
+<div align="center"> M. Miranda, mmirandam42@tntech.edu <br/>
 <div align="center"> Electrical and Computer Engineering Department <br/>
 <div align="center"> Tennessee Technological University <br/>
-<div align="center"> mmirandam42@tntech.edu<br/>
 
 ## Function of the Subsystem
 
