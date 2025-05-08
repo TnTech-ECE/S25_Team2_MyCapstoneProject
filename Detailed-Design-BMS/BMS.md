@@ -101,21 +101,11 @@ Per SAE regulations:
 
      - 60°C [1]
 
-- Cell temperatures shall be measured at the negative terminal of the respective cell EV.7.5.3 [1]
-
-- The temperature sensor used shall be in direct contact with one of EV.7.5.4:  [1]
-
-     - The negative terminal itself  [1]
-
-     - The negative terminal busbar less than 10 mm away from the spot weld or clamping source on the negative cell terminal [1]
-
 - For lithium based cells, EV.7.5.5:  [1]
 
    - The temperature of a minimum of 20% of the cells shall be monitored by the BMS  [1]
 
    - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1] 
-
-- Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. EV.7.5.6 [1]
 
 
 ## Overview of Proposed Solution
