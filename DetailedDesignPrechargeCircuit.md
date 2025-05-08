@@ -63,19 +63,19 @@ meets FSAE safety rules.
       
    ### Constraints
 
-1. The Precharge Circuit shall: [11]
+#### The Precharge Circuit shall: [5]
 
    - Be able to charge the Intermediate Circuit to minimum 90% of the Accumulator voltage before closing the second IR 
-         [11]
+     [5]
    
-   - Be supplied from the Shutdown Circuit EV.7.1 [11]
+   - Be supplied from the Shutdown Circuit EV.7.1 [5]
    
-   - The Accumulator shall contain a Precharge Circuit. EV.5.6.1 [11]
+   - The Accumulator shall contain a Precharge Circuit. EV.5.6.1 [5]
 
    - Positive Temperature Coefficient (PTC) devices shall not be used to limit current for the Precharge Circuit 
-         EV.5.6.4 [11]
+     EV.5.6.4 [5]
 
-   - The precharge relay shall be a mechanical type relay EV.5.6.5 [11]
+   - The precharge relay shall be a mechanical type relay EV.5.6.5 [5]
 
 
 ## Overview of Proposed Solution
@@ -240,3 +240,5 @@ As shown in the associated CAD image, the components are compact, bolt-mountable
 [3] Sensata Technologies, GV200 Series Sealed Power Contactors – Datasheet, Sensata Gigavac, 2023. [Online]. Available: https://www.sensata.com/sites/default/files/a/sensata-gigavac-gv200-series-open-contactors-datasheet.pdf
 
 [4] Ewert Energy Systems, Orion BMS 2 Operational Manual, OrionBMS.com, Revision 3.3, 2023. [Online]. Available: https://www.orionbms.com/manuals/pdf/orionbms2_operational_manual.pdf
+
+[5] Formula SAE Rules 2025, Formula SAE, 2025.
