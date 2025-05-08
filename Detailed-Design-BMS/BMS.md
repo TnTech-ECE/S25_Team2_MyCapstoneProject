@@ -240,7 +240,7 @@ Moreover, the Orion BMS supports advanced features such as stackable expansion, 
   - Orion 2 BMS provides real-time current monitoring and programmable current limits, helping to prevent exceeding the maximum allowable current draw from the accumulator.</b>
 
   
-In summary, although the Orion BMS has a high unit cost, its greater scalability, system simplicity, integration support, and long-term value make it the superior design choice for this subsystem.
+In conclusion, although the Orion BMS has a high unit cost, its greater scalability, system simplicity, integration support, and long-term value make it the superior design choice for this subsystem.
 
 
 ## References
