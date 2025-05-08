@@ -189,9 +189,6 @@ From Capstone Fall 2024-Spring 2025 Team
 
 ## Bill of Materials
 
-Provide a comprehensive list of all necessary components along with their prices and the total cost of the subsystem. 
-If the component is included in your schematic diagram, ensure inclusion of the component name on the BOM (i.e R1, C45, U4).
-
 | Item | Manufacturer | Part Number | Distributor | Distributor Part Number | Quantity | Price (USD) | Purchasing Website URL | 
 |  :---:   |  :---:  |  :---:   |  :---:   |  :---:   |  :---:   |  :---:   |  :---:   |
 | |  |  | |  | | | |
