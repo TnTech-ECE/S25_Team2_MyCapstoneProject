@@ -51,6 +51,8 @@ and will have a cost of $6,973.20 before tarrifs, shipping, and handling.
 
 The modules will be hooked up with Enepaq's provided busbar and bolt kits to achieve this configuration. The busbar and bolt kits will also satisfy the maintenance plug requirements for Formula SAE.
 
+Expected dimensions: L 720 +- 90 mm, h 166.2 +- 3 mm , W 152 +- 6 mm​
+
 <h2>Interface with other subsystems</h2>
 
 The battery cells are always at their output voltage unless they are not and need to be charged. All electrical components of the vehicle can trace their power back to the cells. Specifically, the cells interface with the voltage indicator and isolation relay.
@@ -63,9 +65,9 @@ The temperature sensors communicate directly to the BMS to determine the battery
 
 <h2>Bill of Materials</h2>
 
-|Item|Quantity|price per unit|price total|
-|----|-----|----|----|
-|1s7p|60|$116.84| $7010.40|
+|Item|Manufacturer|Part Number|Distributer|Distributer Part Number|Quantity|price per unit|price total|
+|----|-----|----|----|----|----|----|---|
+|1s7p|Enepaq|1s7p Li-ion building block with Molicel P42A| Enepaq|---|60|$116.84| $7010.40|
 
 <h2>Analysis</h2>
 <h3>Relevant Rules and Rule Numbers</h3>
