@@ -1,19 +1,19 @@
-# Formula SAE Electric Vehicle: Battery Management System
-## Detailed Design
+# <div align="center"> Formula SAE Electric Vehicle: Battery Management System
+## <div align="center">  Detailed Design
 
-M. Miranda<br/>
-Electrical and Computer Engineering Department <br/>
-Tennessee Technological University <br/>
-mmirandam42@tntech.edu<br/>
+# <div align="center"> M. Miranda<br/>
+# <div align="center"> Electrical and Computer Engineering Department <br/>
+# <div align="center"> Tennessee Technological University <br/>
+# <div align="center"> mmirandam42@tntech.edu<br/>
 
-### Function of the Subsystem
+## Function of the Subsystem
 
 The Battery Management System (BMS), also referred to as the Accumulator Management System (AMS), functions as an intermediary between the accumulator and the rest of the vehicle’s electrical system. It serves as the supervisory component responsible for monitoring the accumulator’s key parameters, including cell voltage, temperature, and overall system integrity. It continuously verifies that all monitored values remain within the safe operating limits defined by SAE regulations. If a fault is detected—such as an overvoltage condition or a temperature anomaly—the BMS is responsible for initiating safety response. This subsystem is essential not only for intra-system communication and regulatory compliance, but also for protecting the vehicle, its occupants, and surrounding infrastructure.
 
 
-### Specifications and Constraints
+## Specifications and Constraints
 
-#### Specifications
+### Specifications
 
 The Battery Management System shall continuously monitor the voltage, temperature, and overall status of the accumulator to ensure safe and reliable operation under all vehicle conditions. It shall function during both charging and active operation of the Tractive System.
 
@@ -21,11 +21,11 @@ The BMS shall promptly detect faults such as out-of-range voltage or temperature
 
 The design aims to meet all relevant SAE constraints while ensuring system performance supports consistent speeds up to 55 mph (80.4 kph) in runs of up to 13.6 miles (22 km). These objectives are to be achieved while upholding high safety and reliability standards throughout operation.
 
-#### Constraints
+### Constraints
 
 Per SAE regulations:
 
-   ##### Battery Management System - BMS EV.7.3 [1]
+   #### Battery Management System - BMS EV.7.3 [1]
 
    - The Battery Management System shall prevent the maximum current drawn from accumulator T.9.2.2 [1]
    - The Battery Management System shall monitor the Accumulator(s) Voltage EV.7.4 and Temperature EV.7.5 when the EV.7.3.1:  [1]
@@ -65,7 +65,7 @@ Per SAE regulations:
 
       - Clearly marked with the lettering “BMS” [1]
  
-##### Accumulator Voltage EV.7.4  [1]
+#### Accumulator Voltage EV.7.4  [1]
 
 - The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed EV.7.4.1 [1]
 
@@ -90,7 +90,7 @@ Per SAE regulations:
 
    - BMS board has Overcurrent Protection [1]
 
-##### Accumulator Temperature EV.7.5 [1]
+#### Accumulator Temperature EV.7.5 [1]
 
 - The BMS shall measure the temperatures of critical points of the Accumulator EV.7.5.1 [1]
 
@@ -117,42 +117,42 @@ Per SAE regulations:
 - Multiple cells may be monitored with one temperature sensor, if EV.7.5 is met for all cells sensed by the sensor. EV.7.5.6 [1]
 
 
-### Overview of Proposed Solution
+## Overview of Proposed Solution
 
 Describe the solution and how it will fulfill the specifications and constraints of this subsystem.
 
 
-### Interface with Other Subsystems
+## Interface with Other Subsystems
 
 Provide detailed information about the inputs, outputs, and data transferred to other subsystems. Ensure specificity and thoroughness, clarifying the method of communication and the nature of the data transmitted.
 
-#### Accumulator
+### Accumulator
 Outputs from BMS: Indirectly commands system disconnect. <br/>
 
-#### Precharge Circuit
+### Precharge Circuit
 
-#### Discharge Circuit
+### Discharge Circuit
 
-#### Accumulator Container
+### Accumulator Container
 
 Inputs to BMS: The accumulator container provides direct physical integration, housing the BMS securely within the enclosure. It includes a manual reset interface accessible to the user, enabling manual system restart after a fault condition. 
 
 Output from BMS: No active data or signals are transmitted from the BMS to the container itself, as it serves a primarily structural and interface role.
 
 
-### Buildable Schematic 
+## Buildable Schematic 
 
 Integrate a buildable electrical schematic directly into the document. If the diagram is unreadable or improperly scaled, the supervisor will deny approval. Divide the diagram into sections if the text and components seem too small.
 
 The schematic should be relevant to the design and provide ample details necessary for constructing the model. It must be comprehensive so that someone, with no prior knowledge of the design, can easily understand it. Each related component's value and measurement should be clearly mentioned.
 
 
-### Flowchart
+## Flowchart
 
 <img src= "images/Flowchart3.PNG" witdth="180" height="630"> 
 
 
-### Bill of Materials
+## Bill of Materials
 
 Provide a comprehensive list of all necessary components along with their prices and the total cost of the subsystem. 
 If the component is included in your schematic diagram, ensure inclusion of the component name on the BOM (i.e R1, C45, U4).
@@ -171,7 +171,7 @@ If the component is included in your schematic diagram, ensure inclusion of the 
 
 Deliver a full and relevant analysis of the design demonstrating that it should meet the constraints and accomplish the intended function. This analysis should be comprehensive and well articulated for persuasiveness.
 
-### References
+## References
 
 [1] 2025 Formula SAE Rules V.1 [Regulations Manual](https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=379e4a8a-80a2-4a74-87c2-6f2de4212270) (Accessed 5/5/2025)
 
