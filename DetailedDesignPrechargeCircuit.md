@@ -76,30 +76,45 @@ Provide detailed information about the inputs, outputs, and data transferred to 
 ### Inputs to the Precharge Circuit
  #### From Orion BMS 2:
   - Precharge FET Enable (Digital Output): Signals when precharge is permitted.
+    
   - Pack Voltage (CAN Data): Used to compare with controller voltage to determine precharge completion.
-  - Fault Status (Digital or CAN): Indicates critical issues (e.g., overvoltage, undervoltage, overtemperature).
+    
+  - Fault Status (Digital Output or CAN): Indicates critical issues (e.g., overvoltage, undervoltage, overtemperature).
+    
   - High Voltage Present (Digital Output or CAN): Confirms pack is live and ready.
+    
  #### From Vehicle or Driver Controller:
+ 
   - HV Enable Switch (Digital Input): Activates the HV system manually from the driver or shutdown circuit.
+    
   - Safety Interlock Loop (Digital Input): Series-wired safety switches (e.g., TSMS, IMD, inertia switch) must be closed 
     to proceed.
+    
  #### From Precharge Voltage Sensing:
+ 
   - Motor Controller Voltage (Analog Input via Voltage Divider): Monitored by a microcontroller to assess precharge 
     progress.
 
 ### Outputs From the Precharge Circuit
+
  #### To Actuators: 
+ 
   - Precharge Relay Control (Digital Output, 12 V): Closes the precharge relay to begin charging the controller capacitors.
+    
   - Main Contactor Control (Digital Output, 12 V): Closes the main contactor after precharge is complete.
+    
  #### To Orion BMS 2:
+ 
   - Precharge Complete Feedback (Digital Input or CAN): Optional status signal showing successful precharge.
+    
  #### To Driver/Interface:
+ 
   - Precharge Status Indicator (Digital Output or CAN): Indicates current state (precharging, complete, or fault) on 
     dashboard or logging system.
+    
 ## 3D Model of Custom Mechanical Components
 
 Should there be mechanical elements, display diverse views of the necessary 3D models within the document. Ensure the image's readability and appropriate scaling. Offer explanations as required.
-
 
 ## Buildable Schematic 
 
