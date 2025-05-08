@@ -74,76 +74,75 @@ Circuit. EV.7.1.4 [1]
  
 #### Accumulator Voltage EV.7.4  [1]
 
-- The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed EV.7.4.1 [1]
+   - The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed EV.7.4.1 [1]
 
-- Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data sheet. Measurement accuracy shall be considered. EV.7.4.2 [1]
-- All voltage sense wires to the BMS shall meet one of EV.7.4.3:  [1]
+   - Cell Voltage levels shall stay inside the allowed minimum and maximum cell voltage levels stated in the cell data sheet. Measurement accuracy shall be considered. EV.7.4.2 [1]
+   
+   - All voltage sense wires to the BMS shall meet one of EV.7.4.3:  [1]
 
-   - Have Overcurrent Protection EV.7.4.4 below  [1]
+      - Have Overcurrent Protection EV.7.4.4 below  [1]
 
-   - Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  [1]
+      - Meet requirements for no Overcurrent Protection listed in EV.7.4.5 below  [1]
 
-- When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two EV.7.4.4:  [1]
+   - When used, Overcurrent Protection for the BMS voltage sense wires shall meet the two EV.7.4.4:  [1]
 
-  - The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell tab.  [1]
+      - The Overcurrent Protection shall occur in the conductor, wire or PCB trace which is directly connected to the cell tab.  [1]
 
-   - The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  [1]
+      - The voltage rating of the Overcurrent Protection shall be equal to or higher than the maximum segment voltage  [1]
 
-- Overcurrent Protection is not required on a voltage sense wire if all three conditions are met EV.7.4.5:  [1]
+   - Overcurrent Protection is not required on a voltage sense wire if all three conditions are met EV.7.4.5:  [1]
 
-   - BMS is a distributed BMS system (one cell measurement per board) [1]
+      - BMS is a distributed BMS system (one cell measurement per board) [1]
 
-   - Sense wire length is less than 25 mm  [1]
+      - Sense wire length is less than 25 mm  [1]
 
-   - BMS board has Overcurrent Protection [1]
+      - BMS board has Overcurrent Protection [1]
 
 #### Accumulator Temperature EV.7.5 [1]
 
-- The BMS shall measure the temperatures of critical points of the Accumulator EV.7.5.1 [1]
+   - The BMS shall measure the temperatures of critical points of the Accumulator EV.7.5.1 [1]
 
-- Temperatures (considering measurement accuracy) shall stay below the lower of the two EV.7.5.2:  [1]
+   - Temperatures (considering measurement accuracy) shall stay below the lower of the two EV.7.5.2:  [1]
 
-     - The maximum cell temperature limit stated in the cell data sheet  [1]
+      - The maximum cell temperature limit stated in the cell data sheet  [1]
 
-     - 60°C [1]
+      - 60°C [1]
 
-- For lithium based cells, EV.7.5.5:  [1]
+   - For lithium based cells, EV.7.5.5:  [1]
 
-   - The temperature of a minimum of 20% of the cells shall be monitored by the BMS  [1]
+      - The temperature of a minimum of 20% of the cells shall be monitored by the BMS  [1]
 
-   - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1]
+      - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1]
      
-### Charging Shutdown Circuit EV.8.3
+### Charging Shutdown Circuit EV.8.3 [1]
 
-- The BMS and IMD parts of the Charging Shutdown Circuit must, EV.8.3.2:
+   - The BMS and IMD parts of the Charging Shutdown Circuit must, EV.8.3.2: [1]
 
-  - Be designed as Normally Open contacts
+     - Be designed as Normally Open contacts [1]
     
-  - Have completely independent circuits to Open the Charging Shutdown Circuit
+     - Have completely independent circuits to Open the Charging Shutdown Circuit [1]
  
-  - Design of the respective circuits must make sure that a failure cannot result in electrical
-power being fed back into the Charging Shutdown Circuit.
+     - Design of the respective circuits must make sure that a failure cannot result in electrical
+power being fed back into the Charging Shutdown Circuit. [1]
 
-### Charging Shutdown Circuit Operation EV.8.4
+### Charging Shutdown Circuit Operation EV.8.4 [1]
 
--When Charging, the BMS and IMD must, EV.8.4.1:
+   - When Charging, the BMS and IMD must, EV.8.4.1: [1]
 
-   - Monitor the Accumulator
+      - Monitor the Accumulator [1]
      
-   - Open the Charging Shutdown Circuit if a fault is detected
+      - Open the Charging Shutdown Circuit if a fault is detected [1]
 
 ### Other
 
-- The Battery Management System shall prevent the maximum current drawn from accumulator T.9.2.2 [1]
+   - The Battery Management System shall prevent the maximum current drawn from accumulator T.9.2.2 [1]
   
-- The Tractive System Status Indicator must show when the GLV System is energized, EV.5.11.5:
+   - The Tractive System Status Indicator must show when the GLV System is energized, EV.5.11.5: [1]
   
-   - Condition: No Faults. Green Light, Always ON. Red Light, OFF.
+      - Condition: No Faults. Green Light, Always ON. Red Light, OFF. [1]
      
-   - Condition: Fault in one or the two-BMS EV.7.3.5 or IMD EV.7.6.5. Green Light, OFF. Red Light, Flash 2 Hz to 5 Hz, 50% duty cycle.
+      - Condition: Fault in one or the two-BMS EV.7.3.5 or IMD EV.7.6.5. Green Light, OFF. Red Light, Flash 2 Hz to 5 Hz, 50% duty cycle. [1]
      
-
-
 ## Overview of Proposed Solution
 
 Describe the solution and how it will fulfill the specifications and constraints of this subsystem.
