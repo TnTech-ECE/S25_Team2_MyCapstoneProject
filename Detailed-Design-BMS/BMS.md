@@ -178,14 +178,13 @@ Output from BMS: CAN communication, digital signals. Continuous accumulator syst
 
 ## Buildable Schematic 
 
-Integrate a buildable electrical schematic directly into the document. If the diagram is unreadable or improperly scaled, the supervisor will deny approval. Divide the diagram into sections if the text and components seem too small.
+![image](https://github.com/user-attachments/assets/07d79634-0f64-49c2-b320-43163ca83e57)
 
-The schematic should be relevant to the design and provide ample details necessary for constructing the model. It must be comprehensive so that someone, with no prior knowledge of the design, can easily understand it. Each related component's value and measurement should be clearly mentioned.
-
+From Capstone Fall 2024-Spring 2025 Team
 
 ## Flowchart
 
-<img src= "images/Flowchart3.PNG" witdth="180" height="630"> 
+<img src= "images/Flowchart6.PNG" witdth="180" height="630"> 
 
 
 ## Bill of Materials
