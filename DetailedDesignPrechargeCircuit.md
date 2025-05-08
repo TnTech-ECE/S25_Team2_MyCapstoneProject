@@ -1,5 +1,9 @@
-# Detailed Design: Precharge Circuit
-
+# <div align="center"> Detailed Design: Precharge Circuit
+### <div align="center"> Precharge Circuit
+#### <div align="center"> Jordan M. Davis
+<div align="center"> Capstone Team 2
+<div align="left">
+   
 This document delineates the objectives of a comprehensive system design. Upon reviewing this design, the reader should have a clear understanding of:
 
 - How the specific subsystem integrates within the broader solution
