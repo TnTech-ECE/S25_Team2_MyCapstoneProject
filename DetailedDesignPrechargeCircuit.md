@@ -181,7 +181,7 @@ The presented precharge circuit design incorporates key components including a 1
 
 ### Functionality and System Behavior
 
-At power-up, motor controllers present a near-short circuit due to their large DC link capacitors. If the main contactor were closed immediately, a damaging inrush current—on the order of hundreds of amps—would flow. The precharge resistor solves this by temporarily introducing resistance in the HV path, reducing the initial current spike.
+At power-up, motor controllers present a near-short circuit due to their large DC link capacitors. If the main contactor were closed immediately, a damaging inrush current, hundreds of amps—would flow. The precharge resistor solves this by temporarily introducing resistance in the HV path, reducing the initial current spike.
 
 Using Ohm’s Law: V = I / R = 102V / 100 ohms = 1.02 Amperes
 
@@ -221,8 +221,8 @@ The system's logic—either handled directly by the Orion BMS 2’s digital outp
      
 ### Thermal and Reliability Considerations
 
-The precharge resistor’s peak energy during a full precharge is: E = {1/2) * C * V^2
-Assuming DC link capacitance of 1,000 μF: E = 0.5 * 0.001 * 102^2
+The precharge resistor’s peak energy during a full precharge is: E =(1/2) * C * V^2
+Assuming DC link capacitance of 1,000 μF: E = 0.5 * 0.001 * 102^2 = 5.2 J
 The Ohmite resistor’s ceramic enclosure and 225 W continuous rating far exceed this transient energy, ensuring long life and tolerance to frequent cycling.
 
 The EV200 relay and GV200 contactor are hermetically sealed and vibration-resistant, designed specifically for electric vehicle applications. Their long cycle life and robust isolation reduce the risk of arc faults or welding under high load conditions.
