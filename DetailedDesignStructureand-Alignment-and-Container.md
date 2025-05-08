@@ -31,10 +31,10 @@ The accumulator enclosure is a central Formula SAE Electric vehicle subsystem ta
 
 ### Constraints
 
-- **FSAE Rule Compliance**: EV5.3–EV5.8  
-- **Ethical/Safety Constraint**: Reduce thermal runaway and fire risks for student operators.  
-- **Social/Economic Constraint**: Targeted cost-efficiency with justifiable performance and safety budget.  
-- **Standards Constraint**: UL94-V0 fire-retardant enclosure; voltage isolation >120V.  
+- **FSAE Rule Compliance**: Shall be EV5.3–EV5.8  
+- **Ethical/Safety Constraint**: It shall reduce thermal runaway and fire risks for student operators.  
+- **Social/Economic Constraint**: Shall target cost-efficiency with justifiable performance and safety budget.  
+- **Standards Constraint**: Shall be UL94-V0 fire-retardant enclosure; voltage isolation >120V.  
 
 **Reference**: Enepaq Datasheet Rev. E (2024-12-05)
 
