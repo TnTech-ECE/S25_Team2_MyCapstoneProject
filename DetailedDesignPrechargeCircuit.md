@@ -87,9 +87,8 @@ This solution works seamlessly with the Orion BMS 2, ensures the precharge proce
 
 ## Interface with Other Subsystems
 
-Provide detailed information about the inputs, outputs, and data transferred to other subsystems. Ensure specificity and thoroughness, clarifying the method of communication and the nature of the data transmitted.
-
 ### Inputs to the Precharge Circuit
+
  #### From Orion BMS 2:
   - Precharge FET Enable (Digital Output): Signals when precharge is permitted.
     
@@ -154,6 +153,19 @@ For sections including a software component, produce a chart that demonstrates t
 ## BOM
 
 Provide a comprehensive list of all necessary components along with their prices and the total cost of the subsystem. This information should be presented in a tabular format, complete with the manufacturer, part number, distributor, distributor part number, quantity, price, and purchasing website URL. If the component is included in your schematic diagram, ensure inclusion of the component name on the BOM (i.e R1, C45, U4).
+| **Item** | **Component**              | **Part Number / Model**     | **Description**                                       | **Specification**                | **Estimated Price (USD)** | **Source / Manufacturer** |
+| -------- | -------------------------- | --------------------------- | ----------------------------------------------------- | -------------------------------- | ------------------------- | ------------------------- |
+| 1        | Precharge Resistor         | Ohmite L225J100E            | Chassis-mount wirewound resistor                      | 100 Ω, 225 W, 5%                 | \$37.20                   | Ohmite                    |
+| 2        | Precharge Relay            | TE EV200AAANA               | DC contactor for low-current precharge path           | 900 VDC, 15 A, 12 V coil         | \$80.00                   | TE Connectivity           |
+| 3        | Main Contactor             | Gigavac GV200MA-1           | Sealed contactor for main high-voltage connection     | 900 VDC, 400 A, 12 V coil        | \$145.00                  | Sensata / Gigavac         |
+| 4        | Microcontroller (optional) | Teensy 4.0                  | For control logic and voltage sensing                 | 32-bit, CAN, ADC                 | \$25.45                   | PJRC                      |
+| 5        | Voltage Divider Resistors  | Vishay VR68 series          | High-voltage resistors for analog voltage measurement | 1 MΩ and 12 kΩ, 350+ V rated     | \$2.34                    | Vishay / Mouser           |
+| 6        | Precharge Harness Wire     | TXL-22                      | High-voltage rated automotive wire                    | 22 AWG, 600 V rated              | \$1.28 (20 ft)            | Prowire USA               |
+| 7        | Relay Connector Housing    | AMPSEAL 3-pin               | Connector for EV200 relay coil terminals              | Crimp contacts and housing       | \$16.95                   | TE Connectivity / eBay    |
+| 8        | Contact Boots / Insulation | HellermannTyton MS3109-06AU | Rubber boots for HV terminals                         | 6 pcs, ≥150 VDC                  | \$35.00                   | HellermannTyton / eBay    |
+| 9        | Mounting Hardware          | M4 Bolts + Washers          | For mounting resistor, relays, contactors             | Stainless steel M4–M6 hardware   | \$1.10 (5 pieces)         | McMaster / Local          |
+| 10       | Heatshrink Tubing          | 3M Dual Wall                | For insulating HV terminations                        | 3:1 shrink ratio, adhesive-lined | \$2.49                    | 3M / Sherco Auto          |
+
 
 ## Analysis
 
@@ -188,6 +200,17 @@ The system's logic—either handled directly by the Orion BMS 2’s digital outp
    - Discharge on shutdown is supported through the main contactor path (if paired with a resistive discharge path or BMS- 
      controlled discharge FETs), complying with the <60 V in 5 s rule.
 
+### Thermal and Reliability Considerations
+
+The precharge resistor’s peak energy during a full precharge is: E = {1/2) * C * V^2
+Assuming DC link capacitance of 1,000 μF: E = 0.5 * 0.001 * 102^2
+The Ohmite resistor’s ceramic enclosure and 225 W continuous rating far exceed this transient energy, ensuring long life and tolerance to frequent cycling.
+
+The EV200 relay and GV200 contactor are hermetically sealed and vibration-resistant, designed specifically for electric vehicle applications. Their long cycle life and robust isolation reduce the risk of arc faults or welding under high load conditions.
+
+### Mechanical Fit and Maintainability
+
+As shown in the associated CAD image, the components are compact, bolt-mountable, and easily routed. The image also offers a wiring example that simplifies implementation in an accumulator enclosure or HV distribution box. The modularity of the design enables easy diagnostics, replacement, and expansion (e.g., adding discharge circuitry or auxiliary contact monitoring).
 
 ## References
 
