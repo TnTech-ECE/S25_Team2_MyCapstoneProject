@@ -196,7 +196,7 @@ If the component is included in your schematic diagram, ensure inclusion of the 
 | Item | Manufacturer | Part Number | Distributor | Distributor Part Number | Quantity | Price (USD) | Purchasing Website URL | 
 |  :---:   |  :---:  |  :---:   |  :---:   |  :---:   |  :---:   |  :---:   |  :---:   |
 | |  |  | |  | | | |
-|  Orion 2 BMS |  Ewert Energy Systems, Inc |  Orion O2 Battery Management System | Evolve Electronics |  Orion O2 Battery Management System 36 200A |  1 |  1,295 |  [site]([https://evolveelectrics.com/products/orion-bms-2?variant=41792470351970]) |
+|  Orion 2 BMS |  Ewert Energy Systems, Inc |  Orion O2 Battery Management System | Evolve Electronics |  Orion O2 Battery Management System 36 200A |  1 |  1,295 |  [site](https://evolveelectrics.com/products/orion-bms-2?variant=41792470351970) |
 |  Crimping Tool |  |  | |  |  | 0.00 | |
 |  Wire Strippers |  |  | |  |  | 0.00 | |
 | |  |  | |  | | | |
