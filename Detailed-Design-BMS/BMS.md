@@ -26,7 +26,7 @@ The design aims to meet all relevant SAE constraints while ensuring system perfo
 
 Per SAE regulations:
 
-   #### Shutdown Circuit EV.7.1
+   #### Shutdown Circuit EV.7.1 [1]
 
    - The BMS, IMD, and BSPD parts of the Shutdown Circuit must be Normally Open EV.7.1.3 [1]
   
