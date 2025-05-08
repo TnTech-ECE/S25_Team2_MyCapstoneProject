@@ -115,6 +115,7 @@ Provide detailed information about the inputs, outputs, and data transferred to 
 ## 3D Model of Custom Mechanical Components
 
 Should there be mechanical elements, display diverse views of the necessary 3D models within the document. Ensure the image's readability and appropriate scaling. Offer explanations as required.
+<img src="" alt="">
 
 ## Buildable Schematic 
 
