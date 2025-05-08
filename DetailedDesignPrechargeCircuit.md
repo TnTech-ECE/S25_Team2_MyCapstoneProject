@@ -130,9 +130,9 @@ Provide detailed information about the inputs, outputs, and data transferred to 
     
 ## 3D Model of Custom Mechanical Components
 
-Should there be mechanical elements, display diverse views of the necessary 3D models within the document. Ensure the image's readability and appropriate scaling. Offer explanations as required.
-<img width="280" alt="image" src="https://github.com/user-attachments/assets/7b958ffc-730d-46b8-90ab-472bfc7ec6f5" />
+<img width="600" alt="3D_Drawing" src="https://github.com/user-attachments/assets/7b958ffc-730d-46b8-90ab-472bfc7ec6f5" />
 
+This image shows the key components of a precharge circuit used in electric vehicles, like a Formula SAE car. It includes a large green resistor (used to limit inrush current), a pair of high-voltage contactors (which control power flow), and a simple wiring layout that connects everything. The resistor allows the motor controller to charge up slowly before the main contactor closes, preventing damage. The diagram offers a clean visual of how the parts fit together and helps with planning wiring and mounting in a real system.
 
 ## Buildable Schematic 
 
@@ -157,8 +157,44 @@ Provide a comprehensive list of all necessary components along with their prices
 
 ## Analysis
 
-Deliver a full and relevant analysis of the design demonstrating that it should meet the constraints and accomplish the intended function. This analysis should be comprehensive and well articulated for persuasiveness.
+The presented precharge circuit design incorporates key components including a 100 Ω, 225 W Ohmite resistor, a TE Connectivity EV200AAANA relay, and a Gigavac GV200 series main contactor, integrated under the control of an Orion BMS 2. This configuration effectively meets the operational, safety, and regulatory constraints required for a Formula SAE Electric vehicle operating at 102 V nominal and 6.3 kWh capacity.
+
+### Functionality and System Behavior
+
+At power-up, motor controllers present a near-short circuit due to their large DC link capacitors. If the main contactor were closed immediately, a damaging inrush current—on the order of hundreds of amps—would flow. The precharge resistor solves this by temporarily introducing resistance in the HV path, reducing the initial current spike.
+
+Using Ohm’s Law: V = I / R = 102V / 100 ohms = 1.02 Amperes
+
+This current is well below the 5 A inrush limit typical for automotive-grade relays and minimizes stress on both the contactor and motor controller. The Ohmite L225J100E can handle high surge energy, making it suitable for repeated precharge events during competition use.
+
+The system's logic—either handled directly by the Orion BMS 2’s digital outputs or via an external microcontroller using CAN telemetry—ensures that the main contactor closes only when the voltage across the controller reaches ~90% of pack voltage. This confirms capacitor charge completion and protects against premature switching.
+
+### Compliance With System Constraints
+
+1. Electrical Ratings:
+   
+   - All components (relay, contactor, resistor) are rated well above the system’s 102 V operating voltage.
+     
+   - The Gigavac GV200 series contactor and TE EV200 relay support up to 900 VDC, providing ample headroom for transient 
+     conditions and future upgrades.
+
+2. FSAE Electric Compliance
+
+   - FSAE EV rules (e.g., EV4.6.x) require automatic precharge at each HV enable event and ensure that the main contactor 
+     does not close until precharge is complete. This design supports both requirements.
+
+   - Safety interlock (TSMS, IMD, brake switch) integration is supported via digital I/O.
+  
+   - Discharge on shutdown is supported through the main contactor path (if paired with a resistive discharge path or BMS- 
+     controlled discharge FETs), complying with the <60 V in 5 s rule.
+
 
 ## References
 
-All sources that have contributed to the detailed design and are not considered common knowledge should be duly cited, incorporating multiple references.
+[1] Ohmite Manufacturing Company, 270 Series Wirewound Resistors - L225J100E Datasheet, Ohmite, 2023. [Online]. Available: https://www.ohmite.com/catalog/270-series/L225J100E
+
+[2] TE Connectivity, EV200AAANA DC Contactor – Product Specification Sheet, TE Connectivity Ltd., 2023. [Online]. Available: https://www.te.com/en/product-1618002-7.html
+
+[3] Sensata Technologies, GV200 Series Sealed Power Contactors – Datasheet, Sensata Gigavac, 2023. [Online]. Available: https://www.sensata.com/sites/default/files/a/sensata-gigavac-gv200-series-open-contactors-datasheet.pdf
+
+[4] Ewert Energy Systems, Orion BMS 2 Operational Manual, OrionBMS.com, Revision 3.3, 2023. [Online]. Available: https://www.orionbms.com/manuals/pdf/orionbms2_operational_manual.pdf
