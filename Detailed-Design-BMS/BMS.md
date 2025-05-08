@@ -26,7 +26,7 @@ The design aims to meet all relevant SAE constraints while ensuring system perfo
 
 Per SAE regulations:
 
-   ### Shutdown Circuit EV.7.1
+   #### Shutdown Circuit EV.7.1
 
    - The BMS, IMD, and BSPD parts of the Shutdown Circuit must be Normally Open EV.7.1.3 [1]
   
@@ -72,7 +72,7 @@ Circuit. EV.7.1.4 [1]
 
       - Clearly marked with the lettering “BMS” [1]
  
-#### Accumulator Voltage EV.7.4  [1]
+   #### Accumulator Voltage EV.7.4  [1]
 
    - The BMS shall measure the cell voltage of each cell When single cells are directly connected in parallel, only one voltage measurement is needed EV.7.4.1 [1]
 
@@ -98,7 +98,7 @@ Circuit. EV.7.1.4 [1]
 
       - BMS board has Overcurrent Protection [1]
 
-#### Accumulator Temperature EV.7.5 [1]
+   #### Accumulator Temperature EV.7.5 [1]
 
    - The BMS shall measure the temperatures of critical points of the Accumulator EV.7.5.1 [1]
 
@@ -114,7 +114,7 @@ Circuit. EV.7.1.4 [1]
 
       - The monitored cells shall be equally distributed inside the Accumulator Container(s) The temperature of each cell should be monitored [1]
      
-### Charging Shutdown Circuit EV.8.3 [1]
+   #### Charging Shutdown Circuit EV.8.3 [1]
 
    - The BMS and IMD parts of the Charging Shutdown Circuit must, EV.8.3.2: [1]
 
@@ -125,7 +125,7 @@ Circuit. EV.7.1.4 [1]
      - Design of the respective circuits must make sure that a failure cannot result in electrical
 power being fed back into the Charging Shutdown Circuit. [1]
 
-### Charging Shutdown Circuit Operation EV.8.4 [1]
+   #### Charging Shutdown Circuit Operation EV.8.4 [1]
 
    - When Charging, the BMS and IMD must, EV.8.4.1: [1]
 
@@ -133,7 +133,7 @@ power being fed back into the Charging Shutdown Circuit. [1]
      
       - Open the Charging Shutdown Circuit if a fault is detected [1]
 
-### Other
+   #### Other
 
    - The Battery Management System shall prevent the maximum current drawn from accumulator T.9.2.2 [1]
   
