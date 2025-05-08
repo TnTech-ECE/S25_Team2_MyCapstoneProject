@@ -144,8 +144,8 @@ The accumulator subsystem follows a specific operational sequence to ensure safe
 
 ## Design Decision Analysis
 
-- **Safety**:The Enepaq modules include dual-layer protection while the Orion BMS manages fault detection, temperature regulation, and telemetry.  
--**Spatial Efficiency**: The Altelix enclosure provides adequate internal space for components while allowing for insulation and airflow. 
+-**Safety**:The Enepaq modules include dual-layer protection while the Orion BMS manages fault detection, temperature regulation, and telemetry.  
+-**Spatial Efficiency**: The Altelix enclosure provides adequate internal space for components while allowing for insulation and airflow
 -**Integration Simplicity**: The Orion BMS accommodates thermistors, voltage sensing, and CAN communication in a single package.  
 -**Regulatory Compliance**: The solution exceeds EV5.3-EV5.8 standards through its flame-resistant build and comprehensive monitoring.  
 -**Cost-Benefit Balance**: Although premium in price, the Orion BMS’s features, and dependability justify its inclusion.   Dual-layer protection in modules; Orion BMS fault monitoring  
