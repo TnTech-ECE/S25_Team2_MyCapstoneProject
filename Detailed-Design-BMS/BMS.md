@@ -137,11 +137,6 @@ power being fed back into the Charging Shutdown Circuit. [1]
 
    - The Battery Management System shall prevent the maximum current drawn from accumulator T.9.2.2 [1]
   
-   - The Tractive System Status Indicator must show when the GLV System is energized, EV.5.11.5: [1]
-  
-      - Condition: No Faults. Green Light, Always ON. Red Light, OFF. [1]
-     
-      - Condition: Fault in one or the two-BMS EV.7.3.5 or IMD EV.7.6.5. Green Light, OFF. Red Light, Flash 2 Hz to 5 Hz, 50% duty cycle. [1]
      
 ## Overview of Proposed Solution
 
