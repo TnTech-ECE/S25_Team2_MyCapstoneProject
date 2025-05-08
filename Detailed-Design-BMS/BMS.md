@@ -207,7 +207,40 @@ The Orion BMS 2 is designed for centralized, large-scale battery monitoring, wit
 
 Moreover, the Orion BMS supports advanced features such as stackable expansion, configurable CAN communication, custom fault thresholds, and robust diagnostic tools. The Orion platform is also automotive-grade, with proven performance in EVs, energy storage systems, and industrial applications—providing high confidence in long-term reliability and safety.
 
-In summary, although the Orion BMS has a higher unit cost, its greater scalability, system simplicity, integration support, and long-term value make it the superior design choice for this subsystem.
+### System Constraints Compliance
+
+- Shutdown Circuit – EV.7.1</b>
+   - To satisfy EV.7.1.3: Orion 2 BMS supports normally open contact outputs, compatible with shutdown circuits. </b>
+   - To satisfy EV.7.1.4: Orion 2 uses independent control signals and outputs (via dry contacts or CAN), allowing it to open the Shutdown Circuit independently from the IMD and BSPD.</b>
+
+- Battery Management System – EV.7.3</b>
+   -  Addressing EV.7.3.1: Orion 2 BMS monitors voltage and temperature during Tractive system activation and charging state.</b>
+   -  Addressing EV.7.3.2: Orion 2 BMS supports modular/stacked configuration with galvanic isolation at segment boundaries, configurable in the ESF.</b>
+   -  Regarding EV.7.3.3: Orion 2 halts active cell balancing when the shutdown circuit is open </b>
+   -  Regarding EV.7.3.4: Orion 2 is capable of detecting out-of-range voltages, overcurrent protection trips in sense lines, and sensor faults and internal BMS failures. As well as capable of monitoring sensor faults and internal BMS failures</b>
+   -  Addressing EV.7.3.5: Orion 2 BMS is programmable and capable of opening of the shutdown circuit upon fault and activating BMS fault indicator, setting system into disconnect until manually reset.</b>
+   -  Regarding EV.7.3.6: Orion 2 BMS is capable of integrating an external LED indicator</b>
+
+-  Accumulator Voltage Monitoring – EV.7.4</b>
+   - Satisfying EV.7.4.1: Orion 2 BMS monitors every individual cell, regardless of parallel grouping.</b>
+   - Satisfying EV.7.4.2: Orion 2 BMS meets industry-standard accuracy for voltage measurements, suitable for enforcing safe cell voltage ranges.</b>
+   - Addressing EV.7.4.3 – EV.7.4.5: Orion 2 BMS supports external and integrated overcurrent protection, satisfying protection options for BMS voltage sense wiring.</b>
+
+- Accumulator Temperature Monitoring – EV.7.5</b>
+   - To address EV.7.5.1: Orion 2 allows for up to 100 temperature inputs via expansion modules, suitable for monitoring critical points.</b>
+   - To satisfy EV.7.5.2: Orion 2 BMS has configurable limits ensure cells remain below either 60°C or the manufacturer's specifications.</b>
+   - Satisfying EV.7.5.5: Orion 2 allows precise sensor distribution to ensure >20% cell monitoring, well-distributed across accumulator container.</b>
+
+- Charging Shutdown Circuit – EV.8.3 and EV.8.4</b>
+   - Satisfying EV.8.3.2: Orion 2 BMS integrates charging shutdown control with normally open logic.</b>
+   - Regading independent charging shutdown control, Orion 2 can operate separately from the IMD and includes CAN and dry contact interfaces for charger interlock control</b>
+   - Satisfying EV.8.4.1: Orion 2 BMS continues to monitor voltage and temperature during charging and will shut down charging if a fault is detected.</b>
+
+- Current Monitoring and Limiting – T.9.2.2</b>
+  - Orion 2 BMS provides real-time current monitoring and programmable current limits, helping to prevent exceeding the maximum allowable current draw from the accumulator.</b>
+
+  
+In summary, although the Orion BMS has a high unit cost, its greater scalability, system simplicity, integration support, and long-term value make it the superior design choice for this subsystem.
 
 
 ## References
