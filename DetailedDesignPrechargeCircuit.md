@@ -64,7 +64,7 @@ This configuration simplifies integration, maintains full compliance with FSAE E
 
 ### Precharge Relay Control (K1)
 
- - Controlled by Orion BMS 2 Pin 26 (Multipurpose Output).
+ - Controlled by Orion BMS 2 Pin 23 (Multipurpose Output).
 
  - The BMS energizes this output to close the precharge relay when precharge conditions are safe (e.g., no fault).
 
