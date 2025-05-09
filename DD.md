@@ -88,7 +88,8 @@ Any system capacitance ≤ 2.36 mF will discharge below 60 V in 5 s.
 
 *(Place your LTspice schematic file in `images/ltspice_schematic.png` and reference below)*
 
-![LTspice Schematic](images/ltspice_schematic.png)
+
+![CORRect](https://github.com/user-attachments/assets/f2303305-5583-453f-9f5a-b72c2d6f2b03)
 
 ---
 
@@ -104,32 +105,39 @@ Any system capacitance ≤ 2.36 mF will discharge below 60 V in 5 s.
 
 *(Export your 3D renders or photos into `images/relay_3d.png` & `images/resistor_3d.png`)*
 
-![Kilovac EV200AAANA 3D Model](images/relay_3d.png)  
-![uxcell 400 Ω Resistor 3D Model](images/resistor_3d.png)
+ ![Relay3D](https://github.com/user-attachments/assets/bc445f38-6993-4bbf-8e7b-8b1cfee02977)
+
+
+![Resistors](https://github.com/user-attachments/assets/bc36e79f-05f0-4681-a6b8-2001444ad4f4)
 
 ---
 
 ## 9. Buildable Schematic
 
 *(Include a clear schematic PDF or image in `images/buildable_schematic.png`)*
+![Buildable-Schematic-Evan](https://github.com/user-attachments/assets/0c1f7f00-cfda-4b77-9ce8-c9f949435ac8)
 
-![Buildable Schematic](images/buildable_schematic.png)
+
+![Discharge zoom](https://github.com/user-attachments/assets/94413c04-4771-41d9-af8c-e251bc0d16e4)
 
 ---
 
 ## 10. Circuit Design
 
-*(Detailed wiring diagram; include as `images/circuit_diagram.png`)*
 
-![Circuit Diagram](images/circuit_diagram.png)
+
+
+![updated circuit](https://github.com/user-attachments/assets/f4a30d51-5470-4e1c-8b6a-1d3739c35933)
 
 ---
 
 ## 11. Flowchart
 
-*(Operational logic flowchart; save as `images/flowchart.png`)*
 
-![Operational Flowchart](images/flowchart.png)
+![flowchart 2](https://github.com/user-attachments/assets/cb4f59dd-7ed6-4f3c-a71e-ffcacdc681eb)
+
+
+![flowchart](https://github.com/user-attachments/assets/1f065ce0-f329-403b-b729-c0abe62d7ff7)
 
 ---
 
@@ -148,10 +156,12 @@ Any system capacitance ≤ 2.36 mF will discharge below 60 V in 5 s.
 
 ## 13. Analysis
 
-- **Relay Selection**: EV200AAANA chosen for 900 VDC rating & 500 A capacity, automotive-grade.  
+- **Relay Selection**: EV200AAANA chosen for 900 VDC rating & 500 A capacity, automotive-grade.
+-  ![data for relay](https://github.com/user-attachments/assets/8896e2c0-667f-407e-8b49-63776e5d9658)
 - **Resistor Analysis**: \(P = V^2/R = 102^2/400 ≈ 26\) W < 50 W rating → 2× safety margin.  
 - **Timing**: Calculated and simulated discharge meets < 5 s requirement.  
 - **Reliability**: Simple, robust design with fail-safe BMS monitoring.
+
 
 ---
 
