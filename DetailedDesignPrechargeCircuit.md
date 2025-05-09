@@ -53,11 +53,11 @@ meets FSAE safety rules.
 
 This precharge circuit is designed to safely energize the high-voltage system in a Formula SAE Electric vehicle using an Orion BMS 2 and a modular lithium-ion battery pack. Its primary function is to protect components like the motor controller from harmful inrush currents when the system is first powered on.
 
-The circuit includes a 100 Ω, 225 W Ohmite resistor to limit inrush current, controlled by a TE EV200AAANA relay during the precharge phase. Once the system voltage reaches about 90% of the battery voltage, a Gigavac GV200MDA main contactor closes to deliver full power and bypass the resistor.
+The circuit includes a 100 Ω, 225 W Ohmite resistor to limit inrush current, controlled by a TE EV200AAANA relay during the precharge phase. Once the system voltage stabilizes—based on timing or internal BMS logic—a Gigavac GV200MDA main contactor closes to deliver full power and bypass the resistor.
 
-A voltage divider connected to a Teensy microcontroller monitors the voltage across the motor controller to determine when precharge is complete. The system can also receive input from the Orion BMS, which provides key data such as pack voltage, precharge control signals, and fault status—either through digital I/O or over the CAN bus.
+The Orion BMS 2 directly controls both the precharge relay and the main contactor using its digital outputs. It also monitors pack voltage and fault conditions, ensuring precharge occurs only under safe operating parameters.
 
-This solution works seamlessly with the Orion BMS 2, ensures the precharge process runs automatically every time the vehicle powers up, and complies with FSAE Electric rules. It offers a safe, reliable, and easy-to-integrate method for managing high-voltage startup in an electric race car.
+This configuration simplifies integration, maintains full compliance with FSAE Electric rules, and provides a reliable solution for safely managing high-voltage startup in an electric race car.
 
 
 ## Interface with Other Subsystems
@@ -110,21 +110,21 @@ This image shows the key components of a precharge circuit used in electric vehi
 
 ## Buildable Schematic 
 
-![image](https://github.com/user-attachments/assets/dcabd75c-e069-4de2-be98-c02c300a3e6e)
 
-This schematic illustrates a precharge circuit for a high-voltage EV system, designed to safely charge the motor controller's input capacitors before the main contactor (K2) closes. At power-up, the high-voltage supply passes through a precharge resistor (R1) and a precharge relay (K1), limiting inrush current to the motor controller. A microcontroller (U1) monitors voltage via a divider formed by resistors R2 and R3. Once the sensed voltage reaches approximately 90% of the pack voltage, U1 deactivates K1 and activates K2, closing the full-current path.
+
+This schematic illustrates a precharge circuit for a high-voltage EV system, designed to safely charge the motor controller's input capacitors before the main contactor (K2) closes. At power-up, the high-voltage supply passes through a precharge resistor (R1) and a precharge relay (K1), limiting the inrush current to the motor controller. The Orion BMS 2 directly controls both K1 and K2. Once internal logic or system voltage indicates that precharge is complete, the BMS deactivates K1 and activates K2, closing the full-current path and bypassing the resistor. 
 
 ## Printed Circuit Board Layout
 
-![image](https://github.com/user-attachments/assets/2bfd4462-17fc-4d81-8496-ff1772a0ec5a)
+![image](https://github.com/user-attachments/assets/428563cf-ddcb-4375-b4c5-4861bab4e8eb)
 
-This PCB layout represents the control board for a precharge circuit in an electric vehicle system. The board includes labeled footprints for the main components: a 100 Ω precharge resistor (R1), a voltage divider network (R2 and R3), two relays (K1 for precharge and K2 for the main contactor), and a Teensy 4.0 microcontroller (U1) for control logic. Power traces are routed with thick red tracks to handle current, while signal traces for sensing and control are thinner. The layout is compact, with well-organized component placement to simplify wiring and assembly in a high-voltage environment.
+This PCB layout represents the control board for a precharge circuit in an electric vehicle system. The board includes labeled footprints for the main components: a 100 Ω precharge resistor (R1), and two relays—K1 for precharge and K2 for the main contactor. Control signals for both relays are routed directly to and from the Orion BMS 2, which manages the switching logic.
 
 ## Flowchart
 
 ![image](https://github.com/user-attachments/assets/f9127d88-69c0-43b0-bbfe-ee305400b1ef)
 
-This flowchart outlines the microcontroller logic used to manage the precharge process in a high-voltage electric vehicle. The process begins with closing the precharge relay to allow current to flow through a resistor, gradually charging the motor controller’s input capacitors. The microcontroller monitors the motor controller voltage (V_mc) and compares it to 90% of the battery pack voltage (V_pack). If the condition is met within 3 seconds, the main contactor is closed and the precharge relay is opened. If the voltage threshold is not reached in time, the system registers a fault and disables further action to protect the hardware.
+This flowchart outlines the logic used to manage the precharge process in a high-voltage electric vehicle. The process begins with closing the precharge relay to allow current to flow through a resistor, gradually charging the motor controller’s input capacitors. The BMS monitors the motor controller voltage (V_mc) and compares it to 90% of the battery pack voltage (V_pack). If the condition is met within 3 seconds, the main contactor is closed and the precharge relay is opened. If the voltage threshold is not reached in time, the system registers a fault and disables further action to protect the hardware.
 
 ## BOM
 
