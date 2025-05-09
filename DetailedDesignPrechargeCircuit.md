@@ -68,7 +68,7 @@ This configuration simplifies integration, maintains full compliance with FSAE E
 
  - The BMS energizes this output to close the precharge relay when precharge conditions are safe (e.g., no fault).
 
-### Main Contactor Control
+### Main Contactor Control (K2)
 
  - Controlled by Orion BMS 2 Pin 7 (Discharge Enable Output).
    
