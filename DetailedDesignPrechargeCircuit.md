@@ -62,46 +62,23 @@ This configuration simplifies integration, maintains full compliance with FSAE E
 
 ## Interface with Other Subsystems
 
-### Inputs to the Precharge Circuit
+### Precharge Relay Control (K1)
 
- #### From Orion BMS 2:
-  - Precharge FET Enable (Digital Output): Signals when precharge is permitted.
-    
-  - Pack Voltage (CAN Data): Used to compare with controller voltage to determine precharge completion.
-    
-  - Fault Status (Digital Output or CAN): Indicates critical issues (e.g., overvoltage, undervoltage, overtemperature).
-    
-  - High Voltage Present (Digital Output or CAN): Confirms pack is live and ready.
-    
- #### From Vehicle or Driver Controller:
- 
-  - HV Enable Switch (Digital Input): Activates the HV system manually from the driver or shutdown circuit.
-    
-  - Safety Interlock Loop (Digital Input): Series-wired safety switches (e.g., TSMS, IMD, inertia switch) must be closed 
-    to proceed.
-    
- #### From Precharge Voltage Sensing:
- 
-  - Motor Controller Voltage (Analog Input via Voltage Divider): Monitored by a microcontroller to assess precharge 
-    progress.
+ - Controlled by Orion BMS 2 Pin 26 (Multipurpose Output).
 
-### Outputs From the Precharge Circuit
+ - The BMS energizes this output to close the precharge relay when precharge conditions are safe (e.g., no fault).
 
- #### To Actuators: 
- 
-  - Precharge Relay Control (Digital Output, 12 V): Closes the precharge relay to begin charging the controller capacitors.
-    
-  - Main Contactor Control (Digital Output, 12 V): Closes the main contactor after precharge is complete.
-    
- #### To Orion BMS 2:
- 
-  - Precharge Complete Feedback (Digital Input or CAN): Optional status signal showing successful precharge.
-    
- #### To Driver/Interface:
- 
-  - Precharge Status Indicator (Digital Output or CAN): Indicates current state (precharging, complete, or fault) on 
-    dashboard or logging system.
-    
+### Main Contactor Control
+
+ - Controlled by Orion BMS 2 Pin 7 (Discharge Enable Output).
+   
+ - The BMS automatically enables the main contactor once it detects that the voltage across the load (motor controller) is 
+   close to pack voltage.
+
+### Voltage Sensing For Precharge Completion
+
+ - The BMS uses time-based logic or feedback from a digital input (Pin 8) to determine when precharge is complete.
+   
 ## 3D Model of Custom Mechanical Components
 
 <img width="600" alt="3D_Drawing" src="https://github.com/user-attachments/assets/7b958ffc-730d-46b8-90ab-472bfc7ec6f5" />
@@ -128,20 +105,19 @@ This flowchart outlines the logic used to manage the precharge process in a high
 
 ## BOM
 
-| **Designator** | **Component**              | **Manufacturer** | **Manufacturer Part Number** | **Distributor** | **Distributor Part Number** | **Quantity** | **Unit Price (USD)** | **Total Price (USD)** | **Purchase URL**                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| -------------- | -------------------------- | ---------------- | ---------------------------- | --------------- | --------------------------- | ------------ | -------------------- | --------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| R1             | Precharge Resistor         | Ohmite           | L225J100E                    | Digi-Key        | 273-L225J100E-ND            | 1            | \$37.20              | \$37.20               | [Link](https://www.digikey.com/en/products/detail/ohmite/L225J100E/823557)           |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| K1             | Precharge Relay            | TE Connectivity  | EV200AAANA                   | Mouser          | 655-EV200AAANA              | 1            | \$80.00              | \$80.00               | [Link](https://www.mouser.com/ProductDetail/TE-Connectivity-Kilovac/EV200AAANA)      |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| K2             | Main Contactor             | Gigavac          | GV200MA-1                    | Mouser          | 682-GV200MA-1               | 1            | \$145.00             | \$145.00              | [Link](https://www.mouser.com/ProductDetail/GIGAVAC/GV200MA-1)                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| U1             | Microcontroller (Optional) | PJRC             | Teensy 4.0                   | PJRC            | TEENSY40                    | 1            | \$26.80              | \$26.80               | [Link](https://www.pjrc.com/store/teensy40.html)                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| R2, R3         | Voltage Divider Resistors  | Vishay           | VR68000003303JAC00           | RS Components   | 70397223                    | 2            | \$0.80               | \$1.60                | [Link](https://us.rs-online.com/product/vishay-dale/vr68000003305jac00/70397223/)    |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| W1             | Precharge Harness Wire     | Southwire        | TXL22-4                      | IEWC            | TXL22-4                     | 20 ft        | \$0.10/ft            | \$2.00                | [Link](https://www.iewc.com/product/txl22-4)                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| J1             | Relay Connector Housing    | TE Connectivity  | 776523-3                     | TE Connectivity | 776523-3                    | 1            | \$1.50               | \$1.50                | [Link](https://www.te.com/en/product-776523-3.html)                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| B1             | Contact Boots/Insulation   | HellermannTyton  | MS3109-06AU                  | PEI-Genesis     | MS3109-06AU                 | 2            | \$5.00               | \$10.00               | [Link](https://www.peigenesis.com/en/shop/f/MS3109.html)                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| HW1            | Mounting Hardware          | Generic          | M4 x 20mm SS Bolt            | Accu Components | SEBF-M4-20-A2               | 5            | \$0.22               | \$1.10                | [Link](https://accu-components.com/us/full-thread-hexagon-bolts/18823-SEBF-M4-20-A2) |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| HS1            | Heatshrink Tubing          | 3M               | EPS-300-1/4-48"-BLACK-12 PCS | TestEquity      | 7000148862                  | 1            | \$19.56              | \$19.56               | [Link](https://www.testequity.com/product/10020784-7000148862)                      
+| Item | Component                | Manufacturer    | Part Number       | Distributor     | Distributor Part # | Qty | Unit Price (USD) | Total (USD) | Purchase URL                                                                         |
+| ---- | ------------------------ | --------------- | ----------------- | --------------- | ------------------ | --- | ---------------- | ----------- | ------------------------------------------------------------------------------------ |
+| R1    | Precharge Resistor       | Ohmite          | L225J100E         | Digi-Key        | 273-L225J100E-ND   | 1   | \$37.20          | \$37.20     | [Link](https://www.digikey.com/en/products/detail/ohmite/L225J100E/823557)           |
+| K1    | Precharge Relay          | TE Connectivity | EV200AAANA        | Mouser          | 655-EV200AAANA     | 1   | \$80.00          | \$80.00     | [Link](https://www.mouser.com/ProductDetail/TE-Connectivity-Kilovac/EV200AAANA)      |
+| K2    | Main Contactor           | Gigavac         | GV200MA-1         | Mouser          | 682-GV200MA-1      | 1   | \$145.00         | \$145.00    | [Link](https://www.mouser.com/ProductDetail/GIGAVAC/GV200MA-1)                       |
+| W1    | Precharge Harness Wire   | Southwire       | TXL22-4           | IEWC            | TXL22-4            | 20  | \$0.10/ft        | \$2.00      | [Link](https://www.iewc.com/product/txl22-4)                                         |
+| J1    | Relay Connector Housing  | TE Connectivity | 776523-3          | TE Connectivity | 776523-3           | 1   | \$1.50           | \$1.50      | [Link](https://www.te.com/en/product-776523-3.html)                                  |
+|  B1   | Contact Boots/Insulation | HellermannTyton | MS3109-06AU       | PEI-Genesis     | MS3109-06AU        | 2   | \$5.00           | \$10.00     | [Link](https://www.peigenesis.com/en/shop/f/MS3109.html)                             |
+| HW1   | Mounting Hardware        | Generic         | M4 x 20mm SS Bolt | Accu Components | SEBF-M4-20-A2      | 5   | \$0.22           | \$1.10      | [Link](https://accu-components.com/us/full-thread-hexagon-bolts/18823-SEBF-M4-20-A2) |
+| HS1    | Heatshrink Tubing        | 3M              | EPS-300-1/4-48"   | TestEquity      | 7000148862         | 1   | \$19.56          | \$19.56     | [Link](https://www.testequity.com/product/10020784-7000148862)                       |
+                   
 
-| **Total** | **\$323.76 USD** |
+| **Total** | **\$296.36 USD** |
 
 
 
