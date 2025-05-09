@@ -24,9 +24,6 @@ meets FSAE safety rules.
    - The precharge relay shall be energized only when the BMS reports a no-fault condition and the high-voltage interlock 
      loop is closed.
 
-   - The precharge circuit shall measure motor controller voltage to determine when the system is sufficiently charged 
-     (≥90% of pack voltage).
-
    - The main contactor shall close only after the precharge voltage condition has been met.
 
    - The precharge resistor shall be rated for a minimum of 225 W continuous and sufficient pulse energy to handle full 
