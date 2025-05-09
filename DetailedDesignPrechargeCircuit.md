@@ -87,7 +87,7 @@ This image shows the key components of a precharge circuit used in electric vehi
 
 ## Buildable Schematic 
 
-
+<img width="382" alt="image" src="https://github.com/user-attachments/assets/a1408598-6ad1-4bdf-a3da-90fcad5a41ce" />
 
 This schematic illustrates a precharge circuit for a high-voltage EV system, designed to safely charge the motor controller's input capacitors before the main contactor (K2) closes. At power-up, the high-voltage supply passes through a precharge resistor (R1) and a precharge relay (K1), limiting the inrush current to the motor controller. The Orion BMS 2 directly controls both K1 and K2. Once internal logic or system voltage indicates that precharge is complete, the BMS deactivates K1 and activates K2, closing the full-current path and bypassing the resistor. 
 
