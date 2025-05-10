@@ -151,16 +151,16 @@ It meets system integration needs through CANbus communication, supporting seaml
 
 ## Interface with Other Subsystems
 
-<div align="center"> <img src= "images/Orion 2 BMS - Main IO Connector Pin Layout.png" witdth="180" height="330"> <br/>
+<div align="center"> <img src= "images/Orion 2 BMS - Main IO Connector Pin Layout.png" witdth="180" height="330">
 Main IO Connector Pin Layout <br/>
    
-<img src= "images/Orion 2 BMS - Voltage Tap Connector Layout.png" witdth="180" height="330"> <br/>
+<img src= "images/Orion 2 BMS - Voltage Tap Connector Layout.png" witdth="180" height="330">
 Voltage Tap Connector Layout <br/>
    
-<img src= "images/Orion 2 BMS - Current Sensors Thermistor Connector Pin Layout.png" witdth="180" height="330"> <br/>
+<img src= "images/Orion 2 BMS - Current Sensors Thermistor Connector Pin Layout.png" witdth="180" height="330">
 Current Sensors Thermistor Connector Pin Layout <br/>
 
-<img src= "images/Orion 2 BMS - CAN Pin Layout.png" witdth="180" height="330"> <br/>
+<img src= "images/Orion 2 BMS - CAN Pin Layout.png" witdth="180" height="330">
 CAN Pin Layout<br/>
 
 <div align="left">
