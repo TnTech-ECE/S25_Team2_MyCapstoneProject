@@ -1,0 +1,45 @@
+
+Team meeting #8
+
+attendance: all present
+
+starts 3:00 p.m. 3/24/2025
+
+Discussed: 
+1. Project Proposal Approval, YAY!! Maddox & Jordan
+2. Conceptual Design, needs to be worked on. Went over reviewer comments. Made changes accordingly. Agree all will work on individual parts and meet on Friday 28th to discuss. 
+3. Vote on type of battery material used: Lithium ion or lithium manganese cobalt (NMC) decided find a potentially better battery cell: Marisol
+4. Voted to impliment a temperature based limiting current behaviour of the battery management system. - passed.
+5. Need to get in touch with Mark Davis to figure out what specifically he wants in the battery and battery management system for the conceptual design: Maddox 
+    a. Thing to discuss w Mark: allowable dimmensions, zero motors electrical characteristics and tolerances and what specifically he is looking for in the conceptual design 
+6. Assigned "division of labor" on Conceptual Design
+    a. Maddox: work on circuit design for the detailed design and keep track of resources. Discharge circuit.
+    b. Jordan: charging circuit
+    c. Dylan: battery design and sensors
+    d. Marisol: power distribution circuit
+    e. Mackenzie: figure out the required arrangment of battery cells to meet the eletcrical characteristics. Find an insulating material
+
+Acheivements: 
+1. All members enjoyed spring break (??)
+2. All members worked/completed relevant sections of the conceptual design 
+  a. Maddox updated budget
+  b. Dylan updated the comparison of potential solutions
+  c. Jordan updated the specifications of subsystems
+  d. Marisol updated the flow chart
+  e. Mackenzie added reviewers
+
+Goals:
+1. Continue work/complete Conceptual Design, each on their respective assigned parts
+2. Start conceptualizing individual role/detailed concept design:
+    a. Maddox: work on circuit design for the detailed design and keep track of resources. Discharge circuit.
+    b. Jordan: charging circuit
+    c. Dylan: battery design and sensors
+    d. Marisol: power distribution circuit
+    e. Mackenzie: figure out the required arrangment of battery cells to meet the eletcrical characteristics. Find an insulating materiall
+
+
+
+
+
+
+ends: 3:50 p.m. 3/24/2025
