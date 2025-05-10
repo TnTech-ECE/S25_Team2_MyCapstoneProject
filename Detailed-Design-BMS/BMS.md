@@ -150,9 +150,22 @@ The Orion 2 BMS is capable of managing all critical functions of the battery pac
 It meets system integration needs through CANbus communication, supporting seamless interfacing with the motor controller. The Orion 2 BMS is also equipped with galvanic isolation up to 2.5 kVrms between cell taps and chassis, and offers open-drain digital outputs rated to 30 V and 175 mA continuous sink current.
 
 ## Interface with Other Subsystems
+<div align="center"> <img src= "images/Orion 2 BMS - Main IO Connector Pin Layout.png" witdth="180" height="330"> <br/>
+Main IO Connector Pin Layout 
+   
+<img src= "images/Orion 2 BMS - Voltage Tap Connector Layout.png" witdth="180" height="330"> <br/>
+Voltage Tap Connector Layout
+   
+<img src= "images/Orion 2 BMS - Current Sensors Thermistor Connector Pin Layout.png" witdth="180" height="330"> <br/>
+Current Sensors Thermistor Connector Pin Layout
 
+<img src= "images/Orion 2 BMS - CAN Pin Layout.png" witdth="180" height="330"> <br/>
+CAN Pin Layout
+
+<div align="left">
+   
 ### Accumulator Cells and Sensors
-
+   
 Inputs to BMS: Continuous real-time data from the battery cells in the form of voltage, temperature, and current readings via sensor lines. Analog signals transmitted through hardwired connections. <br/>
 Outputs from BMS: Indirectly commands system disconnect via isolation relay, digital signal. <br/>
 
