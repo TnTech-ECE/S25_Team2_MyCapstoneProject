@@ -140,7 +140,7 @@ power being fed back into the Charging Shutdown Circuit. [1]
      
 ## Overview of Proposed Solution
 
-<div align="center"> <img src= "images/Orion 2 BMS.PNG" witdth="180" height="630"> 
+<div align="center"> <img src= "images/Orion 2 BMS.PNG" witdth="180" height="330"> 
 <div align="left">
 
 Considering the specifications and constraints of the BMS subsystem, the Orion O2 Battery Management System (36-cell, 200A version) is well suited as a battery monitoring and management solution for the 30s14p accumulator cells and surrounding accummulator ecosystem. With heatsink, it measures 7.15” W × 6.72” L × 2.37” H and weighs 2.50 lbs (181.6 mm × 170.7 mm × 60.2 mm, 1.13 kg).
