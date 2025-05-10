@@ -140,9 +140,9 @@ power being fed back into the Charging Shutdown Circuit. [1]
      
 ## Overview of Proposed Solution
 
-Considering the specifications and constraints of the BMS subsystem, the Orion BMS 2 (36-cell, 200A version) is well suited as a battery monitoring and management solution for the 30s14p accumulator cells and surrounding accummulator ecosystem. With heatsink, it measures 7.15” W × 6.72” L × 2.37” H and weighs 2.50 lbs (181.6 mm × 170.7 mm × 60.2 mm, 1.13 kg).
+Considering the specifications and constraints of the BMS subsystem, the Orion O2 Battery Management System (36-cell, 200A version) is well suited as a battery monitoring and management solution for the 30s14p accumulator cells and surrounding accummulator ecosystem. With heatsink, it measures 7.15” W × 6.72” L × 2.37” H and weighs 2.50 lbs (181.6 mm × 170.7 mm × 60.2 mm, 1.13 kg).
 
-The Orion BMS 2 is capable of managing all critical functions of the battery packs and accumulator system. It supports real-time monitoring of cell voltages every 25–40 ms and current sampling at 8 ms, enabling rapid fault detection. It accommodates up to 180 V nominal system voltage, with a cell voltage measurement range of 0.5 V to 5.0 V and a maximum voltage sensing error of just 0.25%, ensuring precise electrical measurements. It enforces thermal safety with thermistor accuracy of +/-1°C and performs passive cell balancing with a balancing current of 200 mA to maintain voltage uniformity.
+The Orion 2 BMS is capable of managing all critical functions of the battery packs and accumulator system. It supports real-time monitoring of cell voltages every 25–40 ms and current sampling at 8 ms, enabling rapid fault detection. It accommodates up to 180 V nominal system voltage, with a cell voltage measurement range of 0.5 V to 5.0 V and a maximum voltage sensing error of just 0.25%, ensuring precise electrical measurements. It enforces thermal safety with thermistor accuracy of +/-1°C and performs passive cell balancing with a balancing current of 200 mA to maintain voltage uniformity.
 
 It meets system integration needs through CANbus communication, supporting seamless interfacing with the motor controller. The Orion 2 BMS is also equipped with galvanic isolation up to 2.5 kVrms between cell taps and chassis, and offers open-drain digital outputs rated to 30 V and 175 mA continuous sink current.
 
@@ -189,7 +189,8 @@ From Capstone Fall 2024-Spring 2025 Team
 
 | Item | Manufacturer | Part Number | Distributor | Distributor Part Number | Quantity | Price (USD) | Purchasing Website URL | 
 |  :---:   |  :---:  |  :---:   |  :---:   |  :---:   |  :---:   |  :---:   |  :---:   |
-|  Orion 2 BMS |  Ewert Energy Systems, Inc |  Orion O2 Battery Management System | Evolve Electronics |  Orion O2 Battery Management System 36 200A |  1 |  1,295 |  [site](https://evolveelectrics.com/products/orion-bms-2?variant=41792470351970) |
+|  Orion 2 BMS |  Ewert Energy Systems, Inc |  Orion O2 Battery Management System | Evolve Electronics |  Orion O2 Battery Management System (36-cell, 200A) |  1 |  1,295 |  [site](https://evolveelectrics.com/products/orion-bms-2?variant=41792470351970) |
+|  Thermistor Expansion Module |  Ewert Energy Systems, Inc |  Thermistor Expansion Module (version TBD) | Evolve Electronics | Thermistor Expansion Module (version TBD) |  TBD |  TBD |  [site](https://evolveelectrics.com/products/thermistor-expansion-module?pr_prod_strat=jac&pr_rec_id=9531a73a9&pr_rec_pid=11131499204&pr_ref_pid=520905490464&pr_seq=uniform&variant=40399646097506) |
 |  Total $  |  |  | |  |  | 1,295.00 | |
 
 
@@ -197,7 +198,7 @@ From Capstone Fall 2024-Spring 2025 Team
 
 The options available for this subsystem were designing a BMS from scratch, using a TinyBMS (a compatible BMS sold with Molicels), and using a Orion 2 BMS. Due to time limitations and  because there are readily available compatible BMS on the market, it would be impractical to build a BMS from scratch. The TinyBMS was promising due to its compatability with the battery pack cells (Molicels) and because it met many of the subsytem needs such as CAN communication, temperature, and current readings. However, the TinyBMS could only support 75V nominal system voltage and is not stackable [4]. Additionally, due to contraints requiring a minumum 20% of all cells to be monitored and the requirement that the monitored cells must be equally distributed inside the Accumulator Container [1] while considering the chosen battery pack with configuration of 30s14p, four TinyBMS must have been purchased totaling $1,558 not including shipping.  
 
-The Orion BMS 2 is designed for centralized, large-scale battery monitoring, with support for up to 180V systems and seamless handling of high series cell counts within a single unit. This centralized approach not only simplifies wiring and integration but drastically reduces complexity, potential points of failure, and software configuration challenges.
+The Orion 2 BMS is designed for centralized, large-scale battery monitoring, with support for up to 180V systems and seamless handling of high series cell counts within a single unit. This centralized approach not only simplifies wiring and integration but drastically reduces complexity, potential points of failure, and software configuration challenges.
 
 Moreover, the Orion BMS supports advanced features such as stackable expansion, configurable CAN communication, custom fault thresholds, and robust diagnostic tools. The Orion platform is also automotive-grade, with proven performance in EVs, energy storage systems, and industrial applications—providing high confidence in long-term reliability and safety.
 
