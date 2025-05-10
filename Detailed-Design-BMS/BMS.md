@@ -256,3 +256,9 @@ In conclusion, although the Orion BMS has a high unit cost, its greater scalabil
 [8] Orion 2 BMS [Quick Start Guide](https://www.orionbms.com/downloads/documents/quickstart_orion2.pdf)
 
 [9] Orion 2 BMS [Operation Manual](https://www.orionbms.com/manuals/pdf/orionbms2_operational_manual.pdf)
+
+[10] Orion 2 BMS - Thermistor Expansion Module [Specifications](https://www.orionbms.com/downloads/documents/thermistor_expansion_spec.pdf)
+
+[11] Orion 2 BMS - Thermistor Expansion Module [General Dimensions](https://www.orionbms.com/downloads/drawings/thermistor_expansion_module_mechanical.pdf)
+
+[12] Orion 2 BMS - Thermistor Expansion Module [Manua](https://www.orionbms.com/downloads/documents/thermistor_expansion_manual.pdf)
