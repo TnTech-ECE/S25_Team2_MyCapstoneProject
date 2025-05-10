@@ -220,10 +220,10 @@ Summary of Specifications:
 
 ### 3.3 Constraints
 
-- **Regulatory**: Comply with FSAE EV4.10.x, EV5.6.3, EV7.2.2.  
-- **Ethical/Safety**: ISO 6469-3 (EV shock protection).  
-- **Economic**: Use COTS, cost-effective parts.  
-- **Thermal**: Resistor must safely dissipate energy without exceeding 50 W rating.  
+- **Regulatory**: Comply with FSAE EV4.10.x, EV5.6.3, EV7.2.2. [3]
+- **Ethical/Safety**: ISO 6469-3 (EV shock protection). [4] 
+- **Economic**: Use COTS, cost-effective parts. [1][2]
+- **Thermal**: Resistor must safely dissipate energy without exceeding 50 W rating. [3]  
 
 ---
 
@@ -271,8 +271,9 @@ Any system capacitance ≤ 2.356 mF will discharge below 60 V in 5 s.
 - **Input**: 12 V “DISCHARGE” command from BMS  
 - **Output**: HV accumulator terminals via AIR (–) relay  
 - **Signal path**: BMS → relay coil → resistor → accumulator
-
----
+- **Connections**: Communication connection = pin 12 on Orion BMS
+  	           Power terminals: N = None C = Molex-fit Jr, 2 Skt, Female 18-24, P/N 39-01-2020 & 39-00-0060 +red is pin 1 (A length only)
+---				    A = Bottom Mount & Male 10 mm x M8 Terminals
 
 ## 8. 3D Model / Pictures of Components (Relay on left and Resistor on right)
 
