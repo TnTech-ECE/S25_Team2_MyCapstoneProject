@@ -9,14 +9,14 @@
    
 ## Function of the Subsystem
 
-The Battery Management System (BMS), also referred to as the Accumulator Management System (AMS), functions as an intermediary communicator between the accumulator and the rest of the vehicle’s electrical system. It serves as the supervisory component responsible for monitoring the accumulator’s key parameters, including cell voltage, temperature, and overall system integrity. It continuously verifies that all monitored values remain within the safe operating limits defined by SAE regulations. If a fault is detected—such as an overvoltage condition or a temperature anomaly—the BMS is responsible for disconnecting the accumulator from the rest of the vehicle. This subsystem is essential not only for intra-system communication and regulatory compliance, but also for protecting the vehicle, its occupants, and surrounding infrastructure.
+The Battery Management System (BMS), also referred to as the Accumulator Management System (AMS), functions as an intermediary communicator between the accumulator and the rest of the vehicle’s electrical system. The accumulator consists of the discharge circuit, precharge circuit, accumulator isolation relays (AIRs), accumulalor cells, and correspondig wiring. The BMS serves as the supervisory component responsible for monitoring the accumulator’s key parameters, including cell voltage, cell temperature, and overall system integrity. It continuously verifies that all monitored values remain within the safe operating limits defined by SAE regulations. If a fault is detected—such as an overvoltage condition or a temperature anomaly—the BMS is responsible for disconnecting the accumulator from the rest of the vehicle. This subsystem is essential not only for intra-system communication and regulatory compliance, but also for protecting the vehicle, its occupants, and surrounding infrastructure.
 
 
 ## Specifications and Constraints
 
 ### Specifications
 
-The Battery Management System shall continuously monitor the voltage, temperature, and overall status of the accumulator to ensure safe and reliable operation under all vehicle conditions. It shall function during both charging and active operation of the Tractive System.
+The Battery Management System shall continuously monitor accumulator cells' temperature, voltage at key points of the accumulator, and overall status of the accumulator to ensure safe and reliable operation under all vehicle conditions. It shall function during both charging and active operation of the Tractive System.
 
 The BMS shall promptly detect faults such as out-of-range voltage or temperature, loss of sensor signals, or internal malfunctions. In the event of a fault, the BMS shall trigger shutdown protocol by disabling the vehicle’s high-voltage circuit and activating a red “BMS” indicator light, clearly visible to the seated driver, in compliance with SAE regulations.
 
@@ -140,13 +140,11 @@ power being fed back into the Charging Shutdown Circuit. [1]
      
 ## Overview of Proposed Solution
 
-Considering the specifications and constraints of the BMS subsystem, Orion 2 BMS is well suited as a battery monitoring and managing solution.
+Considering the specifications and constraints of the BMS subsystem, the Orion BMS 2 (36-cell, 200A version) is well suited as a battery monitoring and management solution for the 30s14p accumulator cells and surrounding accummulator ecosystem. With heatsink, it measures 7.15” W × 6.72” L × 2.37” H and weighs 2.50 lbs (181.6 mm × 170.7 mm × 60.2 mm, 1.13 kg).
 
-The Orion 2 BMS is able to manage all critical functions of the 30s14p battery pack, including real-time monitoring of all cells voltage, temperature, and fault detection. It supports up to 180V nominal system voltage and offers passive balancing to maintain cell voltage uniformity, which is essential for preserving battery health and energy efficiency.
+The Orion BMS 2 is capable of managing all critical functions of the battery packs and accumulator system. It supports real-time monitoring of cell voltages every 25–40 ms and current sampling at 8 ms, enabling rapid fault detection. It accommodates up to 180 V nominal system voltage, with a cell voltage measurement range of 0.5 V to 5.0 V and a maximum voltage sensing error of just 0.25%, ensuring precise electrical measurements. It enforces thermal safety with thermistor accuracy of +/-1°C and performs passive cell balancing with a balancing current of 200 mA to maintain voltage uniformity.
 
-The Orion 2 BMS also fulfills the communication and integration requirements of this subsystem through its support for industry-standard protocol, CANbus, enabling seamless interfacing with the motor controller. Furthermore, its advanced diagnostics and configuration software provide intuitive tools for monitoring and managing the entire accumulator system.
-
-In addition, Orion’s expandability and configurability allow it to be tailored precisely to the battery architecture and application constraints, including high-current handling, voltage protection thresholds, and operational temperature ranges.The Orion 2 BMS is a robust, automotive-grade solution engineered for high-reliability applications, making it an ideal fit for the project’s safety and communication requirements.
+It meets system integration needs through CANbus communication, supporting seamless interfacing with the motor controller. The Orion 2 BMS is also equipped with galvanic isolation up to 2.5 kVrms between cell taps and chassis, and offers open-drain digital outputs rated to 30 V and 175 mA continuous sink current.
 
 ## Interface with Other Subsystems
 
@@ -157,13 +155,13 @@ Outputs from BMS: Indirectly commands system disconnect via isolation relay, dig
 
 ### Precharge Circuit
 
-Inputs to BMS: Ready to precharge, completed precharge, and fault status. Digital signals. <br/>
-Outputs from BMS: Status request, precharge start and end command. Digital signals. <br/>
+Inputs to BMS: Precharge circuit voltage to determine precharging, idle, and fault status. Analog signals. <br/>
+Outputs from BMS: Precharge start and end instruction, digital signals. <br/>
 
 ### Discharge Circuit
 
-Inputs to BMS: Discharge and fault status. Digital signals. <br/>
-Outputs from BMS: Discharge permited and prohibited instruction via digital signals. <br/>
+Inputs to BMS: Discharge circuit voltage and current to determine discharging, idle, and fault status. Analog signals. <br/>
+Outputs from BMS: Discharge permited and prohibited command via digital signals. <br/>
 
 ### Accumulator Container
 
@@ -172,7 +170,7 @@ Output from BMS: No active data or signals are transmitted from the BMS to the c
 
 ### Controller and Shutdown System
 
-Inputs to BMS: Status of shutdown system via CAN communication, digital signal. If any part of the shutdown system in fault status, the BMS commands disconnect until fault is corrected.  <br/>
+Inputs to BMS: Status of shutdown system via CAN communication, digital signal. If any part of the shutdown system in fault status, the BMS commands disconnect until fault is corrected and BMS is manually reset.  <br/>
 Output from BMS: CAN communication, digital signals. Continuous accumulator system status report. <br/>
 
 
