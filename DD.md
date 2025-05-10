@@ -327,7 +327,7 @@ Any system capacitance ≤ 2.356 mF will discharge below 60 V in 5 s.
 - **Relay Selection**: EV200AAANA chosen for 900 VDC rating & 500 A capacity, automotive-grade.
   
   ![data for relay](https://github.com/user-attachments/assets/8896e2c0-667f-407e-8b49-63776e5d9658)
-- **Resistor Analysis**: \(P = V^2/R = 102^2/400 ≈ 26\) W < 50 W rating → 2× safety margin.  
+- **Resistor Analysis**: P = V^2/R = 102^2/400 ≈ 26 W < 50 W rating → 2× safety margin.  
 - **Timing**: Calculated and simulated discharge meets < 5 s requirement.  
 - **Reliability**: Simple, robust design with fail-safe BMS monitoring.
 
