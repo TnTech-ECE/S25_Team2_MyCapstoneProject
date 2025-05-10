@@ -140,6 +140,9 @@ power being fed back into the Charging Shutdown Circuit. [1]
      
 ## Overview of Proposed Solution
 
+<div align="center"> <img src= "images/Orion 2 BMS.PNG" witdth="180" height="630"> 
+<div align="left">
+
 Considering the specifications and constraints of the BMS subsystem, the Orion O2 Battery Management System (36-cell, 200A version) is well suited as a battery monitoring and management solution for the 30s14p accumulator cells and surrounding accummulator ecosystem. With heatsink, it measures 7.15” W × 6.72” L × 2.37” H and weighs 2.50 lbs (181.6 mm × 170.7 mm × 60.2 mm, 1.13 kg).
 
 The Orion 2 BMS is capable of managing all critical functions of the battery packs and accumulator system. It supports real-time monitoring of cell voltages every 25–40 ms and current sampling at 8 ms, enabling rapid fault detection. It accommodates up to 180 V nominal system voltage, with a cell voltage measurement range of 0.5 V to 5.0 V and a maximum voltage sensing error of just 0.25%, ensuring precise electrical measurements. It enforces thermal safety with thermistor accuracy of +/-1°C and performs passive cell balancing with a balancing current of 200 mA to maintain voltage uniformity.
