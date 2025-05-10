@@ -150,6 +150,7 @@ The Orion 2 BMS is capable of managing all critical functions of the battery pac
 It meets system integration needs through CANbus communication, supporting seamless interfacing with the motor controller. The Orion 2 BMS is also equipped with galvanic isolation up to 2.5 kVrms between cell taps and chassis, and offers open-drain digital outputs rated to 30 V and 175 mA continuous sink current.
 
 ## Interface with Other Subsystems
+
 <div align="center"> <img src= "images/Orion 2 BMS - Main IO Connector Pin Layout.png" witdth="180" height="330"> <br/>
 Main IO Connector Pin Layout 
    
@@ -251,7 +252,7 @@ Moreover, the Orion BMS supports advanced features such as stackable expansion, 
   - Orion 2 BMS provides real-time current monitoring and programmable current limits, helping to prevent exceeding the maximum allowable current draw from the accumulator.</b>
 
   
-In conclusion, although the Orion BMS has a high unit cost, its greater scalability, system simplicity, integration support, and long-term value make it the superior design choice for this subsystem.
+In conclusion, although the Orion 2 BMS has a high unit cost, its greater scalability, system simplicity, integration support, and long-term value make it the superior design choice for this subsystem.
 
 
 ## References
