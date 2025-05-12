@@ -53,6 +53,10 @@ The modules will be hooked up with Enepaq's provided busbar and bolt kits to ach
 
 Expected dimensions: L 720 +- 90 mm, h 166.2 +- 3 mm , W 152 +- 6 mm​
 
+Each cell has two fuses that act as second level protection devices in the case of cell failure.
+
+For the 1s7p module there are a total of three temperature sensors which meets the requirements of EV.7.5.5.
+
 <h2>Interface with other subsystems</h2>
 
 The battery cells are always at their output voltage unless they are not and need to be charged. All electrical components of the vehicle can trace their power back to the cells. Specifically, the cells interface with the voltage indicator and isolation relay.
