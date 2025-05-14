@@ -45,6 +45,12 @@ that will have the electrical characteristics
 
 * 1,764 Ah
 
+* Each segment will have an internal impedance of 24 m ohms for a total impedance of 24 m ohms. (Two in series, two in parallel with an internal resistance of 1.6 m ohms per module)
+
+* Each module has an internal fuse rated up to 490 A.
+
+* The watt hours for each module is 105.8 Wh.
+
 -total weight : 69.10 pds 
 
 and will have a cost of $6,973.20 before tarrifs, shipping, and handling.
