@@ -38,9 +38,9 @@ The battery shall safely discharge and recharge under appropriate operating cond
 
 This project shall employ a strategic engineering approach that optimally balances performance, weight, safety, and cost efficiency. 
 
-The battery shall have a total cost not exceeding $10,000. 
+The battery shall have a total cost,(edit) design and manufacturing, not exceeding $9,000. 
 
-All electrical components shall be designed to be waterproof, ensuring protection against moisture and environmental exposure. 
+All electrical components shall be designed to be water shielded according to Formula SAE test procedures. This means that the individual components may not be waterproof, but they will be contained or covered, ensuring protection against moisture and environmental exposure.
 
 <h4>Constraints </h4>
 
@@ -87,7 +87,7 @@ The estimated cost to build the battery is approximately $8,550, while the E-bik
 |Item/Material | Quantity | Cost(USD) | 
 |--------------|----------|-----------|
 |Battery Construction Components| <1 | >~$7,050 |
-|BMS Components| 1 | >~$1,000| 
+|BMS Components| 1 | >~$1,000|
 |Wire and Connectors| <1 |~$500|
 |Total| |~$8,550|
 
@@ -99,7 +99,7 @@ The team comprises five dedicated members who shall work extensively to bring th
 
 Joseph Dylan Caten – C++, C, Assembly, Python, Digital Logic, VHDL 
 
-Maddox Cagle – LTSpice, Soldering, Wiring, Project Management 
+Maddox Cagle – C++, Altium, LTSpice, Soldering, Wiring, Project Management 
 
 Jordan Davis – AutoCAD, SolidWorks, LTSpice, Soldering, Digital Logic 
 
