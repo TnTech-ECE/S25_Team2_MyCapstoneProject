@@ -134,3 +134,8 @@ When you have complete all of the experiments: clearly summarize whether your ex
 ## Statement of Contributions
 
 Each team member must contribute meaningfully to the experimental analysis and document their contributions clearly in this section. Contributions should be recorded individually, and one team member may not document contributions on behalf of another. Each team member must clearly outline their involvement in experiment design, execution, data analysis, and reporting. By submitting this report, the team collectively certifies the accuracy and completeness of each member's stated contributions.
+
+Mackenzie Raleigh
+Marisol Miranda
+Jordan Davis
+Maddox Cagle
