@@ -92,7 +92,7 @@ Each team must maintain a **complete and accurate record** of all components acq
 
 | Item # | Description | Quantity | Vendor/Source | Order # / ID | Storage Location (Lab Station / Box #) | Date Acquired | Condition (New/Used) | Notes (Experiment Used, Damaged, Returned) |  
 |--------|-------------|----------|---------------|--------------|-----------------------------------------|---------------|----------------------|--------------------------------------------|
-
+|--------|Orion 2 BMS|1|Evolve Electronics|--------------|AIEB 181|August 2025|New|--------------------------------------------|
 ## Writing the Report
 
 Your deliverable should be a comprehensive markdown document, clearly organized, and uploaded to your project's GitHub repository.
