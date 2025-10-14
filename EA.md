@@ -11,7 +11,12 @@ After you are done with experimentation, write a report to document your finding
 
 ## Designing Experiments
 
-Start by revisiting your conceptual design and clearly identifying the most critical requirements and success criteria impacting your project's overall goals. Collaborate as a team to determine these critical aspects. It is required to obtain instructor/advisor approval to confirm that these identified criteria are appropriate and sufficient for thorough evaluation.
+The purpose of the experimental analysis is to evaluate how effectively the Formula SAE Electric Car meets its critical specifications and success criteria, specifically focusing on the custom battery pack created and Battery Management System (BMS). The experiments are designed to verify safety, performance, efficiency, and compliance with Formula SAE standards.
+
+  **Critical Requirements**:
+
+-
+
 
 Clearly define the following aspects for each experiment:
 
