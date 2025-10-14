@@ -100,6 +100,8 @@ Each team must maintain a **complete and accurate record** of all components acq
 |--------|Orion 2 BMS|1|Evolve Electronics|--------------|AIEB 181|August 2025|New|--------------------------------------------|
 |--------|Jrready ST6359 Deutsch Connector Kit|1|Digikey|--------------|AIEB 181|August 2025|New|--------------------------------------------|
 |--------| Battery Blanket|3|Uline|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Samsung 21700 50s|377|Samsung|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+
 
 ## Writing the Report
 
