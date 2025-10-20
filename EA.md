@@ -103,6 +103,8 @@ Each team must maintain a **complete and accurate record** of all components acq
 |--------| Samsung 21700 50s|377|Samsung|--------------|AIEB 181|August 2025|New|--------------------------------------------|
 
 
+
+
 ## Writing the Report
 
 Your deliverable should be a comprehensive markdown document, clearly organized, and uploaded to your project's GitHub repository.
