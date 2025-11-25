@@ -82,7 +82,7 @@ Collected data from all the experiments were analyzed, after which consistent tr
 **Experiment 1 Results - Voltage Balance**
 
 
-| Trial | Description | Maximum Voltage (V) on Leads| Maximum Voltage (V) on Leads| Components' Condition (New/Used) | Notes from each trial|  
+| Trial | Description | Maximum Voltage (V) on Leads| Minimum Voltage (V) on Leads| Components' Condition (New/Used) | Notes from each trial|  
 |--------|-------------|----------|---------------|--------------|--------------|
 |1| Readings from Orion BMS for voltage for each lead|3.46 V|3.45 V| Components were not damaged while conducting this experiment just opened from packaging to be used| The readings from the BMS show with time that the cell voltages on each lead will level out to be exactly equal|
 |2| Voltage for each lead|3.45 V|3.45 V| Components were not damaged while conducting this experiment just opened from packaging to be used| The readings from the BMS show with time that the cell voltages on each lead will level out to be exactly equal|
