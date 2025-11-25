@@ -1,24 +1,46 @@
 # Experimental Analysis
 
-The goal of experimental analysis is to systematically evaluate how well your project meets its critical specifications, constraints, and measures of success. This process consists of four main stages:
+This Experimental Analysis documents a test campaign to assess the Formula SAE Electric accumulator system for its critical safety, performance, and compliance requirements. The accumulator was built as a 6s12p pack using Samsung 21700-50S cells, assembled with nickel strip, and controlled by an Orion O2 Battery Management System with a Thermistor Expansion Module for temperature monitoring.
 
-1. **Designing Experiments**
-2. **Conducting Experiments**
-3. **Analyzing Results and Drawing Conclusions**
-4. **Documenting and Tracking Components**
+All experiments were designed to verify:
+1. **Safety** (thermal stability, isolation, fault protection)
+2. **Electrical performance**
+3. **BMS functionality**
+4. **Compliance with 2025 FSAE Electric rules**
 
-After you are done with experimentation, write a report to document your findings.
+This document includes experiment design, data collection, analysis, conclusions, and a complete component inventory.
 
 ## Designing Experiments
 
-The purpose of the experimental analysis is to evaluate how effectively the Formula SAE Electric Car meets its critical specifications and success criteria, specifically focusing on the custom battery pack created and Battery Management System (BMS). The experiments are designed to verify safety, performance, efficiency, and compliance with Formula SAE standards.
+The purpose of the experiments are designed to verify safety, performance, efficiency, and compliance with Formula SAE standards.
 
   **Critical Requirements**:
 
 -
 
 
-Clearly define the following aspects for each experiment:
+   **Experiment 1:** Cell Voltage Verification and Pack Balancing
+
+Evaluate whether the 6s12p module maintains proper cell voltage uniformity and whether the Orion O2 BMS can detect imbalance and execute passive balancing.
+
+Critical Requirements:
+
+- Voltage through pack is roughly 3.45 V
+- BMS conducts the voltage and shows balance throughout time
+- Thermistors must detect changes within ±2°C accuracy
+- Compliancce with FSAE rule (if there is a rule place here)
+
+Procedure:
+
+1. Connected Samsung 21700 cells in a 6s12p configuration.
+2. Connected leads for BMS for one pack with pins 1-5 on different leads and 6-12 on one lead.
+3. Placed Fuses on in approiate and rule regulated ends of battery segements.
+4. Place thermistors evenly across cell groups (8 total).
+5. Logged voltage and temperature at start then in 30 minute intervals.
+
+Data Collection:
+
+* 
 
 - **Purpose**:
 
