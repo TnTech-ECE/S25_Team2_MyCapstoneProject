@@ -1,4 +1,4 @@
-# Experimental Analysis
+ # FSAE Electric Accumulator System Experimental Analysis 
 
 This Experimental Analysis documents a test campaign to assess the Formula SAE Electric accumulator system for its critical safety, performance, and compliance requirements. The accumulator was built as a 6s12p pack using Samsung 21700-50S cells, assembled with nickel strip, and controlled by an Orion O2 Battery Management System with a Thermistor Expansion Module for temperature monitoring.
 
@@ -32,15 +32,34 @@ Critical Requirements:
 
 Procedure:
 
-1. Connected Samsung 21700 cells in a 6s12p configuration.
-2. Connected leads for BMS for one pack with pins 1-5 on different leads and 6-12 on one lead.
+1. Assemble a 6s12p module using 72 Samsung 21700-50S cells..
+2. Connected leads for Orion 2 BMS for one pack with pins 1-5 on different leads and 6-12 on one lead.
 3. Placed Fuses on in approiate and rule regulated ends of battery segements.
 4. Place thermistors evenly across cell groups (8 total).
-5. Logged voltage and temperature at start then in 30 minute intervals.
+5. Logged voltage and temperature at start.
+6. Allow the battery to rest for 30 minutes.
+7. Logged voltage and temperature after the 30 minutes.
+8. Trigger a balancing cycle in the Orion BMS and record:
+
+   - Initial voltages
+   - Balancing activation status
+   - Final voltages
 
 Data Collection:
 
-* 
+* Voltage per lead (V)
+* Pack voltage (V)
+* Temperature of groups during balancing (°C)
+
+Trial(s):
+
+N=2 (sufficient for statistical reliability)
+
+Potential Bias:
+
+1. Wiring fault -> mitigated soldering and spot welding to ensure connection.
+2. Bad battery cell -> measure each cell before connection.
+3. Meter calibration differences -> mitigated by using one multimeter for all readings as well as the BMS to confirm.
 
 - **Purpose**:
 
