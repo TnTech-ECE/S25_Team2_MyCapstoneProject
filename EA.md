@@ -14,14 +14,9 @@ This document includes experiment design, data collection, analysis, conclusions
 
 The purpose of the experiments are designed to verify safety, performance, efficiency, and compliance with Formula SAE standards.
 
-  **Critical Requirements**:
-
--
-
-
    **Experiment 1:** Cell Voltage Verification and Pack Balancing
 
-Evaluate whether the 6s12p module maintains proper cell voltage uniformity and whether the Orion O2 BMS can detect imbalance and execute passive balancing.
+Evaluate whether the 6s12p module maintains proper cell voltage uniformity and whether the Orion O2 BMS can detect imbalance and execute passive balancing with time.
 
 Critical Requirements:
 
@@ -44,6 +39,11 @@ Procedure:
    - Initial voltages
    - Balancing activation status
    - Final voltages
+
+Visual of experiment's procedure result:
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/32c5ca8d-200f-4893-8ef5-515ea63edf58" />
+
 
 Data Collection:
 
@@ -96,15 +96,15 @@ Potential Bias:
 
 ## Conducting Experiments
 
-When carrying out experiments:
+All experiments were executed according to procedures above.
 
-- Carefully adhere to the established experimental procedures.
-- Conduct each trial consistently to ensure reliable and comparable results.
-- Record all data accurately and methodically.
-- Organize your data clearly, using appropriate formats such as tables, charts, or graphs for ease of analysis.
-- **Log all components used, damaged, or replaced during the experiment.**
+Data was logged using:
 
+- Orion 2 BMS
 
+Results/raw data were organized and logged into spreadsheets shown in section Analyzing Results.
+
+Components used in each trial were recorded in the inventory log.
 
 ## Analyzing Results and Drawing Conclusions
 
@@ -117,10 +117,26 @@ After completing experiments:
 
 If analysis uncovers questions or uncertainties, consider designing and executing additional targeted experiments to refine your understanding.
 
+**Experiment 1 Results - Voltage Balance**
+
+
+| Trial | Description | Maximum Voltage (V) on Leads| Maximum Voltage (V) on Leads| Components' Condition (New/Used) | Notes from each trial|  
+|--------|-------------|----------|---------------|--------------|--------------|
+|1| Readings from Orion BMS for voltage for each lead|3.46 V|3.45 V| Components were not damaged while conducting this experiment just opened from packaging to be used| The readings from the BMS show with time that the cell voltages on each lead will level out to be exactly equal|
+|2| Voltage for each lead|3.45 V|3.45 V| Components were not damaged while conducting this experiment just opened from packaging to be used| The readings from the BMS show with time that the cell voltages on each lead will level out to be exactly equal|
+
+**PASS** - Voltage readings level out within the timeframe or faster.
+
+Visual tables from trial 1 using the Orion 2 BMS software:
+
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f46d3761-b67a-4852-8a82-a2a3d1e82fca" /> <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/624ff40d-b4c1-4627-8b57-d96013a28628" />
+
+
+
 ## Documenting and Tracking Components
 
-Each team must maintain a **complete and accurate record** of all components acquired or assigned during the semester. This will be stricttly enforced. This component tracking is not optional. Failure to keep a complete and accurate inventory will result in automatic failure of the Experimental Analysis report. At the end of the semester, all items must be accounted for and stations must be clean. Missing items or incomplete records will be treated as a failure to meet critical project requirements.
-
+Completed Inventory Table.
 - **Initial Inventory**
   - List every item ordered, borrowed, or assigned.
   - Include vendor, order number, cost, and assigned storage location.
@@ -129,12 +145,6 @@ Each team must maintain a **complete and accurate record** of all components acq
   - For each experiment, identify which inventory items were used.
   - Record condition changes (e.g., damaged, consumed, modified).
 
-- **Final Inventory Check**
-  - At semester's end, all items must be returned or accounted for.
-  - Lab stations must be clean and organized.
-  - Missing items or incomplete documentation will result in **automatic failure of this assignment**.
-
-### Required Table Format  
 
 | Item # | Description | Quantity | Vendor/Source | Order # / ID | Storage Location (Lab Station / Box #) | Date Acquired | Condition (New/Used) | Notes (Experiment Used, Damaged, Returned) |  
 |--------|-------------|----------|---------------|--------------|-----------------------------------------|---------------|----------------------|--------------------------------------------|
