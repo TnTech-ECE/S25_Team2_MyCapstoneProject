@@ -97,11 +97,18 @@ Each team must maintain a **complete and accurate record** of all components acq
 
 | Item # | Description | Quantity | Vendor/Source | Order # / ID | Storage Location (Lab Station / Box #) | Date Acquired | Condition (New/Used) | Notes (Experiment Used, Damaged, Returned) |  
 |--------|-------------|----------|---------------|--------------|-----------------------------------------|---------------|----------------------|--------------------------------------------|
-|--------|Orion 2 BMS|1|Evolve Electronics|--------------|AIEB 181|August 2025|New|--------------------------------------------|
-|--------|Jrready ST6359 Deutsch Connector Kit|1|Digikey|--------------|AIEB 181|August 2025|New|--------------------------------------------|
-|--------| Battery Blanket|3|Uline|--------------|AIEB 181|August 2025|New|--------------------------------------------|
 |--------| Samsung 21700 50s|377|Samsung|--------------|AIEB 181|August 2025|New|--------------------------------------------|
-
+|--------|Orion 2 BMS|1|Evolve Electronics|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Orion 2 BMS Thermistor Expansion Module |1|Evolve Electronics|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------|Relays|6|TE Connectivity|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------|Jrready ST6359 Deutsch Connector Kit|1|McMaster-Carr|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Wire Assortments |1|McMaster-Carr|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Battery Blanket|3|McMaster-Carr|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| ISOMETER IR155 3204 (IMD)|1|Onrion|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Fuse 350A/32V Pack of 4|3|PlusRoc|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Fuse Holders|6|Victron Energy|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Nickel alloy strip|2|Bestol|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Battery Holder Bracket cell|6|Bestol|--------------|AIEB 181|August 2025|New|--------------------------------------------|
 
 
 
