@@ -108,14 +108,7 @@ Components used in each trial were recorded in the inventory log.
 
 ## Analyzing Results and Drawing Conclusions
 
-After completing experiments:
-
-- Thoroughly analyze all collected data, paying close attention to consistency and patterns.
-- Evaluate your data to identify potential sources of error, bias, or abnormalities, and address their implications.
-- Clearly articulate conclusions derived from the data, emphasizing evidence-based insights and interpretations.
-- Identify correlations or suggest causal relationships, if supported by data.
-
-If analysis uncovers questions or uncertainties, consider designing and executing additional targeted experiments to refine your understanding.
+Collected data from all the experiments were analyzed, after which consistent trends were identified, possible sources of error or bias evaluated, and whether or not the system was behaving as expected was determined. Results will be used to make clearly defined, evidence-based conclusions and explore possible correlations and/or cause-and-effect relationships in the variables that were measured. Any uncertainties or unexpected findings were noted as areas for potential follow-up testing to further refine the understanding and validation of the system.
 
 **Experiment 1 Results - Voltage Balance**
 
@@ -132,7 +125,7 @@ Visual tables from trial 1 using the Orion 2 BMS software:
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f46d3761-b67a-4852-8a82-a2a3d1e82fca" /> <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/624ff40d-b4c1-4627-8b57-d96013a28628" />
 
-
+The results from this experiment prove that the Orion O2 BMS will correctly measure and report the voltage levels of a given cell group, but only after a brief stabilization period has passed since its connection or power-up. Immediately after pack energizing, the BMS takes a number of seconds to poll each of the sense lines, verify signal integrity, and execute its internal filtering and averaging routines. During this time, minor variations in the displayed voltage values were noticed, but the deviations also consistently converged toward stable, precise readings within the expected time window.
 
 ## Documenting and Tracking Components
 
@@ -161,40 +154,6 @@ Completed Inventory Table.
 |--------| Nickel alloy strip|2|Bestol|--------------|AIEB 181|August 2025|New|Used for connecting the cells in the 6s12p configuration|
 |--------| Battery Holder Bracket cell|6|Bestol|--------------|AIEB 181|August 2025|New|Used to hold cells in the configuration created|
 
-
-
-## Writing the Report
-
-Your deliverable should be a comprehensive markdown document, clearly organized, and uploaded to your project's GitHub repository.
-
-
-
-For each documented experiment, you must include:
-
-1. **Purpose and Justification**:
-
-   - Explain why the experiment was designed, and how it relates to your critical success criteria.
-
-2. **Detailed Procedure**:
-
-   - Outline clearly the methods used, ensuring another team could reproduce your experiment.
-
-3. **Expected Results**:
-
-   - State your initial hypothesis or expectations clearly before conducting experiments.
-
-4. **Actual Results**:
-
-   - Present data collected during the experiments in an organized, easy-to-interpret format (tables, graphs, charts).
-
-5. **Interpretation and Conclusions**:
-
-   - Provide a detailed analysis explaining the significance of the results.
-   - State whether results matched your expectations and explain any discrepancies.
-
-
-
-When you have complete all of the experiments: clearly summarize whether your experiments demonstrated that your project meets the original success criteria outlined in your conceptual design. If success criteria were not met, discuss the reasons and outline steps for improvement. At the end of the report, include your **complete, updated component inventory table.**
 
 
 
