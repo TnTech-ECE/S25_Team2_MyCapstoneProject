@@ -125,6 +125,41 @@ Potential Bias:
  1. Electronic load calibration drift → mitigated by validating current with DMM.
  2. Temperature measurement lag → minimized by placing thermistor directly on cell can.
  3. Connector resistance → mitigated via bolted lugs rather than clip leads.
+
+**Experiment 4:** I–V Curve Characterization
+   
+Assess the relationship between module voltage and current at two discharge points to approximate pack behavior and identify potential weak cells or excessive resistance.
+
+Critical Requirements:
+
+ - Voltage reading accuracy ±10 mV
+ - Stable current at each measurement point
+ - Two reliable load points (≈2.2 A and 5 A)
+ - Safe operation at all times
+
+Procedure:
+
+ 1. Use data from Experiments 2 and 3 to obtain voltage at two load levels.
+ 2. Document voltage values at:
+      - 2.21 A
+      - 5.00 A
+ 3. Plot voltage versus current to obtain an approximate I–V relationship.
+ 4. Evaluate curve slope for health indicators.
+
+Data Collection:
+ - Current (A)
+ - Voltage at each load point (V)
+ - Approximate slope (ΔV/ΔI)
+
+Trial(s):
+
+N = 2
+
+Potential Bias:
+
+ 1. Temperature drift between tests: minimized by performing tests consecutively.
+ 2. Variation in electrical contact: mitigated using the same lugs and wires in both tests.
+ 3. Meter variance: mitigated by using the same DMM for voltage readings.
     
 ## Conducting Experiments
 
