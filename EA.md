@@ -93,6 +93,39 @@ Potential Bias:
  2. Resistor tolerance: minimized by using a high-power resistor rated ±5 %.
  3. Meter error: mitigated by using a single calibrated DMM across all readings.
 
+**Experiment 3:** Medium-Low Load Stability Test
+   
+Evaluate module stability under a moderate 5 A constant-current discharge and confirm that temperature rise and voltage drop behave smoothly.
+
+Critical Requirements:
+
+ - Constant-current operation at 5.00 A ± 0.05 A
+ - Voltage should decline steadily without step-change drops
+ - Temperature rise remains under 5 °C
+ - Electronic load and wiring rated for ≥10 A
+
+Procedure:
+
+ 1. Connect the 6s12p module to a programmable DC electronic load.
+ 2. Configure load to CC mode at 5.00 A, cutoff voltage 18 V.
+ 3. Record voltage and temperature at 0, 60, 120, and 180 seconds.
+ 4. Disable load and record stabilized voltage after 2 minutes.
+
+Data Collection:
+ - Voltage versus time (V)
+ - Temperature versus time (°C)
+ - Regulated discharge current (A)
+
+Trial(s):
+
+N = 2
+
+Potential Bias:
+
+ 1. Electronic load calibration drift → mitigated by validating current with DMM.
+ 2. Temperature measurement lag → minimized by placing thermistor directly on cell can.
+ 3. Connector resistance → mitigated via bolted lugs rather than clip leads.
+    
 ## Conducting Experiments
 
 All experiments were executed according to procedures above.
