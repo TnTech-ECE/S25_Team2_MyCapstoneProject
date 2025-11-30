@@ -160,6 +160,83 @@ Potential Bias:
  1. Temperature drift between tests: minimized by performing tests consecutively.
  2. Variation in electrical contact: mitigated using the same lugs and wires in both tests.
  3. Meter variance: mitigated by using the same DMM for voltage readings.
+
+**Experiment 5:** Low-Current Charging Test
+   
+Determine whether the module charges normally at a low current, and monitor temperature, voltage rise, and BMS observations.
+
+Critical Requirements:
+
+ - Charge current remains at 3.00 A ± 0.05 A
+ - Final voltage does not exceed 25.2 V
+ - Temperature rise ≤3 °C
+ - Charger must be in CC/CV mode
+
+Procedure:
+
+ 1. Configure a bench charger to 3 A and max voltage 25.2 V.
+ 2. Connect charger to pack using proper polarity.
+ 3. Log voltage and temperature at 0, 5, and 10 minutes.
+ 4. Monitor BMS for charging behavior and potential OV warnings.\
+ 5. Disconnect charger and verify stable resting voltage.
+
+Data Collection:
+ - Pack voltage (V)
+ - Temperature (°C)
+ - Charging current (A)
+
+Trial(s):
+
+N = 2
+
+Potential Bias:
+
+ 1. Charger calibration drift: mitigated by verifying current with DMM.
+ 2. Incomplete thermal contact: minimized using taped thermistor on cell casing.
+ 3. Ambient temperature variation: mitigated by conducting all tests indoors.
+
+**Experiment 6:** BMS Monitoring and Fault Response Simulation
+   
+Verify Orion O2 BMS functionality including voltage sensing, temperature sensing, and detection of simulated faults such as overvoltage, missing sensors, and sense-wire failure.
+
+Critical Requirements:
+
+ - BMS must detect OV/UV conditions correctly
+ - Temp sensors must be within ±2 °C accuracy
+ - Sense-wire faults must open the shutdown circuit
+ - BMS fault indicators must latch until reset
+ - Compliance with FSAE EV.7.x BMS monitoring requirements
+
+Procedure:
+
+ 1. Power Orion O2 BMS using a GLV supply (not the pack).
+ 2. Connect pack sense harness to BMS.
+ 3. Record baseline cell voltages, pack voltage, and temperatures.
+ 4. Simulate faults:
+    - Overvoltage event (software simulation)
+    - Removal of a temperature sensor
+    - Disconnection of a sense lead
+ 5. Observe and record:
+    - Fault flag
+    - Shutdown signal behavior
+    - Indicator light activation
+
+Data Collection:
+
+ - Cell voltages (V)
+ - Pack voltage (V)
+ - Temperature readings (°C)
+ - Fault logs and shutdown responses
+
+Trial(s):
+
+N = 2
+
+Potential Bias:
+
+ 1. Loose connectors: mitigated with strain-relief and locking connectors.
+ 2. GLV noise: reduced by filtering and stable power supply.
+ 3. Human error during fault simulation: mitigated by documenting each step before execution.
     
 ## Conducting Experiments
 
