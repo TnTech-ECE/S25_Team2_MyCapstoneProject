@@ -40,11 +40,6 @@ Procedure:
    - Balancing activation status
    - Final voltages
 
-Visual of experiment's procedure result:
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/32c5ca8d-200f-4893-8ef5-515ea63edf58" />
-
-
 Data Collection:
 
 * Voltage per lead (V)
@@ -61,7 +56,42 @@ Potential Bias:
 2. Bad battery cell -> measure each cell before connection.
 3. Meter calibration differences -> mitigated by using one multimeter for all readings as well as the BMS to confirm.
 
-    **Experiment 2:** 
+**Experiment 2:** Low-Current Load Test
+   
+Evaluate whether the 6s12p module maintains stable voltage and minimal thermal rise under a controlled low-current discharge. This experiment also provides a baseline estimate of internal resistance.
+
+Critical Requirements:
+
+ - Load current remains approximately 2.2 A
+ - Voltage sag is smooth without sudden drops
+ - Temperature increase stays below 3 °C
+ - Safe connections with no arcing or loose terminals
+ - Compliance with FSAE accumulator testing safety guidelines
+
+Procedure:
+
+  1. Confirm 6s12p module integrity and inspect all connections.
+  2. Attach a 10 Ω / 200 W resistor across pack terminals using insulated wiring.
+  3. Measure open-circuit voltage with a DMM.
+  4. Apply the load and begin timing the 180-second test period.
+  5. Record voltage and temperature at 0, 60, 120, and 180 seconds.
+  6. Remove load and record recovered open-circuit voltage.
+  7. Calculate internal resistance using ΔV / I.
+
+Data Collection:
+ - Voltage under load (V)
+ - Current (A)
+ - Module surface temperature (°C)
+ - Estimated internal resistance (Ω)
+
+Trial(s):
+
+N = 2
+
+Potential Bias:
+ 1. Heating of leads: mitigated by using 14 AWG silicone wire.
+ 2. Resistor tolerance: minimized by using a high-power resistor rated ±5 %.
+ 3. Meter error: mitigated by using a single calibrated DMM across all readings.
 
 ## Conducting Experiments
 
