@@ -269,6 +269,53 @@ Visual tables from trial 1 using the Orion 2 BMS software:
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f46d3761-b67a-4852-8a82-a2a3d1e82fca" /> <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/624ff40d-b4c1-4627-8b57-d96013a28628" />
 
+
+**Experiment 2 Results - Low-Current Load Test**
+
+
+| Trial | Load Current (A) | Voltage (V) under load| Voltage (V) Sag| Temperature Rise (C)| Estimated Internal Resistance|Components' Condition (New/Used) | Notes from each trial|  
+|-------|------------------|-----------------------|----------------|---------------------|------------------------------|---------------------------------|----------------------|
+|1| 2.21 A |22.49 V|0.67 V|+1.2| 0.303 ohms| Components were not damaged while conducting this experiment just opened from packaging to be used|----|-----------|
+
+
+
+**Experiment 3 Results - Medium-Low Load testing**
+
+
+| Trial | Time (s) | Voltage (V) | Temperature (C)| Components' Condition (New/Used) | Notes from each trial|  
+|-------|----------|-------------|----------------|----------------------------------|----------------------|
+|1| 0 |23.10 V| 22.0 | Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+|2| 60 |22.82 V| 22.5 | Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+|3| 120 |22.70 V| 23.20 | Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+|4| 180 |22.63 V| 24.0 | Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+
+
+
+**Experiment 4 - I–V Curve Characterization**
+
+| Trial | Current (A) | Voltage (V)| Components' Condition (New/Used) | Notes from each trial|  
+|-------|-------------|------------|----------------------------------|----------------------|
+|1| 2.21 A |22.49 V| Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+|2| 5.00 A |22.63 V| Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+
+
+
+**Experiment 5 - Low-Current Charging Test**
+
+| Trial | Time (min) | Voltage (V) | Temperature (C)| Components' Condition (New/Used) | Notes from each trial|  
+|-------|----------|-------------|----------------|----------------------------------|----------------------|
+|1| 0 |22.80 V| 22.0 | Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+|2| 5 |22.95 V| 22.5 | Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+|3| 10 |23.05 V| 22.80 | Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+
+
+**Experiment 6 - BMS Monitoring and Fault Response Simulation**
+
+| Trial | Pack Voltage (V) | Current (A) | Temperature (C)| Fault Simulation results| Components' Condition (New/Used) | Notes from each trial|  
+|-------|------------------|-------------|----------------|-------------------------|----------------------------------|----------------------|
+|1| 23.1 V| 5.02 A| 23.4 C / 23.7 C| Overvoltage → OV Fault – Cell 1, Temp sensor removal → Temp Sensor Fault, Sense lead removal → Shutdown triggered| Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
+
+
 The results from this experiment prove that the Orion O2 BMS will correctly measure and report the voltage levels of a given cell group, but only after a brief stabilization period has passed since its connection or power-up. Immediately after pack energizing, the BMS takes a number of seconds to poll each of the sense lines, verify signal integrity, and execute its internal filtering and averaging routines. During this time, minor variations in the displayed voltage values were noticed, but the deviations also consistently converged toward stable, precise readings within the expected time window.
 
 ## Documenting and Tracking Components
