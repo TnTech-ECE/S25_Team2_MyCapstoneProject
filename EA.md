@@ -14,7 +14,14 @@ This document includes experiment design, data collection, analysis, conclusions
 
 The purpose of the experiments are designed to verify safety, performance, efficiency, and compliance with Formula SAE standards.
 
-   **Experiment 1:** Cell Voltage Verification and Pack Balancing
+Here is the battery segement together with fuses and leads connected which is being used for testing each experiment: 
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/153e1e54-a365-442e-8b04-a5374e1ad38f" />
+
+
+
+
+**Experiment 1:** Cell Voltage Verification and Pack Balancing
 
 Evaluate whether the 6s12p module maintains proper cell voltage uniformity and whether the Orion O2 BMS can detect imbalance and execute passive balancing with time.
 
@@ -316,7 +323,7 @@ Visual tables from trial 1 using the Orion 2 BMS software:
 |1| 23.1 V| 5.02 A| 23.4 C / 23.7 C| Overvoltage → OV Fault – Cell 1, Temp sensor removal → Temp Sensor Fault, Sense lead removal → Shutdown triggered| Components were not damaged while conducting this experiment just opened from packaging to be used|--------------|
 
 
-The results from this experiment prove that the Orion O2 BMS will correctly measure and report the voltage levels of a given cell group, but only after a brief stabilization period has passed since its connection or power-up. Immediately after pack energizing, the BMS takes a number of seconds to poll each of the sense lines, verify signal integrity, and execute its internal filtering and averaging routines. During this time, minor variations in the displayed voltage values were noticed, but the deviations also consistently converged toward stable, precise readings within the expected time window.
+Overall, the sequence of experiments conducted on the 6s12p module and Orion O2 BMS shows that the system operates safely, reliably, and in concert with expected behaviors for a Formula SAE–compliant accumulator subsystem. Voltage balancing tests verified that cell groupings naturally tend to uniform voltages over time and that the BMS will correctly monitor and display these changes, validating its capability to manage long-term pack health. Low-current and medium-low load testing further demonstrated the module maintains stable voltage profiles featuring predictable sag and low thermal rise, indicative of low internal resistance and exceptional electrical integrity at all interconnections. I–V characterization was consistent with this in that the voltage-versus-current relationship was smooth without indication of weak cells or other forms of abnormal degradation. Charging tests verified that the module accepts energy in a well-controlled manner, with voltage and temperature bounded within safe limits throughout the low-current charging cycle. Perhaps most importantly, the BMS fault-response simulation demonstrated appropriate detection of overvoltage, temperature-sensor faults, and sense-lead disconnections, all of which triggered the correct shutdown signals in concert with FSAE EV safety rules. For all tests, data collection remained consistent, potential biases were minimal due to careful instrumentation and calibration, and no components were damaged or stressed beyond normal operating conditions. In aggregate, these observations provide compelling evidence that the accumulator subsystem operates in a reliable fashion under both charge and discharge conditions. Smooth thermal and electrical trends across trials also suggest that the module is well-constructed and competently monitored by the Orion O2 BMS. Although minor uncertainties, such as long-term cycling effects, may warrant follow-up testing, the current results provide very high confidence in the safety and performance of the design. In conclusion, the experimental results confirm that the battery module and BMS are performing to meet key performance, monitoring, and safety requirements, and they form a sound basis for further development of the Formula SAE Electric vehicle.
 
 ## Documenting and Tracking Components
 
