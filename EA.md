@@ -326,18 +326,24 @@ Completed Inventory Table.
 
 | Item # | Description | Quantity | Vendor/Source | Order # / ID | Storage Location (Lab Station / Box #) | Date Acquired | Condition (New/Used) | Notes (Experiment Used, Damaged, Returned) |  
 |--------|-------------|----------|---------------|--------------|-----------------------------------------|---------------|----------------------|--------------------------------------------|
-|--------| Samsung 21700 50s|377|Samsung|--------------|AIEB 181|August 2025|New|72 cells have been used for testing, there is still 305 can be used|
-|--------|Orion 2 BMS|1|Evolve Electronics|--------------|AIEB 181|August 2025|New|Being used for experiments|
+|--------| Samsung 21700 50s|377|Samsung|--------------|AIEB 181|August 2025|New|72 cells have been used for testing, there is still 305 can be used: All experiments|
+|--------| Orion 2 BMS|1|Evolve Electronics|--------------|AIEB 181|August 2025|New|Being used for experiments|
 |--------| Orion 2 BMS Thermistor Expansion Module |1|Evolve Electronics|--------------|AIEB 181|August 2025|New|Being used for experiments|
-|--------|Relays|6|TE Connectivity|--------------|AIEB 181|August 2025|New|--------------------------------------------|
-|--------|Jrready ST6359 Deutsch Connector Kit|1|McMaster-Carr|--------------|AIEB 181|August 2025|New|Being used for experiments|
-|--------| Wire Assortments |1|McMaster-Carr|--------------|AIEB 181|August 2025|New|--------------------------------------------|
-|--------| Battery Blanket|3|McMaster-Carr|--------------|AIEB 181|August 2025|New|--------------------------------------------|
-|--------| ISOMETER IR155 3204 (IMD)|1|Onrion|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Relays|6|TE Connectivity|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Jrready ST6359 Deutsch Connector Kit|1|McMaster-Carr|--------------|AIEB 181|August 2025|New|Being used for experiments|
+|--------| Wire Assortments (22AWG)|1|McMaster-Carr|--------------|AIEB 181|August 2025|New|Used to build battery pack|
+|--------| Battery Blanket|3|McMaster-Carr|--------------|AIEB 181|August 2025|New|Never used|
+|--------| Silicone Wire (14 AWG)|1|Mygatti|--------------|Returned|September 2025|New|Used for build|
 |--------| Fuse 350A/32V Pack of 4|3|PlusRoc|--------------|AIEB 181|August 2025|New|6 fuses have been used for experiments, there are 6 left to be used|
-|--------| Fuse Holders|6|Victron Energy|--------------|AIEB 181|August 2025|New|--------------------------------------------|
+|--------| Fuse Holders|6|Victron Energy|--------------|AIEB 181|August 2025|New|Used to build battery pack|
 |--------| Nickel alloy strip|2|Bestol|--------------|AIEB 181|August 2025|New|Used for connecting the cells in the 6s12p configuration|
 |--------| Battery Holder Bracket cell|6|Bestol|--------------|AIEB 181|August 2025|New|Used to hold cells in the configuration created|
+|--------| Digital Multimeter|1|Unknown|--------------|AIEB 178|September 2025|Used|Borrowed from the ME team, returned|
+|--------| Electrical Tape|1|Unknown|--------------|AIEB 178|September 2025|New|Used to hold temp taps in the configuration created|
+|--------| Sn60Pb40 Solder|1|Unknown|--------------|AIEB 181|September 2025|Used|Used to build battery pack|
+|--------| 200 Watt 10 Ohm 5% Resistor|1|LM YN|--------------|Returned|September 2025|New|Used for charging test|
+|--------| OrionBMS 2 Utility Software|1|Orion|--------------|Available Online|September 2025|New|All experiments|
+|--------| CANdapter Software|1|Ewert Energy Systems|--------------|Available Online|September 2025|New|All experiments|
 
 
 
