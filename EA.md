@@ -269,12 +269,7 @@ Collected data from all the experiments were analyzed, after which consistent tr
 |1| Readings from Orion BMS for voltage for each lead|3.46 V|3.45 V| Components were not damaged while conducting this experiment just opened from packaging to be used| The readings from the BMS show with time that the cell voltages on each lead will level out to be exactly equal|
 |2| Voltage for each lead|3.45 V|3.45 V| Components were not damaged while conducting this experiment just opened from packaging to be used| The readings from the BMS show with time that the cell voltages on each lead will level out to be exactly equal|
 
-**PASS** - Voltage readings level out within the timeframe or faster.
 
-Visual tables from trial 1 using the Orion 2 BMS software:
-
-
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f46d3761-b67a-4852-8a82-a2a3d1e82fca" /> <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/624ff40d-b4c1-4627-8b57-d96013a28628" />
 
 
 **Experiment 2 Results - Low-Current Load Test**
