@@ -263,20 +263,20 @@ In conclusion, although the Orion 2 BMS has a high unit cost, its greater scalab
 
 [3] Tiny BMS s516 – 30A / 150A / 750A [User Manual](https://enepaq.com/wp-content/uploads/2025/02/USER-MANUAL-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf)
 
-[4] Tiny BMS s516 – 30A / 150A / 750A [Datasheet](https://enepaq.com/wp-content/uploads/2025/02/DATASHEET-%E2%80%93-Battery-Management-System-BMS-for-Tiny-BMS-Enepaq-.pdf)
+[4] Orion 2 BMS [Wiring & Installation Manual](https://cdn.shopify.com/s/files/1/1820/0269/files/orionbms2_wiring_and_installation_manual.pdf?1289632542684048831)
 
-[5] Orion 2 BMS [Wiring & Installation Manual](https://cdn.shopify.com/s/files/1/1820/0269/files/orionbms2_wiring_and_installation_manual.pdf?1289632542684048831)
+[5] Orion 2 BMS [Specifications](https://www.orionbms.com/downloads/documents/orionbms2_specifications.pdf)
 
-[6] Orion 2 BMS [Specifications](https://www.orionbms.com/downloads/documents/orionbms2_specifications.pdf)
+[6] Orion 2 BMS [Technical Outline](https://www.orionbms.com/downloads/drawings/orionbms2_mechanical_72.pdf)
 
-[7] Orion 2 BMS [Technical Outline](https://www.orionbms.com/downloads/drawings/orionbms2_mechanical_72.pdf)
+[7] Orion 2 BMS [Quick Start Guide](https://www.orionbms.com/downloads/documents/quickstart_orion2.pdf)
 
-[8] Orion 2 BMS [Quick Start Guide](https://www.orionbms.com/downloads/documents/quickstart_orion2.pdf)
+[8] Orion 2 BMS [Operation Manual](https://www.orionbms.com/manuals/pdf/orionbms2_operational_manual.pdf)
 
-[9] Orion 2 BMS [Operation Manual](https://www.orionbms.com/manuals/pdf/orionbms2_operational_manual.pdf)
+[9] Orion 2 BMS - Thermistor Expansion Module [Specifications](https://www.orionbms.com/downloads/documents/thermistor_expansion_spec.pdf)
 
-[10] Orion 2 BMS - Thermistor Expansion Module [Specifications](https://www.orionbms.com/downloads/documents/thermistor_expansion_spec.pdf)
+[10] Orion 2 BMS - Thermistor Expansion Module [General Dimensions](https://www.orionbms.com/downloads/drawings/thermistor_expansion_module_mechanical.pdf)
 
-[11] Orion 2 BMS - Thermistor Expansion Module [General Dimensions](https://www.orionbms.com/downloads/drawings/thermistor_expansion_module_mechanical.pdf)
+[11] Orion 2 BMS - Thermistor Expansion Module [Manual](https://www.orionbms.com/downloads/documents/thermistor_expansion_manual.pdf)
 
-[12] Orion 2 BMS - Thermistor Expansion Module [Manual](https://www.orionbms.com/downloads/documents/thermistor_expansion_manual.pdf)
+[12] Samsung 50S 21700 5000mAh Battery [Datasheet](https://cdn.shopify.com/s/files/1/0721/2761/1190/files/samsung_50S.pdf?v=1715097473)
