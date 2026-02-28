@@ -1,0 +1,34 @@
+
+starts 2:55 p.m 4/14/2025
+attendance: all but Maddox
+
+achievements:
+  Dylan: worked on presentation for task 1, presented task 1 with Mark, worked on task 2 research for the farasis battery cells : inconclusive
+  Maddox: worked on presentation for task 1, met with ECE team 2 to talk about the battery
+  Marisol: worked on presentation for task 1, presented task 1 with Mark, updated hardware block diagram
+  Jordan: worked on presentation for task 1, presented task 1 with Mark
+  Mackenzie: worked on presentation for task 1, worked on task 2 # 7-9 to no avail.
+
+discussion:
+finding resources to meet the needs of this assignment is hard, some sources were found but they did not help the project. The zero motor's battery as is is not formula SAE compliant because it lacks documentation in the SES.
+To make it compliant we need to have pictures of it during assembly, we need the datasheets for the farasis cells, and we need to design a precharge circuit.
+We are absolutely failing  to find the datasheet for the farasis cells and we are failing to find pictures during assembly. 
+
+If Mark cannot find these two resources, the battery cell datasheets and the pictures of the battery during assembly, we must abandon using the zero motor battery in the formula sae design.
+*Mark, why ?
+
+
+goals:
+1. Get to Mark to find the datasheets for the zero motor's battery (farasis) cells, find pictures for the battery construction for the SES, and vet the sources he gives us because the last few sources given to Micah for our project were bad.
+2. get Mark's approval on conceptual design.
+3. research more on precharging circuit and design it.
+4. ressearch more on battery structure and lay out a preliminary structure for the battery.
+5. work on doing detailed design assuming we make our own battery. all:
+    a. Maddox: work on circuit design for the detailed design and keep track of resources. Discharge circuit.
+    b. Jordan: charging circuit
+    c. Dylan: battery design and sensors
+    d. Marisol: power distribution circuit
+    e. Mackenzie: figure out the required arrangment of battery cells to meet the eletcrical characteristics. Find an insulating material
+6. Marisol needs to complete hardware block
+
+meeting ends: 3:40 p.m. 4/14/2025
